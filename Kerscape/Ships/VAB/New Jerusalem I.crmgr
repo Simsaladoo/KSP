@@ -1,0 +1,45 @@
+craftName = New Jerusalem I
+cachedCraftData
+{
+	origChecksum = 8eeb0cb8d1a7599c67b5b95a3160677a
+	cacheVersion = 3
+	name = New Jerusalem I
+	kspVersion = 1.12.0
+	stagesCount = 6
+	cost = 462008
+	partCount = 284
+	mass = 170.701004
+	description = 
+	crewCapacity = 25
+	partNames = stationHub
+	partNames = Mk1FuselageStructural
+	partNames = MK1CrewCabin
+	partNames = adapterSize2-Size1
+	partNames = Rockomax32.BW
+	partNames = liquidEngineMainsail.v2
+	partNames = structuralPylon
+	partNames = externalTankCapsule
+	partNames = dockingPort2
+	partNames = LaunchEscapeSystem
+	partNames = dockingPort3
+	partNames = largeAdapter
+	partNames = Large.Crewed.Lab
+	partNames = crewCabin
+	partNames = cupola
+	partNames = telescopicLadderBay
+	partNames = largeSolarPanel
+	partNames = Separator.2
+	partNames = rocketNoseCone.v2
+	partNames = structuralIBeam1
+	partNames = adapterSmallMiniTall
+	partNames = ionEngine
+	partNames = foldingRadMed
+	partNames = strutConnector
+	partNames = radialDecoupler2
+	partNames = fuelTankSmallFlat
+	partNames = noseCone
+	partNames = fuelLine
+	partNames = ReleaseValve
+	partNames = xenonTankLarge
+	partNames = pointyNoseConeA
+}

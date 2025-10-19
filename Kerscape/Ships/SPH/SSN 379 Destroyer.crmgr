@@ -1,0 +1,39 @@
+craftName = SSN 379 Destroyer
+cachedCraftData
+{
+	origChecksum = cbfdb0d4784f9852c977859a4b1df5d9
+	cacheVersion = 3
+	name = SSN 379 Destroyer
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 164037.5
+	partCount = 66
+	mass = 106.613594
+	description = 
+	crewCapacity = 4
+	partNames = mk2Cockpit.Inline
+	partNames = mk3FuselageLF.100
+	partNames = adapterMk3-Size2Slant
+	partNames = largeAdapter2
+	partNames = Panel2
+	partNames = Panel0
+	partNames = strutConnector
+	partNames = Large.Crewed.Lab
+	partNames = ScienceBox
+	partNames = sensorAtmosphere
+	partNames = rtg
+	partNames = WBI.BigSolarPanel
+	partNames = DC.aerocam2
+	partNames = missileController
+	partNames = bahaAdjustableRail
+	partNames = StingRayBDATorpedo
+	partNames = bahaFlirBall
+	partNames = mk2SpacePlaneAdapter
+	partNames = pointyNoseConeA
+	partNames = GasTurbineGenerator2A
+	partNames = MOISTprop2
+	partNames = scanLockRadar1
+	partNames = radarDataReceiver
+	partNames = bahaGoalKeeper
+	partNames = baha50CalAmmo
+}

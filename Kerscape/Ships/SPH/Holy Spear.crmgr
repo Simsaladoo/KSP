@@ -1,0 +1,46 @@
+craftName = Holy Spear
+cachedCraftData
+{
+	origChecksum = 99807247d051ff1da8192c7f8d40eb21
+	cacheVersion = 3
+	name = Holy Spear
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 159830
+	partCount = 69
+	mass = 48.5440254
+	description = 
+	crewCapacity = 8
+	partNames = mk2Cockpit.Standard
+	partNames = mk2CrewCabin
+	partNames = mk2Cockpit.Inline
+	partNames = mk2CargoBayS
+	partNames = mk2DroneCore
+	partNames = AdvancedCanard
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = sensorAccelerometer
+	partNames = sensorGravimeter
+	partNames = sensorThermometer
+	partNames = sensorBarometer
+	partNames = GearSmall
+	partNames = radialEngineBody
+	partNames = fuelTank.long
+	partNames = wingConnector
+	partNames = structuralWing
+	partNames = delta.small
+	partNames = MK1Fuselage
+	partNames = stackBiCoupler.v2
+	partNames = RAPIER
+	partNames = GearMedium
+	partNames = wingShuttleElevon1
+	partNames = airbrake1
+	partNames = LgRadialSolarPanel
+	partNames = rtg
+	partNames = sensorAtmosphere
+	partNames = SurfaceScanner
+	partNames = mediumDishAntenna
+	partNames = pointyNoseConeB
+	partNames = mk2FuselageLongLFO
+	partNames = mk2.1m.Bicoupler
+}

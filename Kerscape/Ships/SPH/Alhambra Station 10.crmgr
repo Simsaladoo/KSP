@@ -1,0 +1,47 @@
+craftName = Alhambra Station 10
+cachedCraftData
+{
+	origChecksum = 0923d6056b33c6f7b6a780dd5adc21ec
+	cacheVersion = 3
+	name = Alhambra Station 10
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 1212671.75
+	partCount = 193
+	mass = 33.0950012
+	description = 
+	crewCapacity = 0
+	partNames = probeCoreOcto2.v2
+	partNames = Size1p5.Size0.Adapter.01
+	partNames = LargeTank
+	partNames = rtg
+	partNames = MK1Fuselage
+	partNames = landingLeg1
+	partNames = noseCone
+	partNames = ReleaseValve
+	partNames = foldingRadSmall
+	partNames = solarPanelSP10C
+	partNames = RadialDrill
+	partNames = miniFuselage
+	partNames = dockingPort3
+	partNames = solarPanelSP10L
+	partNames = solarPanels5
+	partNames = dockingPort2
+	partNames = cargoContainer
+	partNames = largeAdapter2
+	partNames = MiniDrill
+	partNames = batteryBankLarge
+	partNames = RCSBlock.v2
+	partNames = CargoStorageUnit
+	partNames = largeSolarPanel
+	partNames = ISRU
+	partNames = probeStackLarge
+	partNames = trussPiece3x
+	partNames = wheelMed
+	partNames = rcsTankRadialLong
+	partNames = GrapplingDevice
+	partNames = HighGainAntenna5.v2
+	partNames = spotLight1.v2
+	partNames = foldingRadMed
+	partNames = GearMedium
+}

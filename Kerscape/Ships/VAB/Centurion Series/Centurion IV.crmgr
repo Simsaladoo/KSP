@@ -1,0 +1,28 @@
+craftName = Centurion IV
+cachedCraftData
+{
+	origChecksum = 1deba8fa68a8ca16d957e5394d0d173d
+	cacheVersion = 3
+	name = Centurion IV
+	kspVersion = 1.12.0
+	stagesCount = 0
+	cost = 33220
+	partCount = 30
+	mass = 15.4289989
+	description = 
+	crewCapacity = 8
+	partNames = mk1-3pod
+	partNames = mk1pod.v2
+	partNames = avionicsNoseCone
+	partNames = asasmodule1-2
+	partNames = batteryBankLarge
+	partNames = crewCabin
+	partNames = adapterSize2-Size1Slant
+	partNames = rotoServo.04
+	partNames = trussPiece1x
+	partNames = FanShroud.03
+	partNames = rotor.02s
+	partNames = largeFanBlade
+	partNames = pointyNoseConeB
+	partNames = AdvancedCanard
+}

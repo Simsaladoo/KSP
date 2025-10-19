@@ -1,0 +1,43 @@
+craftName = BSP-61
+cachedCraftData
+{
+	origChecksum = cf3249607c7b24d50a3183e9b64644ed
+	cacheVersion = 3
+	name = BSP-61
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 56971.1953
+	partCount = 73
+	mass = 28.9169807
+	description = 
+	crewCapacity = 9
+	partNames = mk2Cockpit.Standard
+	partNames = mk2Cockpit.Inline
+	partNames = mk2.1m.AdapterLong
+	partNames = structuralIBeam2
+	partNames = wingConnector3
+	partNames = fuelTankSmallFlat
+	partNames = KAXradialPropLC
+	partNames = mk1pod.v2
+	partNames = avionicsNoseCone
+	partNames = structuralWing4
+	partNames = wingShuttleElevon1
+	partNames = airbrake1
+	partNames = MK1CrewCabin
+	partNames = MK1Fuselage
+	partNames = pointyNoseConeA
+	partNames = wingConnector2
+	partNames = wingShuttleElevon2
+	partNames = GearSmall
+	partNames = GearMedium
+	partNames = missileController
+	partNames = radarDataReceiver
+	partNames = baha57mmTurret
+	partNames = bahaAdjustableRail
+	partNames = bahaCamPod
+	partNames = baha57mmShellDrum
+	partNames = bahaMk82BombBrake
+	partNames = bdPilotAI
+	partNames = bahaBrowningAnm2
+	partNames = baha50CalAmmo
+}

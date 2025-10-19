@@ -1,0 +1,38 @@
+craftName = Alhambra Orbital Depot
+cachedCraftData
+{
+	origChecksum = beaf3c39974c9d0f6229b53fb4cc0caf
+	cacheVersion = 3
+	name = Alhambra Orbital Depot
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 549575
+	partCount = 148
+	mass = 234.748077
+	description = 
+	crewCapacity = 15
+	partNames = probeStackLarge
+	partNames = crewCabin
+	partNames = LargeTank
+	partNames = MK1Fuselage
+	partNames = landingLeg1-2
+	partNames = largeAdapter2
+	partNames = ISRU
+	partNames = mk2Fuselage
+	partNames = stackQuadCoupler
+	partNames = nuclearEngine
+	partNames = adapterSmallMiniShort
+	partNames = asasmodule1-2
+	partNames = mk1-3pod
+	partNames = MK1CrewCabin
+	partNames = dockingPort2
+	partNames = telescopicLadderBay
+	partNames = trussPiece3x
+	partNames = foldingRadMed
+	partNames = stackPoint1
+	partNames = RadialDrill
+	partNames = rtg
+	partNames = largeSolarPanel
+	partNames = RelayAntenna50
+	partNames = dockingPort3
+}

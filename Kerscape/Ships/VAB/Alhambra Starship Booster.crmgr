@@ -1,0 +1,24 @@
+craftName = Alhambra Starship Booster
+cachedCraftData
+{
+	origChecksum = 03e0cb4b5fc1c4bb843385f3e9ccf200
+	cacheVersion = 3
+	name = Alhambra Starship Booster
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 36025.1992
+	partCount = 15
+	mass = 35.7924995
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = fuelTank.long
+	partNames = noseConeAdapter
+	partNames = avionicsNoseCone
+	partNames = airbrake1
+	partNames = parachuteRadial
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = Size1p5.Tank.04
+	partNames = Size1p5.Tank.03
+	partNames = SSME
+}

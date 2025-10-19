@@ -1,0 +1,15 @@
+craftName = T2 Flea
+cachedCraftData
+{
+	origChecksum = d4ef3d9877fd9da383ce0445bb9b5aac
+	cacheVersion = 3
+	name = T2 Flea
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 6159.2002
+	partCount = 1
+	mass = 1.02399993
+	description = 
+	crewCapacity = 4
+	partNames = WBI.HL10CommandCab
+}

@@ -1,0 +1,30 @@
+craftName = Minotaur Station Living Quarters
+cachedCraftData
+{
+	origChecksum = ad27f576ca4b1bfd01f4dd46189c5fd6
+	cacheVersion = 3
+	name = Minotaur Station Living Quarters
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 93112.7969
+	partCount = 32
+	mass = 33.5996017
+	description = 
+	crewCapacity = 14
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = probeStackSmall
+	partNames = rtg
+	partNames = solarPanels5
+	partNames = CargoStorageUnit
+	partNames = crewCabin
+	partNames = SmallTank
+	partNames = MK1CrewCabin
+	partNames = MK1Fuselage
+	partNames = nuclearEngine
+	partNames = adapterSmallMiniShort
+	partNames = science.module
+	partNames = dockingPort2
+	partNames = Large.Crewed.Lab
+	partNames = dockingPortLarge
+}

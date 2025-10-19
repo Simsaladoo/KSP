@@ -1,0 +1,44 @@
+craftName = Test Article 005
+cachedCraftData
+{
+	origChecksum = 11a3d94977b69d30541ed1823cbd2d88
+	cacheVersion = 3
+	name = Test Article 005
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 107109.672
+	partCount = 80
+	mass = 85.540535
+	description = 
+	crewCapacity = 2
+	partNames = mk2Cockpit.Standard
+	partNames = M2X.Short25adapter
+	partNames = bahaCamPod
+	partNames = CanardController
+	partNames = asasmodule1-2
+	partNames = Rockomax64.BW
+	partNames = mk2FuselageShortLiquid
+	partNames = M2X.circularintake
+	partNames = M2X.625tricoupler
+	partNames = stackBiCoupler.v2
+	partNames = delta.small
+	partNames = elevon3
+	partNames = mk25SSME
+	partNames = GearSmall
+	partNames = wingConnector
+	partNames = structuralWing
+	partNames = bluedog.Pegasus.Fin
+	partNames = trussPiece1x
+	partNames = missileController
+	partNames = bdPilotAI
+	partNames = restock-node-625-1
+	partNames = sensorThermometer
+	partNames = sensorBarometer
+	partNames = avionicsNoseCone
+	partNames = solarPanels2
+	partNames = airbrake1
+	partNames = strutConnector
+	partNames = RCSBlock.v2
+	partNames = turboFanEngine
+	partNames = bluedog.Gemini.HorizonScanners
+}

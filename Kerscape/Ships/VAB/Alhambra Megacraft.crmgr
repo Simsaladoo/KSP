@@ -1,0 +1,39 @@
+tag = Type\Crewed
+craftName = Alhambra Megacraft
+cachedCraftData
+{
+	origChecksum = 2df70213c2916d76ac99d9ae90068b25
+	cacheVersion = 3
+	name = Alhambra Megacraft
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 221759.203
+	partCount = 40
+	mass = 130.481979
+	description = 
+	crewCapacity = 6
+	partNames = probeStackLarge
+	partNames = crewCabin
+	partNames = CJSDeckH
+	partNames = CJGenericHull
+	partNames = scanLockRadar1
+	partNames = bdRadome1snubGA
+	partNames = bahaGoalKeeper
+	partNames = baha50CalAmmo
+	partNames = WBI.SAFER
+	partNames = RelayAntenna5
+	partNames = foldingRadSmall
+	partNames = DC.aerocam2
+	partNames = dockingPort2
+	partNames = dockingPort3
+	partNames = mk2LanderCabin.v2
+	partNames = solarPanelSP10C
+	partNames = bdShipAI
+	partNames = radarDataReceiver
+	partNames = missileController
+	partNames = bahaFlirBall
+	partNames = bluedog.Redstone.MediumFuelTank
+	partNames = MOISTprop2
+	partNames = pointyNoseConeA
+	partNames = launchClamp1
+}

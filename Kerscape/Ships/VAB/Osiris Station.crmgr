@@ -1,0 +1,45 @@
+craftName = Osiris Station
+cachedCraftData
+{
+	origChecksum = cf048af6de01e9ebe56981aec6d464a2
+	cacheVersion = 3
+	name = Osiris Station
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 307403.875
+	partCount = 73
+	mass = 151.350677
+	description = 
+	crewCapacity = 29
+	partNames = WBI.HL10CommandCab
+	partNames = WBI.GondoGarden2
+	partNames = WBI.PassengerGondola
+	partNames = WBI.BisonAirlock
+	partNames = trussPiece3x
+	partNames = hl10Small2
+	partNames = hl10TailCone
+	partNames = strutConnector
+	partNames = LargeTank
+	partNames = Large.Crewed.Lab
+	partNames = MK1Fuselage
+	partNames = pointyNoseConeB
+	partNames = mk2FuselageLongLFO
+	partNames = dockingPort2
+	partNames = smallClaw
+	partNames = stackQuadCoupler
+	partNames = nuclearEngine
+	partNames = RelayAntenna100
+	partNames = WBI.FrigginHugeSolarPanel
+	partNames = foldingRadMed
+	partNames = SearchRadar
+	partNames = sensorBarometer
+	partNames = GooExperiment
+	partNames = sensorGravimeter
+	partNames = sensorAccelerometer
+	partNames = sensorThermometer
+	partNames = DC.aerocam2.180
+	partNames = hc.wideangle
+	partNames = WBI.BisonISRU
+	partNames = spotLight2.v2
+	partNames = landingLeg1-2
+}

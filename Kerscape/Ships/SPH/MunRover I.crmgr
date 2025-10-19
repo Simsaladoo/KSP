@@ -1,0 +1,26 @@
+craftName = MunRover I
+cachedCraftData
+{
+	origChecksum = 1d4de7283d930acb7c0a546bc0992492
+	cacheVersion = 3
+	name = MunRover I
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 58618
+	partCount = 26
+	mass = 1.2869997
+	description = 
+	crewCapacity = 2
+	partNames = structuralPanel1
+	partNames = ksp.r.largeBatteryPack
+	partNames = rtg
+	partNames = SurfAntenna
+	partNames = cargoContainer
+	partNames = spotLight2.v2
+	partNames = strutOcto
+	partNames = avionicsNoseCone
+	partNames = seatExternalCmd
+	partNames = roverWheel1
+	partNames = strutConnector
+	partNames = dockingPort3
+}

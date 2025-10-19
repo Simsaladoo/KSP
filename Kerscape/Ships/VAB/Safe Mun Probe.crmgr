@@ -1,0 +1,39 @@
+craftName = Safe Mun Probe
+cachedCraftData
+{
+	origChecksum = d2f5c579ac6e612bc910582238bc6015
+	cacheVersion = 3
+	name = Safe Mun Probe
+	kspVersion = 1.12.4
+	stagesCount = 1
+	cost = 320703
+	partCount = 56
+	mass = 526.132996
+	description = 
+	crewCapacity = 5
+	partNames = mk1-3pod
+	partNames = MK1CrewCabin
+	partNames = Rockomax8BW
+	partNames = cargoContainer
+	partNames = science.module
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = structuralPylon
+	partNames = fuelTank.long
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = dockingPort3
+	partNames = solarPanels2
+	partNames = rtg
+	partNames = LiquidEngineLV-T91
+	partNames = dockingPortLarge
+	partNames = LargeTank
+	partNames = Rockomax64.BW
+	partNames = adapterSize2-Size1
+	partNames = dockingPort2
+	partNames = Size3To2Adapter.v2
+	partNames = Size3LargeTank
+	partNames = Size3.Size4.Adapter.01
+	partNames = Size4.Tank.04
+	partNames = SSME
+}

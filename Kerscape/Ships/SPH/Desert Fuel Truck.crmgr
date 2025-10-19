@@ -1,0 +1,47 @@
+craftName = Desert Fuel Truck
+cachedCraftData
+{
+	origChecksum = 30938371cd4a5dd3218d3fff9128e62e
+	cacheVersion = 3
+	name = Desert Fuel Truck
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 306470
+	partCount = 87
+	mass = 49.0119934
+	description = 
+	crewCapacity = 4
+	partNames = mk3Cockpit.Shuttle
+	partNames = rtg
+	partNames = mk3CargoBayL
+	partNames = batteryBankLarge
+	partNames = fuelTankSmallFlat
+	partNames = fuelTankSmall
+	partNames = Mk1FuselageStructural
+	partNames = pointyNoseConeB
+	partNames = wheelMed
+	partNames = asasmodule1-2
+	partNames = CargoStorageUnit
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = ISRU
+	partNames = largeAdapter2
+	partNames = strutConnector
+	partNames = SmallTank
+	partNames = solarPanelSP10C
+	partNames = solarPanelSP10L
+	partNames = adapterEngines
+	partNames = dockingPort3
+	partNames = foldingRadSmall
+	partNames = telescopicLadderBay
+	partNames = mediumDishAntenna
+	partNames = GrapplingDevice
+	partNames = LargeTank
+	partNames = missileController
+	partNames = radarDataReceiver
+	partNames = bdShipAI
+	partNames = MK1Fuselage
+	partNames = RadialDrill
+	partNames = spotLight2.v2
+	partNames = WBI.SAFER
+}

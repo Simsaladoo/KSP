@@ -1,0 +1,36 @@
+craftName = BSP-5
+cachedCraftData
+{
+	origChecksum = 73d08c1d16c667e9669fab49c00ad863
+	cacheVersion = 3
+	name = BSP-5
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 29407.5996
+	partCount = 46
+	mass = 10.7101631
+	description = 
+	crewCapacity = 1
+	partNames = Mark2Cockpit
+	partNames = MK1Fuselage
+	partNames = bdRadome1snub
+	partNames = pointyNoseConeB
+	partNames = adapterSmallMiniShort
+	partNames = SmallGearBay
+	partNames = GearSmall
+	partNames = bahaAdjustableRail
+	partNames = cargoContainer
+	partNames = Mk1FuselageStructuralJr
+	partNames = WBISmallElectricPart
+	partNames = structuralWing4
+	partNames = smallCtrlSrf
+	partNames = dockingPort3
+	partNames = bahaMk82BombBrake
+	partNames = baha50CalAmmo
+	partNames = bahaYakB
+	partNames = bahaIRSTpod
+	partNames = GasTurbineGenerator
+	partNames = sweptWing
+	partNames = elevon3
+	partNames = bahaAGM-114
+}

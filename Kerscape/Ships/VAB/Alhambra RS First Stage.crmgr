@@ -1,0 +1,24 @@
+craftName = Alhambra RS First Stage
+cachedCraftData
+{
+	origChecksum = 5fef41996dcf31acf6e9c5e4f9953749
+	cacheVersion = 3
+	name = Alhambra RS First Stage
+	kspVersion = 1.12.4
+	stagesCount = 2
+	cost = 96898.3984
+	partCount = 28
+	mass = 340.360016
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = adapterMk3-Size2
+	partNames = parachuteRadial
+	partNames = airbrake1
+	partNames = mk3FuselageLFO.50
+	partNames = Size3EngineCluster
+	partNames = launchClamp1
+	partNames = radialDecoupler2
+	partNames = Thoroughbred
+	partNames = rocketNoseCone.v3
+}

@@ -1,0 +1,41 @@
+craftName = Megalodon Trawler
+cachedCraftData
+{
+	origChecksum = 7769c9a2b382cbefbd5e7ab36ce6c3d8
+	cacheVersion = 3
+	name = Megalodon Trawler
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 152042.813
+	partCount = 80
+	mass = 25.241003
+	description = 
+	crewCapacity = 11
+	partNames = probeStackLarge
+	partNames = spotLight1.v2
+	partNames = crewCabin
+	partNames = largeAdapter2
+	partNames = foldingRadSmall
+	partNames = bdShipAI
+	partNames = missileController
+	partNames = ConformalStorageUnit
+	partNames = fuelTankSmallFlat
+	partNames = fuelTankSmall
+	partNames = Mk1FuselageStructural
+	partNames = pointyNoseConeB
+	partNames = wheelMed
+	partNames = radPanelLg
+	partNames = rtg
+	partNames = adapterSmallMiniShort
+	partNames = RadialDrill
+	partNames = LargeTank
+	partNames = dockingPort2
+	partNames = MK1CrewCabin
+	partNames = solarPanelSP10C
+	partNames = spotLight1
+	partNames = RelayAntenna5
+	partNames = Large.Crewed.Lab
+	partNames = batteryBankLarge
+	partNames = cupola
+	partNames = InflatableAirlock
+}

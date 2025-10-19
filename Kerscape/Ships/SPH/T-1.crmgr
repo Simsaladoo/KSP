@@ -1,0 +1,26 @@
+craftName = T-1
+cachedCraftData
+{
+	origChecksum = 8855194f0e69896f5eda8d50b078ca26
+	cacheVersion = 3
+	name = T-1
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 102120.805
+	partCount = 35
+	mass = 3.74000025
+	description = 
+	crewCapacity = 2
+	partNames = probeStackLarge
+	partNames = Panel2
+	partNames = Panel1
+	partNames = EquiTriangle1
+	partNames = roverWheel1
+	partNames = wheelMed
+	partNames = strutConnector
+	partNames = stackPoint1
+	partNames = seatExternalCmdweaponized
+	partNames = FuelCell
+	partNames = miniFuselage
+	partNames = rtg
+}

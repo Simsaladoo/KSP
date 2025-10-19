@@ -1,0 +1,27 @@
+craftName = Minotaur Deep-Space Engine
+cachedCraftData
+{
+	origChecksum = ee578f6ab25165afec238c9cf69ab858
+	cacheVersion = 3
+	name = Minotaur Deep-Space Engine
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 58350.3984
+	partCount = 42
+	mass = 32.4600105
+	description = 
+	crewCapacity = 0
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = largeAdapter2
+	partNames = CargoStorageUnit
+	partNames = MK1Fuselage
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = Tube2
+	partNames = nuclearEngine
+	partNames = dockingPort3
+	partNames = rtg
+}

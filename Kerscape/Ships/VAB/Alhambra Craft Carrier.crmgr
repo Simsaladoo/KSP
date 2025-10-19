@@ -1,0 +1,47 @@
+tag = Type\Crewed
+craftName = Alhambra Craft Carrier
+cachedCraftData
+{
+	origChecksum = c6d270ab7dfb6c643557189df3a47d67
+	cacheVersion = 3
+	name = Alhambra Craft Carrier
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 222448.797
+	partCount = 153
+	mass = 154.485413
+	description = 
+	crewCapacity = 14
+	partNames = probeStackLarge
+	partNames = crewCabin
+	partNames = Panel2
+	partNames = mk3FuselageLFO.50
+	partNames = adapterMk3-Mk2
+	partNames = mk3FuselageLFO.100
+	partNames = dockingPort2
+	partNames = trussAdapter
+	partNames = stationHub
+	partNames = MK1CrewCabin
+	partNames = Size1p5.Monoprop
+	partNames = stackPoint1
+	partNames = ISRU
+	partNames = SmallTank
+	partNames = asasmodule1-2
+	partNames = ServiceBay.250.v2
+	partNames = foldingRadMed
+	partNames = rtg
+	partNames = BDAsonarPod1A
+	partNames = StingRayBDATorpedo
+	partNames = noseCone
+	partNames = GearLarge
+	partNames = mk2LanderCabin.v2
+	partNames = solarPanelSP10C
+	partNames = bdShipAI
+	partNames = radarDataReceiver
+	partNames = missileController
+	partNames = bahaFlirBall
+	partNames = DC.aerocam2
+	partNames = MOISTprop2
+	partNames = bdRadome1snubGA
+	partNames = DC.aerocam2.180
+}

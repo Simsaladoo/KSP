@@ -1,0 +1,44 @@
+craftName = Centurion III
+cachedCraftData
+{
+	origChecksum = cb37c32d1d67593dc9e036c1ae1ac51f
+	cacheVersion = 3
+	name = Centurion III
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 97131.4063
+	partCount = 63
+	mass = 34.7409935
+	description = 
+	crewCapacity = 1
+	partNames = cupola
+	partNames = bahaFlirBall
+	partNames = rtg
+	partNames = vernierEngine
+	partNames = asasmodule1-2
+	partNames = batteryBankLarge
+	partNames = Rockomax16.BW
+	partNames = largeAdapter
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = foldingRadSmall
+	partNames = missileController
+	partNames = mediumDishAntenna
+	partNames = wingConnector5
+	partNames = rotoServo.04
+	partNames = fuelTankSmallFlat
+	partNames = shockConeIntake
+	partNames = stackBiCoupler.v2
+	partNames = RAPIER
+	partNames = solarPanelSP10C
+	partNames = avionicsNoseCone
+	partNames = adapterSize2-Size1Slant
+	partNames = ReleaseValve
+	partNames = RadialOreTank
+	partNames = delta.small
+	partNames = elevon3
+	partNames = landingLeg1-2
+	partNames = airbrake1
+	partNames = MiniDrill
+	partNames = bahaDroptank
+}

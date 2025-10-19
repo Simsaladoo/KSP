@@ -1,0 +1,22 @@
+craftName = Kerbal Congress Freedom Pointe
+cachedCraftData
+{
+	origChecksum = e8e0ca1da87fa47837c53777d81db0f7
+	cacheVersion = 3
+	name = Kerbal Congress Freedom Pointe
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 449856
+	partCount = 277
+	mass = 282.04422
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = mk3FuselageLF.100
+	partNames = Panel2
+	partNames = piston.03
+	partNames = lGripPad
+	partNames = strutConnector
+	partNames = batteryBankLarge
+	partNames = rtg
+}

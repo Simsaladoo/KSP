@@ -1,0 +1,47 @@
+craftName = Kuna Lander
+cachedCraftData
+{
+	origChecksum = c8326b31843fb5fde70c1b27b16acc44
+	cacheVersion = 3
+	name = Kuna Lander
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 259484
+	partCount = 97
+	mass = 45.8320122
+	description = 
+	crewCapacity = 2
+	partNames = mk2LanderCabin.v2
+	partNames = sensorThermometer
+	partNames = sensorBarometer
+	partNames = sensorGravimeter
+	partNames = GooExperiment
+	partNames = Magnetometer
+	partNames = rtg
+	partNames = RCSBlock.v2
+	partNames = largeAdapter2
+	partNames = sensorAccelerometer
+	partNames = SurfaceScanner
+	partNames = mediumDishAntenna
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = ConformalStorageUnit
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = MiniISRU
+	partNames = fuelTank
+	partNames = rcsTankRadialLong
+	partNames = RCSFuelTank
+	partNames = fuelTankSmallFlat
+	partNames = pointyNoseConeB
+	partNames = landingLeg1-2
+	partNames = noseCone
+	partNames = solarPanelSP10C
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = Size1p5.Tank.04
+	partNames = liquidEngine3.v2
+	partNames = foldingRadSmall
+	partNames = RadialOreTank
+	partNames = telescopicLadderBay
+	partNames = MiniDrill
+}

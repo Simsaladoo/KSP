@@ -1,0 +1,46 @@
+craftName = Berlin Station - Kerbin Polar
+cachedCraftData
+{
+	origChecksum = 4cbe52b88d99aabe95a67d9f45769c1e
+	cacheVersion = 3
+	name = Berlin Station - Kerbin Polar
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 264464.688
+	partCount = 93
+	mass = 97.812149
+	description = 
+	crewCapacity = 36
+	partNames = probeStackSmall
+	partNames = largeAdapter2
+	partNames = Large.Crewed.Lab
+	partNames = crewCabin
+	partNames = CargoStorageUnit
+	partNames = stackPoint1
+	partNames = ReleaseValve
+	partNames = externalTankCapsule
+	partNames = externalTankRound
+	partNames = RCSBlock.v2
+	partNames = dockingPort2
+	partNames = stationHub
+	partNames = MK1CrewCabin
+	partNames = LargeTank
+	partNames = Rockomax32.BW
+	partNames = strutOcto
+	partNames = solarPanelSP10C
+	partNames = batteryBankLarge
+	partNames = cupola
+	partNames = asasmodule1-2
+	partNames = rtg
+	partNames = rcsTankRadialLong
+	partNames = foldingRadSmall
+	partNames = mk1-3pod
+	partNames = ISRU
+	partNames = adapterMk3-Size2
+	partNames = mk3CrewCabin
+	partNames = adapterEngines
+	partNames = WBI.FrigginHugeSolarPanel
+	partNames = RelayAntenna50
+	partNames = largeSolarPanel
+	partNames = LiquidEngineRE-J10
+}

@@ -1,0 +1,43 @@
+craftName = KN3 Noth Kerbin Base
+cachedCraftData
+{
+	origChecksum = b6a9e6775b68cb773d9593b44db939c7
+	cacheVersion = 3
+	name = KN3 Noth Kerbin Base
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 437653.813
+	partCount = 66
+	mass = 46.5856094
+	description = 
+	crewCapacity = 4
+	partNames = mk2LanderCabin.v2
+	partNames = batteryBank
+	partNames = RelayAntenna100
+	partNames = solarPanelSP10C
+	partNames = ISRU
+	partNames = probeStackLarge
+	partNames = ladder1
+	partNames = foldingRadMed
+	partNames = Large.Crewed.Lab
+	partNames = CargoStorageUnit
+	partNames = trussPiece3x
+	partNames = MK1Fuselage
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = SmallTank
+	partNames = landingLeg1-2
+	partNames = telescopicLadderBay
+	partNames = WBI.SAFER
+	partNames = bluedog.MOL.LargeRadiator
+	partNames = spotLight1.v2
+	partNames = rotoServo.04
+	partNames = piston.03
+	partNames = hinge.01
+	partNames = piston.04
+	partNames = hinge.01.s
+	partNames = smallClaw
+	partNames = RadialDrill
+	partNames = missileController
+	partNames = hc.launchcam
+}

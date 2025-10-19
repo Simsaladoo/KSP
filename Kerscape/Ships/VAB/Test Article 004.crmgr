@@ -1,0 +1,41 @@
+tag = Type\Crewed
+craftName = Test Article 004
+cachedCraftData
+{
+	origChecksum = 672139352869ad6c18a12a0677fe0700
+	cacheVersion = 3
+	name = Test Article 004
+	kspVersion = 1.12.5
+	stagesCount = 5
+	cost = 72706.2031
+	partCount = 59
+	mass = 279.940796
+	description = 
+	crewCapacity = 4
+	partNames = wbiAppaloosaBlock2
+	partNames = bluedog.MOL.ControlSegment
+	partNames = WBI.AirlockModule
+	partNames = bluedog.Gemini.Heatshield.1p875m
+	partNames = bluedog.Decoupler.1p5m
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Rockomax32.BW
+	partNames = bluedog.Atlas.SLV3X.2p5mBoosterSkirt
+	partNames = WBI.Fulcrum
+	partNames = landingLeg1
+	partNames = solarPanels5
+	partNames = bluedog.Gemini.LunarRecon.Dish
+	partNames = bluedog.Gemini.UHFAntenna
+	partNames = sensorThermometer
+	partNames = scansat-multi-modis-1
+	partNames = science.module
+	partNames = parachuteLarge
+	partNames = bluedog.Nimbus.Instrument.TOMS
+	partNames = bluedog.X15.Wing
+	partNames = wbiB2CanardType2
+	partNames = radialDrogue
+	partNames = RCSBlock.v2
+	partNames = radialDecoupler2
+	partNames = Pollux
+	partNames = bluedog.1875.NoseNoSep
+	partNames = launchClamp1
+}

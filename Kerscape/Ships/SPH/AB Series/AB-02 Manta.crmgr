@@ -1,0 +1,39 @@
+craftName = AB-02 Manta
+cachedCraftData
+{
+	origChecksum = 680c3706c6f9e353fe6464a368833dc3
+	cacheVersion = 3
+	name = AB-02 Manta
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 107200.406
+	partCount = 62
+	mass = 52.8760109
+	description = 
+	crewCapacity = 6
+	partNames = mk2Cockpit.Standard
+	partNames = mk2CrewCabin
+	partNames = MK1Fuselage
+	partNames = shockConeIntake
+	partNames = radialEngineBody
+	partNames = wingShuttleDelta
+	partNames = adapterSize2-Mk2
+	partNames = CargoStorageUnit
+	partNames = adapterLargeSmallQuad
+	partNames = RAPIER
+	partNames = wingShuttleElevon1
+	partNames = AdvancedCanard
+	partNames = GearMedium
+	partNames = GearSmall
+	partNames = piston.04
+	partNames = dockingPort3
+	partNames = vernierEngine
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = Size1p5.Tank.04
+	partNames = turboFanEngine
+	partNames = rtg
+	partNames = missileController
+	partNames = strutOcto
+	partNames = avionicsNoseCone
+	partNames = airbrake1
+}

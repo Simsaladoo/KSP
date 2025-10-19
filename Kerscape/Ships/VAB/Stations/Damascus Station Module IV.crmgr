@@ -1,0 +1,44 @@
+craftName = Damascus Station Module IV
+cachedCraftData
+{
+	origChecksum = 812673c331696cc72f94167641bb37b3
+	cacheVersion = 3
+	name = Damascus Station Module IV
+	kspVersion = 1.12.0
+	stagesCount = 5
+	cost = 101428.922
+	partCount = 87
+	mass = 188.23941
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = Mk1FuselageStructural
+	partNames = foldingRadMed
+	partNames = largeSolarPanel
+	partNames = stripLight1
+	partNames = RelayAntenna50
+	partNames = externalTankRound
+	partNames = cargoContainer
+	partNames = dockingPort2
+	partNames = trussPiece1x
+	partNames = strutConnector
+	partNames = Decoupler.1
+	partNames = fairingSize1p5
+	partNames = adapterSize2-Size1
+	partNames = Rockomax32.BW
+	partNames = radialLiquidEngine1-2
+	partNames = Decoupler.2
+	partNames = Size3To2Adapter.v2
+	partNames = Size3MediumTank
+	partNames = Size3LargeTank
+	partNames = AdvancedCanard
+	partNames = launchClamp1
+	partNames = Size3EngineCluster
+	partNames = vernierEngine
+	partNames = parachuteRadial
+	partNames = RCSBlock.v2
+	partNames = rcsTankRadialLong
+	partNames = ConformalStorageUnit
+}

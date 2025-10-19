@@ -1,0 +1,41 @@
+craftName = DSub1
+cachedCraftData
+{
+	origChecksum = 41eb7a6bb3ee17fbf986d00bdef98470
+	cacheVersion = 3
+	name = DSub1
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 120161
+	partCount = 46
+	mass = 15.9230003
+	description = 
+	crewCapacity = 4
+	partNames = MK1CrewCabin
+	partNames = probeStackSmall
+	partNames = DC.aerocam2.180
+	partNames = fuelTank.long
+	partNames = bdRadome1snubGA
+	partNames = smallCtrlSrf
+	partNames = spotLight3
+	partNames = mk2Cockpit.Inline
+	partNames = bahaAdjustableRail
+	partNames = StingRayBDATorpedo
+	partNames = domeLight1
+	partNames = batteryBank
+	partNames = cargoContainer
+	partNames = advSasModule
+	partNames = miniFuselage
+	partNames = MOISTprop1
+	partNames = standardNoseCone
+	partNames = adapterSmallMiniShort
+	partNames = hc.wideangle
+	partNames = rtg
+	partNames = DC.aerocam2
+	partNames = LiquidIntakeMK2-Powered
+	partNames = bahaCamPod
+	partNames = BDAsonarPod1A
+	partNames = radarDataReceiver
+	partNames = bdShipAI
+	partNames = missileController
+}

@@ -1,0 +1,42 @@
+tag = Type\Unmanned
+craftName = Alhambra GPS 1001
+cachedCraftData
+{
+	origChecksum = 65219268ed43ebf64933de185ac9f3d4
+	cacheVersion = 3
+	name = Alhambra GPS 1001
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 195425.938
+	partCount = 54
+	mass = 718.424194
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = adapterSize2-Size1
+	partNames = RelayAntenna100
+	partNames = fuelTank
+	partNames = battery-125
+	partNames = liquidEngine3.v2
+	partNames = rtg
+	partNames = solarPanelSP10C
+	partNames = pointyNoseConeB
+	partNames = Tube2
+	partNames = foldingRadSmall
+	partNames = avionicsNoseCone
+	partNames = sspx-adapter-125-25-1
+	partNames = dockingPort2
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = bluedog.Decoupler.1p875m
+	partNames = fairingSize1p5
+	partNames = Size1p5.Tank.03
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Size3To2Adapter.v2
+	partNames = Size3LargeTank
+	partNames = Size3EngineCluster
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = strutConnector
+}

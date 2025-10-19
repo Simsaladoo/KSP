@@ -1,0 +1,38 @@
+craftName = KN 3 Base Tank
+cachedCraftData
+{
+	origChecksum = 003a8fe586d46778dbb6ae9a1a48d49b
+	cacheVersion = 3
+	name = KN 3 Base Tank
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 51663.6016
+	partCount = 49
+	mass = 39.9330063
+	description = 
+	crewCapacity = 1
+	partNames = asasmodule1-2
+	partNames = solarPanels1
+	partNames = navLight1
+	partNames = CargoStorageUnit
+	partNames = trussPiece3x
+	partNames = trussPiece1x
+	partNames = wheelMed
+	partNames = telescopicLadder
+	partNames = cupola
+	partNames = spotLight1.v2
+	partNames = hc.wideangle
+	partNames = Size3To2Adapter.v2
+	partNames = batteryBankLarge
+	partNames = sensorBarometer
+	partNames = largeAdapter2
+	partNames = solarPanels5
+	partNames = cargoContainer
+	partNames = DC.TurretCam
+	partNames = SurfaceScanner
+	partNames = science.module
+	partNames = RobotArmScanner.S3
+	partNames = dockingPort2
+	partNames = GrapplingDevice
+	partNames = rtg
+}

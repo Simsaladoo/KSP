@@ -1,0 +1,23 @@
+craftName = Alhambra RS Middle Stage
+cachedCraftData
+{
+	origChecksum = 803e715f4cd69a100ac0ca9df06b0982
+	cacheVersion = 3
+	name = Alhambra RS Middle Stage
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 32797.5977
+	partCount = 16
+	mass = 65.7699738
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = Rockomax64.BW
+	partNames = EnginePlate2
+	partNames = SSME
+	partNames = Decoupler.2
+	partNames = Rockomax32.BW
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Decoupler.1p5
+	partNames = solarPanels5
+}

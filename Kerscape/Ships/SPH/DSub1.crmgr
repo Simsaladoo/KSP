@@ -1,0 +1,26 @@
+craftName = DSub1
+cachedCraftData
+{
+	origChecksum = f91b2d8ed3b1d8b247d63c16fa5a7fec
+	cacheVersion = 3
+	name = DSub1
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 63017
+	partCount = 30
+	mass = 12.6624975
+	description = 
+	crewCapacity = 3
+	partNames = kv3Pod
+	partNames = batteryBank
+	partNames = RadialOreTank
+	partNames = cargoContainer
+	partNames = advSasModule
+	partNames = externalTankToroid
+	partNames = rtg
+	partNames = roverWheel1
+	partNames = R8winglet
+	partNames = domeLight1
+	partNames = IntakeRadialLong
+	partNames = miniJetEngine
+}

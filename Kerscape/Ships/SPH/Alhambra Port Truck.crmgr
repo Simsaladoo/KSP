@@ -1,0 +1,38 @@
+craftName = Alhambra Port Truck
+cachedCraftData
+{
+	origChecksum = e2e6ee8c63251ce8f3fa99cef2c12941
+	cacheVersion = 3
+	name = Alhambra Port Truck
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 1542470
+	partCount = 126
+	mass = 37.9150009
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = ISRU
+	partNames = LargeTank
+	partNames = trussPiece3x
+	partNames = wheelMed
+	partNames = largeAdapter2
+	partNames = foldingRadMed
+	partNames = cargoContainer
+	partNames = CargoStorageUnit
+	partNames = dockingPort2
+	partNames = GrapplingDevice
+	partNames = batteryBankLarge
+	partNames = HighGainAntenna5.v2
+	partNames = spotLight1.v2
+	partNames = rtg
+	partNames = MiniDrill
+	partNames = foldingRadSmall
+	partNames = largeSolarPanel
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Rockomax16.BW
+	partNames = liquidEngine2-2.v2
+	partNames = rcsTankRadialLong
+	partNames = RCSBlock.v2
+}

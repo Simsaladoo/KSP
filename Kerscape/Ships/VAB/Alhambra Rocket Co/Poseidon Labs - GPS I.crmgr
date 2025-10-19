@@ -1,0 +1,33 @@
+craftName = 
+cachedCraftData
+{
+	origChecksum = d57aadcde75fd1bcacf4b8403d31ee90
+	cacheVersion = 3
+	name = Poseidon Labs - GPS I
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 46524.1992
+	partCount = 32
+	mass = 4.93200159
+	description = 
+	crewCapacity = 0
+	partNames = avionicsNoseCone
+	partNames = sasModule
+	partNames = bluedog.Agena.HorizonSensor
+	partNames = bluedog.Nimbus.Instrument.SIS
+	partNames = bluedog.Nimbus.Instrument.ERB
+	partNames = bluedog.Nimbus.Instrument.THIR
+	partNames = bluedog.Pioneer6.Bus
+	partNames = restock-truss-adapter-0625-1
+	partNames = trussAdapter
+	partNames = battery-rad-125
+	partNames = WBI.Terrain
+	partNames = RCSFuelTank
+	partNames = bluedog.Apollo.RCS.4X
+	partNames = nfex-antenna-rover-2
+	partNames = solarPanels2
+	partNames = SurfaceScanner
+	partNames = sensorThermometer
+	partNames = sensorAccelerometer
+	partNames = Magnetometer
+}

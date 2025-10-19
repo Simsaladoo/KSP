@@ -1,0 +1,46 @@
+craftName = K-1 UltraKern
+cachedCraftData
+{
+	origChecksum = eda62a5de8e02afeadabb0dae14b70d1
+	cacheVersion = 3
+	name = K-1 UltraKern
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 36103.6016
+	partCount = 62
+	mass = 3.27333021
+	description = 
+	crewCapacity = 1
+	partNames = probeCoreCube
+	partNames = strutCube
+	partNames = seatExternalCmd
+	partNames = standardNoseCone
+	partNames = GasTurbineGenerator
+	partNames = miniFuselage
+	partNames = structuralWing4
+	partNames = batteryPack
+	partNames = strutConnector
+	partNames = missileController
+	partNames = bahaBrowningAnm2
+	partNames = baha50CalAmmo
+	partNames = avionicsNoseCone
+	partNames = wingConnector3
+	partNames = WBI.BuffaloWingType2
+	partNames = elevon2
+	partNames = smallCtrlSrf
+	partNames = GearFixed
+	partNames = externalTankRound
+	partNames = WBIMiniElectricProp
+	partNames = structuralWing2
+	partNames = solarPanels5
+	partNames = elevon3
+	partNames = GearFree
+	partNames = ConformalStorageUnit
+	partNames = hinge.01.s
+	partNames = spotLight2.v2
+	partNames = sensorThermometer
+	partNames = sensorAccelerometer
+	partNames = SurfaceScanner
+	partNames = sensorGravimeter
+	partNames = sensorBarometer
+}

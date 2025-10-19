@@ -1,0 +1,33 @@
+craftName = KT-53 CIWS
+cachedCraftData
+{
+	origChecksum = a6cc61fd70751dae672eb86fa94c696d
+	cacheVersion = 3
+	name = KT-53 CIWS
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 154176.891
+	partCount = 47
+	mass = 24.1958542
+	description = 
+	crewCapacity = 0
+	partNames = MtmStage
+	partNames = fuelTank
+	partNames = wheelMed
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = dockingPort2
+	partNames = rtg
+	partNames = missileController
+	partNames = bdShipAI
+	partNames = flagPartFlat
+	partNames = flagPartSize2
+	partNames = baha50CalAmmo
+	partNames = probeStackSmall
+	partNames = longAntenna
+	partNames = radarDataReceiver
+	partNames = bahaCannonShellBox
+	partNames = bahaGoalKeeper
+	partNames = baha30mmAmmo
+	partNames = bdRadome1snubGA
+}

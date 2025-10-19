@@ -1,0 +1,46 @@
+craftName = P-1 Tortoise
+cachedCraftData
+{
+	origChecksum = 4aa891570aca9153910bc26d0123eb1f
+	cacheVersion = 3
+	name = P-1 Tortoise
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 37602.5977
+	partCount = 71
+	mass = 10.2263317
+	description = 
+	crewCapacity = 1
+	partNames = Mark2Cockpit
+	partNames = strutCube
+	partNames = wingConnector5
+	partNames = elevon2
+	partNames = advSasModule
+	partNames = GearSmall
+	partNames = strutConnector
+	partNames = batteryBank
+	partNames = airplaneTailB
+	partNames = GearFree
+	partNames = airbrake1
+	partNames = telescopicLadder
+	partNames = BDAsonarPod1A
+	partNames = missileController
+	partNames = bahaBrowningAnm2
+	partNames = bahaAdjustableRail
+	partNames = bahaMk82BombBrake
+	partNames = bahaS-8Launcher
+	partNames = bdPilotAI
+	partNames = radarDataReceiver
+	partNames = bahaTurret
+	partNames = baha50CalAmmo
+	partNames = strutOcto
+	partNames = avionicsNoseCone
+	partNames = MK1Fuselage2
+	partNames = adapterSmallMiniShort
+	partNames = StingRayBDATorpedo
+	partNames = structuralWing3
+	partNames = WBISmallElectricPart
+	partNames = GasTurbineGenerator
+	partNames = structuralWing4
+	partNames = smallCtrlSrf
+}

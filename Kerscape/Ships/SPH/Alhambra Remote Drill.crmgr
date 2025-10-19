@@ -1,0 +1,27 @@
+craftName = Alhambra Remote Drill
+cachedCraftData
+{
+	origChecksum = 3ecccf3c58878d036f45bd1a51778a1b
+	cacheVersion = 3
+	name = Alhambra Remote Drill
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 227622.469
+	partCount = 97
+	mass = 15.2200031
+	description = 
+	crewCapacity = 0
+	partNames = probeCoreOcto2.v2
+	partNames = Size1p5.Size0.Adapter.01
+	partNames = LargeTank
+	partNames = rtg
+	partNames = MK1Fuselage
+	partNames = landingLeg1
+	partNames = noseCone
+	partNames = ReleaseValve
+	partNames = foldingRadSmall
+	partNames = solarPanelSP10C
+	partNames = RadialDrill
+	partNames = miniFuselage
+	partNames = dockingPort3
+}

@@ -1,0 +1,42 @@
+craftName = P-89 Devil
+cachedCraftData
+{
+	origChecksum = 286e60b5871f0a574faf203ec6e2acde
+	cacheVersion = 3
+	name = P-89 Devil
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 46217.5977
+	partCount = 50
+	mass = 11.4825029
+	description = 
+	crewCapacity = 1
+	partNames = Mark2Cockpit
+	partNames = sweptWing
+	partNames = GearSmall
+	partNames = elevon2
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = SmallGearBay
+	partNames = bahaAdjustableRail
+	partNames = bahaHiddenVulcan
+	partNames = baha20mmAmmo
+	partNames = bahaAIR-2
+	partNames = MK1Fuselage2
+	partNames = MK1Fuselage
+	partNames = delta.small
+	partNames = smallCtrlSrf
+	partNames = airbrake1
+	partNames = IntakeRadialLong
+	partNames = probeStackSmall
+	partNames = turboFanEngine
+	partNames = tailfin
+	partNames = DC.aerocam2.180
+	partNames = bdRadome1snub
+	partNames = bahaAGM-65
+	partNames = bahaPython
+	partNames = telescopicLadder
+	partNames = bdPilotAI
+	partNames = radarDataReceiver
+	partNames = missileController
+}

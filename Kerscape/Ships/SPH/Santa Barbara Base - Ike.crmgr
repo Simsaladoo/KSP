@@ -1,0 +1,43 @@
+craftName = Santa Barbara Base - Ike
+cachedCraftData
+{
+	origChecksum = a579444ad266db362d08f2ee3eca900d
+	cacheVersion = 3
+	name = Santa Barbara Base - Ike
+	kspVersion = 1.12.5
+	stagesCount = 1
+	cost = 167010.234
+	partCount = 86
+	mass = 50.1626167
+	description = 
+	crewCapacity = 9
+	partNames = probeStackLarge
+	partNames = ISRU
+	partNames = CargoStorageUnit
+	partNames = smallHardpoint
+	partNames = MK1Fuselage
+	partNames = nuclearEngine
+	partNames = mk1-3pod
+	partNames = Large.Crewed.Lab
+	partNames = solarPanelSP10C
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = dockingPort2
+	partNames = miniFuselage
+	partNames = landingLeg1-2
+	partNames = standardNoseCone
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = stackPoint1
+	partNames = MK1CrewCabin
+	partNames = largeAdapter2
+	partNames = telescopicLadderBay
+	partNames = ladder1
+	partNames = dockingPort3
+	partNames = RadialOreTank
+	partNames = foldingRadMed
+	partNames = rtg
+	partNames = MiniDrill
+	partNames = foldingRadSmall
+	partNames = commDish
+}

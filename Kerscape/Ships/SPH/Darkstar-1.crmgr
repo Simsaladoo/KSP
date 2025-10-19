@@ -1,0 +1,38 @@
+craftName = Darkstar-1
+cachedCraftData
+{
+	origChecksum = 4976980a186909d1a5926fbe5eab3932
+	cacheVersion = 3
+	name = Darkstar-1
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 37052.8008
+	partCount = 44
+	mass = 22.8816929
+	description = 
+	crewCapacity = 3
+	partNames = Mark2Cockpit
+	partNames = MK1CrewCabin
+	partNames = noseConeAdapter
+	partNames = avionicsNoseCone
+	partNames = MK1Fuselage
+	partNames = dockingPort3
+	partNames = wingStrake
+	partNames = wingConnector4
+	partNames = AdvancedCanard
+	partNames = airbrake1
+	partNames = RCSFuelTank
+	partNames = pointyNoseConeB
+	partNames = solarPanels2
+	partNames = elevon3
+	partNames = turboFanEngine
+	partNames = GearSmall
+	partNames = SmallGearBay
+	partNames = bdPilotAI
+	partNames = missileController
+	partNames = bahaHiddenVulcan
+	partNames = baha20mmAmmo
+	partNames = shockConeIntake
+	partNames = bahaAdjustableRail
+	partNames = bahaMk82BombBrake
+}

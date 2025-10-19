@@ -1,0 +1,25 @@
+craftName = Alhambra Expansion Module I
+cachedCraftData
+{
+	origChecksum = 14f0fd19eb2c5c217620d2217c32ca75
+	cacheVersion = 3
+	name = Alhambra Expansion Module I
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 64758.8008
+	partCount = 30
+	mass = 10.0240021
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = fuelTank
+	partNames = externalTankCapsule
+	partNames = liquidEngine3.v2
+	partNames = avionicsNoseCone
+	partNames = radialRCSTank
+	partNames = RCSBlock.v2
+	partNames = foldingRadSmall
+	partNames = mediumDishAntenna
+	partNames = WBI.SAFER
+}

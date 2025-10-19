@@ -1,0 +1,45 @@
+craftName = Kerb-1 Fuel Truck
+cachedCraftData
+{
+	origChecksum = 0861600cbd8888786eb98e3f47f4a557
+	cacheVersion = 3
+	name = Kerb-1 Fuel Truck
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 271724.813
+	partCount = 92
+	mass = 32.243988
+	description = 
+	crewCapacity = 4
+	partNames = mk3Cockpit.Shuttle
+	partNames = solarPanels5
+	partNames = rtg
+	partNames = mk3CargoBayL
+	partNames = batteryBankLarge
+	partNames = fuelTankSmallFlat
+	partNames = fuelTankSmall
+	partNames = Mk1FuselageStructural
+	partNames = pointyNoseConeB
+	partNames = wheelMed
+	partNames = asasmodule1-2
+	partNames = CargoStorageUnit
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = ISRU
+	partNames = largeAdapter2
+	partNames = strutConnector
+	partNames = SmallTank
+	partNames = solarPanelSP10C
+	partNames = radPanelLg
+	partNames = solarPanelSP10L
+	partNames = adapterEngines
+	partNames = LgRadialSolarPanel
+	partNames = dockingPort3
+	partNames = foldingRadSmall
+	partNames = telescopicLadderBay
+	partNames = trussAdapter
+	partNames = mediumDishAntenna
+	partNames = GrapplingDevice
+	partNames = LargeTank
+	partNames = MiniDrill
+}

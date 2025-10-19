@@ -1,0 +1,39 @@
+craftName = Alhambra Mun Yurt
+cachedCraftData
+{
+	origChecksum = 7c663e047265284e64b6a97cfc5bf224
+	cacheVersion = 3
+	name = Alhambra Mun Yurt
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 138912
+	partCount = 111
+	mass = 14.8650093
+	description = 
+	crewCapacity = 4
+	partNames = probeStackLarge
+	partNames = Rockomax8BW
+	partNames = rcsTankMini
+	partNames = avionicsNoseCone
+	partNames = rtg
+	partNames = crewCabin
+	partNames = telescopicLadder
+	partNames = ConformalStorageUnit
+	partNames = largeAdapter2
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = cargoContainer
+	partNames = adapterSmallMiniShort
+	partNames = commDish
+	partNames = solarPanels2
+	partNames = wingConnector5
+	partNames = LgRadialSolarPanel
+	partNames = spotLight1.v2
+	partNames = CargoStorageUnit
+	partNames = miniLandingLeg
+	partNames = liquidEngine3.v2
+	partNames = ScienceBox
+	partNames = strutConnector
+	partNames = dockingPort2
+	partNames = dockingPort3
+}

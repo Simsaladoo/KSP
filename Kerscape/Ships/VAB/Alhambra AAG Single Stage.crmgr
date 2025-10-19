@@ -1,0 +1,37 @@
+craftName = Alhambra AAG Single Stage
+cachedCraftData
+{
+	origChecksum = 9e0c7de73e2bb03c76110f41945590cd
+	cacheVersion = 3
+	name = Alhambra AAG Single Stage
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 88449.8828
+	partCount = 56
+	mass = 52.6874199
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = batteryBank
+	partNames = structuralIBeam2
+	partNames = bahaAdjustableRail
+	partNames = bahaAIR-2
+	partNames = fairingSize1
+	partNames = rtg
+	partNames = Decoupler.1
+	partNames = SmallTank
+	partNames = parachuteRadial
+	partNames = miniLandingLeg
+	partNames = smallClaw
+	partNames = Mk1FuselageStructuralJr
+	partNames = adapterSize2-Size1
+	partNames = Rockomax64.BW
+	partNames = SSME
+	partNames = landingLeg1
+	partNames = missileController
+	partNames = airbrake1
+	partNames = bdPilotAI
+	partNames = radarDataReceiver
+	partNames = AdvancedCanard
+	partNames = vernierEngine
+}

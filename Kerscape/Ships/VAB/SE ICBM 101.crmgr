@@ -1,0 +1,33 @@
+craftName = SE ICBM 101
+cachedCraftData
+{
+	origChecksum = 48c3ed2188c2a9303f7739a1175c948d
+	cacheVersion = 3
+	name = SE ICBM 101
+	kspVersion = 1.12.4
+	stagesCount = 1
+	cost = 130353.008
+	partCount = 103
+	mass = 43.3877907
+	description = 
+	crewCapacity = 3
+	partNames = probeStackLarge
+	partNames = adapterEngines
+	partNames = mk3CargoRamp
+	partNames = trussPiece3x
+	partNames = bahaAdjustableRail
+	partNames = bahaAIR-2
+	partNames = solarPanels1
+	partNames = cupola
+	partNames = hc.nightvision
+	partNames = bahaFlirBall
+	partNames = standardNoseCone
+	partNames = liquidEngineMini.v2
+	partNames = fuelTankSmallFlat
+	partNames = fuelTank
+	partNames = adapterSmallMiniTall
+	partNames = avionicsNoseCone
+	partNames = spotLight2.v2
+	partNames = radialDecoupler2
+	partNames = launchClamp1
+}

@@ -1,0 +1,31 @@
+craftName = Alhambra Fuel Drum
+cachedCraftData
+{
+	origChecksum = f207c2c31cc2b26bdeccc2eeef4c2af4
+	cacheVersion = 3
+	name = Alhambra Fuel Drum
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 52098.2031
+	partCount = 40
+	mass = 22.2069893
+	description = 
+	crewCapacity = 2
+	partNames = probeStackLarge
+	partNames = MK1Fuselage
+	partNames = roverWheel1
+	partNames = WBI.SAFER
+	partNames = ISRU
+	partNames = largeAdapter2
+	partNames = WBI.BigSolarPanel
+	partNames = trussPiece3x
+	partNames = dockingPort2
+	partNames = rotoServo.03
+	partNames = hinge.01
+	partNames = smallClaw
+	partNames = seatExternalCmd
+	partNames = spotLight1.v2
+	partNames = strutConnector
+	partNames = foldingRadSmall
+	partNames = batteryBankLarge
+}

@@ -1,0 +1,22 @@
+tag = Type\Crewed
+craftName = Test Article 001
+cachedCraftData
+{
+	origChecksum = bfe2ffc3bb5814044527bc212f2abb18
+	cacheVersion = 3
+	name = Test Article 001
+	kspVersion = 1.12.5
+	stagesCount = 1
+	cost = 5826.8999
+	partCount = 13
+	mass = 11.4796982
+	description = 
+	crewCapacity = 1
+	partNames = mk1pod.v2
+	partNames = bluedog.Redstone.FuelTank
+	partNames = bluedog.Redstone.A7.TailUnit
+	partNames = bluedog.X15.Wing
+	partNames = WBI.JumpChute
+	partNames = BDB.FASAlaunchClamp125
+	partNames = restock-nosecone-0625-1
+}

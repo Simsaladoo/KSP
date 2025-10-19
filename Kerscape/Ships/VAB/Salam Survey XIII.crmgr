@@ -1,0 +1,46 @@
+craftName = Salam Survey XIII
+cachedCraftData
+{
+	origChecksum = e8fcb9bc63795a1c714dc3d609ef164c
+	cacheVersion = 3
+	name = Salam Survey XIII
+	kspVersion = 1.12.4
+	stagesCount = 4
+	cost = 367004.625
+	partCount = 68
+	mass = 769.679504
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = advSasModule
+	partNames = HECS2.ProbeCore
+	partNames = solarPanelSP10L
+	partNames = batteryBank
+	partNames = xenonTankLarge
+	partNames = standardNoseCone
+	partNames = ionEngine
+	partNames = Decoupler.1
+	partNames = foldingRadSmall
+	partNames = RelayAntenna100
+	partNames = fairingSize1p5
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Rockomax32.BW
+	partNames = Tube2
+	partNames = Decoupler.2
+	partNames = probeStackLarge
+	partNames = Rockomax64.BW
+	partNames = EnginePlate2
+	partNames = SSME
+	partNames = adapterMk3-Size2
+	partNames = parachuteRadial
+	partNames = airbrake1
+	partNames = mk3FuselageLFO.50
+	partNames = launchClamp1
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = mk3FuselageLFO.25
+	partNames = adapterSize3-Mk3
+	partNames = EnginePlate3
+	partNames = LiquidEngineLV-T91
+}

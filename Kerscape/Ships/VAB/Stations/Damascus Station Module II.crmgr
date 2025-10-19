@@ -1,0 +1,42 @@
+craftName = Damascus Station Module II
+cachedCraftData
+{
+	origChecksum = afe1185ffc136a605466638b0443693a
+	cacheVersion = 3
+	name = Damascus Station Module II
+	kspVersion = 1.12.0
+	stagesCount = 5
+	cost = 93817.9219
+	partCount = 83
+	mass = 189.690445
+	description = 
+	crewCapacity = 4
+	partNames = probeStackSmall
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = adapterSmallMiniShort
+	partNames = domeLight1
+	partNames = MK1CrewCabin
+	partNames = mediumDishAntenna
+	partNames = Large.Crewed.Lab
+	partNames = solarPanels2
+	partNames = radPanelSm
+	partNames = dockingPort2
+	partNames = radialRCSTank
+	partNames = RCSBlock.v2
+	partNames = strutConnector
+	partNames = Decoupler.1
+	partNames = fairingSize1p5
+	partNames = adapterSize2-Size1
+	partNames = Rockomax32.BW
+	partNames = radialLiquidEngine1-2
+	partNames = Decoupler.2
+	partNames = Size3To2Adapter.v2
+	partNames = Size3MediumTank
+	partNames = Size3LargeTank
+	partNames = AdvancedCanard
+	partNames = launchClamp1
+	partNames = Size3EngineCluster
+	partNames = parachuteRadial
+	partNames = vernierEngine
+}

@@ -1,0 +1,43 @@
+craftName = Sims Empire - SA7 Missile Site
+cachedCraftData
+{
+	origChecksum = ef8798d73c14bf4933c0c79c90a6d9fc
+	cacheVersion = 3
+	name = Sims Empire - SA7 Missile Site
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 232520.406
+	partCount = 118
+	mass = 30.9128132
+	description = 
+	crewCapacity = 4
+	partNames = probeStackSmall
+	partNames = trussPiece3x
+	partNames = strutConnector
+	partNames = RCSTank1-2
+	partNames = hinge.03
+	partNames = piston.01
+	partNames = hinge.01
+	partNames = mGripPad
+	partNames = telescopicLadderBay
+	partNames = radarDataReceiver
+	partNames = RCSBlock.v2
+	partNames = linearRcs
+	partNames = rtg
+	partNames = radPanelLg
+	partNames = missileController
+	partNames = bdShipAI
+	partNames = RelayAntenna5
+	partNames = advSasModule
+	partNames = stationHub
+	partNames = Mk1FuselageStructural
+	partNames = missileTurretTest
+	partNames = bahaPac-3
+	partNames = bahaSidamTurret
+	partNames = WBI.BisonCab
+	partNames = WBI.BisonStabilizer
+	partNames = baha25mmAmmo
+	partNames = scanLargeRadar
+	partNames = scanLockRadar1
+	partNames = bdRepulsorGear
+}

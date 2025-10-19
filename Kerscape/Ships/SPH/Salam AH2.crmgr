@@ -1,0 +1,36 @@
+craftName = Salam AH2
+cachedCraftData
+{
+	origChecksum = 3ec0022bcfaa32fa3c3c8c9680411626
+	cacheVersion = 3
+	name = Salam AH2
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 54252.7148
+	partCount = 46
+	mass = 10.3425999
+	description = 
+	crewCapacity = 3
+	partNames = cupola
+	partNames = asasmodule1-2
+	partNames = Large.Crewed.Lab
+	partNames = probeStackLarge
+	partNames = batteryBankLarge
+	partNames = rtg
+	partNames = adapterSize2-Size1Slant
+	partNames = SmallGearBay
+	partNames = AdvancedCanard
+	partNames = strutCube
+	partNames = strutConnector
+	partNames = basicFin
+	partNames = noseCone
+	partNames = longAntenna
+	partNames = sGripStrip
+	partNames = dockingPort2
+	partNames = missileController
+	partNames = bdVTOLAI
+	partNames = bahaFlirBall
+	partNames = GasTurbineGenerator
+	partNames = KAXkueyEngine
+	partNames = miniFuselage
+}

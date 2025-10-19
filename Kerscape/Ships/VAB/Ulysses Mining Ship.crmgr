@@ -1,0 +1,37 @@
+tag = Type\Crewed
+craftName = Ulysses Mining Ship
+cachedCraftData
+{
+	origChecksum = 4495dbc886692a5626e902b0495b46e5
+	cacheVersion = 3
+	name = Ulysses Mining Ship
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 223788.047
+	partCount = 120
+	mass = 133.042023
+	description = 
+	crewCapacity = 3
+	partNames = mk1-3pod
+	partNames = ISRU
+	partNames = RCSFuelTank
+	partNames = LargeTank
+	partNames = structuralPanel2
+	partNames = landingLeg1-2
+	partNames = MK1Fuselage
+	partNames = stackBiCoupler.v2
+	partNames = nuclearEngine
+	partNames = strutConnector
+	partNames = MiniDrill
+	partNames = solarPanelSP10L
+	partNames = rtg
+	partNames = DC.aerocam2.180
+	partNames = dockingPort3
+	partNames = RCSBlock.v2
+	partNames = foldingRadSmall
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = mediumDishAntenna
+	partNames = adapterSmallMiniTall
+	partNames = avionicsNoseCone
+}

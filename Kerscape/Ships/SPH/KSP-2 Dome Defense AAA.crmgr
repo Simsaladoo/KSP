@@ -1,0 +1,36 @@
+craftName = KSP-2 Dome Defense AAA
+cachedCraftData
+{
+	origChecksum = a6eeb7edff083470ff46d147e7e49bff
+	cacheVersion = 3
+	name = KSP-2 Dome Defense AAA
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 132710.203
+	partCount = 72
+	mass = 10.425066
+	description = 
+	crewCapacity = 1
+	partNames = trussPiece3x
+	partNames = missileController
+	partNames = radarDataReceiver
+	partNames = probeCoreHex.v2
+	partNames = baha50CalAmmo
+	partNames = landingLeg1-2
+	partNames = landerCabinSmall
+	partNames = scanLockRadar1
+	partNames = trussPiece1x
+	partNames = bahaAdjustableRail
+	partNames = bahaEifreet
+	partNames = strutConnector
+	partNames = bahaTurret
+	partNames = bahaChaffPod
+	partNames = bdRadome1inlineGA
+	partNames = bdRadome1
+	partNames = DC.aerocam2
+	partNames = hc.wideangle
+	partNames = domeLight1
+	partNames = rtg
+	partNames = radPanelLg
+	partNames = flagPartSize4
+}

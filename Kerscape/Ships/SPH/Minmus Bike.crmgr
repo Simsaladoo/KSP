@@ -1,0 +1,31 @@
+craftName = Minmus Bike
+cachedCraftData
+{
+	origChecksum = ce046352b377da43c342544c3bd1ad74
+	cacheVersion = 3
+	name = Minmus Bike
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 50112
+	partCount = 30
+	mass = 1.48275006
+	description = 
+	crewCapacity = 1
+	partNames = probeCoreOcto2.v2
+	partNames = externalTankRound
+	partNames = seatExternalCmd
+	partNames = strutCube
+	partNames = sasModule
+	partNames = rtg
+	partNames = batteryPack
+	partNames = dockingPort3
+	partNames = avionicsNoseCone
+	partNames = sGripStrip
+	partNames = ladder1
+	partNames = smallRadialEngine.v2
+	partNames = vernierEngine
+	partNames = sensorThermometer
+	partNames = sensorAccelerometer
+	partNames = sensorGravimeter
+	partNames = sensorBarometer
+}

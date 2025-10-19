@@ -1,0 +1,44 @@
+craftName = AB-132 Peaceforcer
+cachedCraftData
+{
+	origChecksum = e87448fecd61518d376e808bbd29919c
+	cacheVersion = 3
+	name = AB-132 Peaceforcer
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 172939.047
+	partCount = 86
+	mass = 165.448837
+	description = 
+	crewCapacity = 30
+	partNames = mk2Cockpit.Standard
+	partNames = mk2CrewCabin
+	partNames = telescopicLadderBay
+	partNames = adapterSize2-Size1Slant
+	partNames = noseConeAdapter
+	partNames = avionicsNoseCone
+	partNames = adapterMk3-Size2
+	partNames = bahaAdjustableRail
+	partNames = ConformalStorageUnit
+	partNames = sensorGravimeter
+	partNames = sensorBarometer
+	partNames = sensorAccelerometer
+	partNames = sensorThermometer
+	partNames = mk3FuselageLF.25
+	partNames = mk3FuselageLF.50
+	partNames = adapterMk3-Size2Slant
+	partNames = pointyNoseConeB
+	partNames = mk3FuselageMONO
+	partNames = wingConnector
+	partNames = wingConnector2
+	partNames = structuralWing2
+	partNames = WBISmallElectricPart
+	partNames = pointyNoseConeA
+	partNames = wingShuttleElevon2
+	partNames = smallCtrlSrf
+	partNames = mk3CrewCabin
+	partNames = crewCabin
+	partNames = GearLarge
+	partNames = GearSmall
+	partNames = GasTurbineGenerator2A
+}

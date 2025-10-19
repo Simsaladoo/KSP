@@ -1,0 +1,27 @@
+craftName = Test Article 003
+cachedCraftData
+{
+	origChecksum = c589715ef42914d774b3804b0327ec39
+	cacheVersion = 3
+	name = Test Article 003
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 17335.2012
+	partCount = 31
+	mass = 20.184866
+	description = 
+	crewCapacity = 6
+	partNames = Mark1Cockpit
+	partNames = Mark2Cockpit
+	partNames = MK1CrewCabin
+	partNames = JetEngine
+	partNames = MK1Fuselage
+	partNames = CircularIntake
+	partNames = tailfin
+	partNames = GearFree
+	partNames = GearFixed
+	partNames = structuralWing3
+	partNames = wingConnector3
+	partNames = R8winglet
+	partNames = StandardCtrlSrf
+}

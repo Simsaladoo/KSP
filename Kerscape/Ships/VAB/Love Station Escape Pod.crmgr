@@ -1,0 +1,38 @@
+tag = Type\Crewed
+craftName = Love Station Escape Pod
+cachedCraftData
+{
+	origChecksum = 71013c2b1293547d7bd15aea8427c1b2
+	cacheVersion = 3
+	name = Love Station Escape Pod
+	kspVersion = 1.12.5
+	stagesCount = 5
+	cost = 58972.7969
+	partCount = 44
+	mass = 257.929047
+	description = 
+	crewCapacity = 3
+	partNames = advSascr3
+	partNames = kv3Pod
+	partNames = fuelTankSmall
+	partNames = bluedog.Agena.SOT.2p5m
+	partNames = liquidEngineMini.v2
+	partNames = dockingPort3
+	partNames = Separator.1
+	partNames = adapterSize2-Size1
+	partNames = Rockomax64.BW
+	partNames = radialDecoupler2
+	partNames = Pollux
+	partNames = bluedog.1875.NoseNoSep
+	partNames = launchClamp1
+	partNames = ms1RCSTank
+	partNames = RCSBlock.v2
+	partNames = linearRcs
+	partNames = parachuteRadial
+	partNames = bluedog.AtlasV.RD180engine
+	partNames = bluedog.mariner10.starTracker
+	partNames = dockingPort2
+	partNames = strutCube
+	partNames = batteryBankMini
+	partNames = avionicsNoseCone
+}

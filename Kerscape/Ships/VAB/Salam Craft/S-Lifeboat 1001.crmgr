@@ -1,0 +1,41 @@
+craftName = S-Lifeboat 1001
+cachedCraftData
+{
+	origChecksum = 107da8fb91c144a8b94480ca88757952
+	cacheVersion = 3
+	name = S-Lifeboat 1001
+	kspVersion = 1.12.0
+	stagesCount = 6
+	cost = 132019.688
+	partCount = 90
+	mass = 110.707695
+	description = 
+	crewCapacity = 5
+	partNames = mk1-3pod
+	partNames = mk2LanderCabin.v2
+	partNames = LargeTank
+	partNames = RadialDrill
+	partNames = landingLeg1-2
+	partNames = externalTankRound
+	partNames = radPanelSm
+	partNames = ksp.r.largeBatteryPack
+	partNames = advSasModule
+	partNames = vernierEngine
+	partNames = stackPoint1
+	partNames = MiniISRU
+	partNames = RAPIER
+	partNames = telescopicLadderBay
+	partNames = Decoupler.2
+	partNames = Tube2
+	partNames = fairingSize2
+	partNames = Rockomax32.BW
+	partNames = liquidEngine2-2.v2
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = linearRcs
+	partNames = adapterMk3-Size2
+	partNames = mk3FuselageLFO.50
+	partNames = adapterSize3-Mk3
+	partNames = SSME
+	partNames = launchClamp1
+}

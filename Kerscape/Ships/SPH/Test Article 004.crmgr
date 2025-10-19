@@ -1,0 +1,35 @@
+craftName = Test Article 004
+cachedCraftData
+{
+	origChecksum = da97ea37b841e408467d91ef753b10a9
+	cacheVersion = 3
+	name = Test Article 004
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 24788.4004
+	partCount = 41
+	mass = 20.6600475
+	description = 
+	crewCapacity = 6
+	partNames = Mark1Cockpit
+	partNames = Mark2Cockpit
+	partNames = MK1Fuselage
+	partNames = MK1CrewCabin
+	partNames = CircularIntake
+	partNames = noseConeAdapter
+	partNames = tailfin
+	partNames = wingConnector3
+	partNames = sweptWing1
+	partNames = sweptWing2
+	partNames = standardNoseCone
+	partNames = elevon3
+	partNames = elevon2
+	partNames = smallCtrlSrf
+	partNames = GearSmall
+	partNames = DC.aerocam2.180
+	partNames = radarDataReceiver
+	partNames = missileController
+	partNames = turboJet
+	partNames = strutConnector
+	partNames = airbrake1
+}

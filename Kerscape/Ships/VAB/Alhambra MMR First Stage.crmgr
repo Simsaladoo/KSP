@@ -1,0 +1,28 @@
+craftName = Alhambra MMR First Stage
+cachedCraftData
+{
+	origChecksum = 32b083baeb97beee208727119a0f7fc6
+	cacheVersion = 3
+	name = Alhambra MMR First Stage
+	kspVersion = 1.12.4
+	stagesCount = 2
+	cost = 267600.813
+	partCount = 57
+	mass = 967.744812
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = adapterMk3-Size2
+	partNames = parachuteRadial
+	partNames = airbrake1
+	partNames = mk3FuselageLFO.50
+	partNames = mk3FuselageLFO.25
+	partNames = adapterSize3-Mk3
+	partNames = EnginePlate3
+	partNames = SSME
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = strutConnector
+}

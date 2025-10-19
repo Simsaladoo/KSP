@@ -1,0 +1,43 @@
+craftName = Alhambra Refueling Space Tanker
+cachedCraftData
+{
+	origChecksum = d9bd65117a42443b9a3743122990dc47
+	cacheVersion = 3
+	name = Alhambra Refueling Space Tanker
+	kspVersion = 1.12.5
+	stagesCount = 3
+	cost = 211358.578
+	partCount = 99
+	mass = 878.848694
+	description = 
+	crewCapacity = 3
+	partNames = landerCabinSmall
+	partNames = RCSBlock.v2
+	partNames = probeStackSmall
+	partNames = solarPanels1
+	partNames = MK1CrewCabin
+	partNames = mediumDishAntenna
+	partNames = ConformalStorageUnit
+	partNames = radPanelSm
+	partNames = dockingPort2
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = RCSFuelTank
+	partNames = rcsTankRadialLong
+	partNames = cargoContainer
+	partNames = solarPanels5
+	partNames = fairingSize1p5
+	partNames = largeAdapter2
+	partNames = LargeTank
+	partNames = adapterMk3-Mk2
+	partNames = mk3FuselageLF.25
+	partNames = mk3FuselageLFO.50
+	partNames = adapterEngines
+	partNames = launchClamp1
+	partNames = strutConnector
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = LiquidEngineKE-1
+	partNames = Mite
+}

@@ -1,0 +1,37 @@
+tag = Type\Unmanned
+craftName = LKO Ore Ferry
+cachedCraftData
+{
+	origChecksum = b9ece2cd3df1514091d1b84666d81ee9
+	cacheVersion = 3
+	name = LKO Ore Ferry
+	kspVersion = 1.12.5
+	stagesCount = 3
+	cost = 154668.813
+	partCount = 80
+	mass = 938.989563
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = LargeTank
+	partNames = solarPanels1
+	partNames = adapterSize2-Size1
+	partNames = RCSBlock.v2
+	partNames = batteryBank
+	partNames = wbiMk2DockingPort
+	partNames = parachuteRadial
+	partNames = Rockomax32.BW
+	partNames = LiquidEngineRE-J10
+	partNames = bluedog.Saturn.S4.2p5m.spacecraftAdapter
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = strutConnector
+	partNames = airbrake1
+	partNames = rcsTankRadialLong
+	partNames = bluedog.Titan2.S2.VernierMotor
+	partNames = radialDecoupler
+	partNames = fuelTank
+	partNames = adapterSmallMiniShort
+}

@@ -1,0 +1,29 @@
+tag = Type\Crewed
+craftName = Love Station Module II
+cachedCraftData
+{
+	origChecksum = b76255e1b537852144bbcf6691f707bc
+	cacheVersion = 3
+	name = Love Station Module II
+	kspVersion = 1.12.5
+	stagesCount = 3
+	cost = 64250
+	partCount = 26
+	mass = 260.72702
+	description = 
+	crewCapacity = 5
+	partNames = advSascr3
+	partNames = bluedog.Ranger.Block2.RadarAltimeter
+	partNames = WBI.BatteryModule
+	partNames = bluedog.BigG.CylindricalSM.CargoModule
+	partNames = ELSurveyStation
+	partNames = wbiMk2DockingPort
+	partNames = Separator.1
+	partNames = adapterSize2-Size1
+	partNames = Rockomax64.BW
+	partNames = liquidEngineMainsail.v2
+	partNames = radialDecoupler2
+	partNames = Pollux
+	partNames = bluedog.1875.NoseNoSep
+	partNames = launchClamp1
+}

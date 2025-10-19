@@ -1,0 +1,27 @@
+craftName = Test Article 002
+cachedCraftData
+{
+	origChecksum = fb1f98eaba334275a6c34db7f64f4a5f
+	cacheVersion = 3
+	name = Test Article 002
+	kspVersion = 1.12.5
+	stagesCount = 1
+	cost = 13823.5
+	partCount = 22
+	mass = 5.8319931
+	description = 
+	crewCapacity = 1
+	partNames = bluedog.X15.Cockpit
+	partNames = bluedog.X15.Fuselage
+	partNames = bluedog.X15.Engine
+	partNames = bluedog.X15.Wing
+	partNames = bluedog.X15.RearWing
+	partNames = bluedog.X15.DorsalFin
+	partNames = bluedog.X15.VentralFin
+	partNames = bluedog.X15.NoseGear
+	partNames = bluedog.X15.Nose
+	partNames = bluedog.X15.Skid
+	partNames = WBI.JumpChute
+	partNames = sensorThermometer
+	partNames = bluedog.X15.WingtipPod
+}

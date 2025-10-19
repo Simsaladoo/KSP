@@ -1,0 +1,32 @@
+craftName = Centurion II
+cachedCraftData
+{
+	origChecksum = ee10fec6d1dbe8ca34cae8487424e40d
+	cacheVersion = 3
+	name = Centurion II
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 70066
+	partCount = 32
+	mass = 30.3630028
+	description = 
+	crewCapacity = 11
+	partNames = mk1-3pod
+	partNames = asasmodule1-2
+	partNames = batteryBankLarge
+	partNames = crewCabin
+	partNames = rotoServo.04
+	partNames = trussPiece1x
+	partNames = fuelTank
+	partNames = stackBiCoupler.v2
+	partNames = fuelTankSmallFlat
+	partNames = Large.Crewed.Lab
+	partNames = largeAdapter2
+	partNames = Decoupler.1
+	partNames = landingLeg1-2
+	partNames = MK1CrewCabin
+	partNames = solarPanelOX10C
+	partNames = dockingPort2
+	partNames = nuclearEngine
+	partNames = MiniDrill
+}

@@ -1,0 +1,46 @@
+craftName = Red Mare Ocean Deep
+cachedCraftData
+{
+	origChecksum = 9d57bde14908cf456eabce3ea20ca240
+	cacheVersion = 3
+	name = Red Mare Ocean Deep
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 167020
+	partCount = 125
+	mass = 62.7340126
+	description = 
+	crewCapacity = 7
+	partNames = cupola
+	partNames = spotLight1.v2
+	partNames = crewCabin
+	partNames = sensorGravimeter
+	partNames = sensorBarometer
+	partNames = sensorAccelerometer
+	partNames = sensorThermometer
+	partNames = mediumDishAntenna
+	partNames = Large.Crewed.Lab
+	partNames = stackPoint1
+	partNames = cargoContainer
+	partNames = fuelTankSmall
+	partNames = fuelTank.long
+	partNames = solarPanelSP10C
+	partNames = ReleaseValve
+	partNames = SmallTank
+	partNames = RCSFuelTank
+	partNames = RCSBlock.v2
+	partNames = EnginePlate5
+	partNames = liquidEngineMini.v2
+	partNames = ServiceBay.250.v2
+	partNames = MiniISRU
+	partNames = probeStackLarge
+	partNames = rtg
+	partNames = landingLeg1-2
+	partNames = MiniDrill
+	partNames = foldingRadSmall
+	partNames = dockingPort2
+	partNames = dockingPort3
+	partNames = hinge.03.s
+	partNames = hinge.01.s
+	partNames = adapterSmallMiniShort
+}

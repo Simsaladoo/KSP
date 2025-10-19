@@ -1,0 +1,45 @@
+craftName = Sims Empire Base
+cachedCraftData
+{
+	origChecksum = 9a4acf1c61b67db043d955e187e6ceb2
+	cacheVersion = 3
+	name = Sims Empire Base
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 178014.219
+	partCount = 86
+	mass = 43.4146042
+	description = 
+	crewCapacity = 5
+	partNames = probeStackLarge
+	partNames = ISRU
+	partNames = mk1-3pod
+	partNames = solarPanelSP10C
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = telescopicLadderBay
+	partNames = ladder1
+	partNames = foldingRadMed
+	partNames = RelayAntenna100
+	partNames = Large.Crewed.Lab
+	partNames = CargoStorageUnit
+	partNames = trussPiece3x
+	partNames = MK1Fuselage
+	partNames = adapterSmallMiniShort
+	partNames = avionicsNoseCone
+	partNames = dockingPort3
+	partNames = miniFuselage
+	partNames = landingLeg1-2
+	partNames = standardNoseCone
+	partNames = SmallTank
+	partNames = noseCone
+	partNames = rotoServo.04
+	partNames = piston.03
+	partNames = hinge.01
+	partNames = piston.04
+	partNames = hinge.01.s
+	partNames = smallClaw
+	partNames = MiniDrill
+	partNames = WBI.SAFER
+	partNames = spotLight1.v2
+}

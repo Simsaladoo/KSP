@@ -1,0 +1,45 @@
+craftName = Alhambra Ship
+cachedCraftData
+{
+	origChecksum = a38d064edb0d40cb4d0392742073a4bd
+	cacheVersion = 3
+	name = Alhambra Ship
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 269880.719
+	partCount = 148
+	mass = 125.621582
+	description = 
+	crewCapacity = 8
+	partNames = mk2Cockpit.Standard
+	partNames = mediumDishAntenna
+	partNames = solarPanels5
+	partNames = SurveyScanner
+	partNames = mk2CrewCabin
+	partNames = mk2DroneCore
+	partNames = adapterSize2-Mk2
+	partNames = Large.Crewed.Lab
+	partNames = largeAdapter2
+	partNames = MiniISRU
+	partNames = dockingPort2
+	partNames = radPanelSm
+	partNames = rtg
+	partNames = telescopicLadderBay
+	partNames = stackPoint1
+	partNames = MK1Fuselage
+	partNames = rcsTankRadialLong
+	partNames = ConformalStorageUnit
+	partNames = structuralIBeam1
+	partNames = RCSBlock.v2
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = adapterSmallMiniShort
+	partNames = stackBiCoupler.v2
+	partNames = nuclearEngine
+	partNames = pointyNoseConeB
+	partNames = landingLeg1-2
+	partNames = RadialOreTank
+	partNames = RadialDrill
+	partNames = foldingRadSmall
+	partNames = solarPanelSP10C
+}

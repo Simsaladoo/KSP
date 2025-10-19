@@ -1,0 +1,44 @@
+craftName = Alhambra Dres Expansion
+cachedCraftData
+{
+	origChecksum = 839586230d4366ec70ae0cdd73c0e5a6
+	cacheVersion = 3
+	name = Alhambra Dres Expansion
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 430428.063
+	partCount = 122
+	mass = 1064.83459
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = fuelTank
+	partNames = externalTankCapsule
+	partNames = liquidEngine3.v2
+	partNames = avionicsNoseCone
+	partNames = radialRCSTank
+	partNames = RCSBlock.v2
+	partNames = foldingRadSmall
+	partNames = mediumDishAntenna
+	partNames = WBI.SAFER
+	partNames = adapterSize2-Size1
+	partNames = fairingSize2
+	partNames = Rockomax16.BW
+	partNames = EnginePlate2
+	partNames = Decoupler.2
+	partNames = Rockomax32.BW
+	partNames = probeStackLarge
+	partNames = Rockomax64.BW
+	partNames = SSME
+	partNames = solarPanels5
+	partNames = adapterMk3-Size2
+	partNames = mk3FuselageLFO.50
+	partNames = mk3FuselageLFO.25
+	partNames = adapterSize3-Mk3
+	partNames = EnginePlate3
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+}

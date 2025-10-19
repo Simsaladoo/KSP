@@ -1,0 +1,33 @@
+craftName = New Kerbin Station Expansion Module I
+cachedCraftData
+{
+	origChecksum = 0ae8a7e0028b5a275cd99247078b9dfc
+	cacheVersion = 3
+	name = New Kerbin Station Expansion Module I
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 27533.5977
+	partCount = 37
+	mass = 4.84732199
+	description = 
+	crewCapacity = 2
+	partNames = probeStackLarge
+	partNames = mk2LanderCabin.v2
+	partNames = stackPoint1
+	partNames = dockingPort2
+	partNames = Tube2
+	partNames = largeAdapter2
+	partNames = missileController
+	partNames = bahaFlirBall
+	partNames = bdRadome1inline
+	partNames = DC.aerocam2
+	partNames = spotLight2.v2
+	partNames = Magnetometer
+	partNames = bahaIRSTpod
+	partNames = WBI.RCS5Way
+	partNames = rcsTankRadialLong
+	partNames = bahaTurret
+	partNames = baha50CalAmmo
+	partNames = solarPanels3
+	partNames = ksp.r.largeBatteryPack
+}

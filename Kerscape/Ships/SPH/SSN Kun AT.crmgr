@@ -1,0 +1,38 @@
+craftName = SSN Kun AT
+cachedCraftData
+{
+	origChecksum = 0ad5d4c3ac448fabb796b78733ffd0e6
+	cacheVersion = 3
+	name = SSN Kun AT
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 58792.3984
+	partCount = 45
+	mass = 9.60766125
+	description = 
+	crewCapacity = 7
+	partNames = probeStackSmall
+	partNames = MK1Fuselage2
+	partNames = MK1Fuselage
+	partNames = WBI.BisonCab
+	partNames = DC.aerocam2
+	partNames = DC.aerocam2.180
+	partNames = wheelMed
+	partNames = spotLight2.v2
+	partNames = MiniDrill
+	partNames = ksp.r.largeBatteryPack
+	partNames = strutConnector
+	partNames = smallCtrlSrf
+	partNames = rtg
+	partNames = radPanelLg
+	partNames = WBI.BisonAirlock
+	partNames = miniFuselage
+	partNames = MOISTprop1
+	partNames = avionicsNoseCone
+	partNames = structuralWing4
+	partNames = FuelCell
+	partNames = dockingPort2
+	partNames = missileController
+	partNames = bahaTurret
+	partNames = baha50CalAmmo
+}

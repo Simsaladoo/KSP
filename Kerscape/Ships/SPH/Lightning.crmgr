@@ -1,0 +1,45 @@
+craftName = Lightning
+cachedCraftData
+{
+	origChecksum = 5fcd46d928a4a29d080470f4ff950b0c
+	cacheVersion = 3
+	name = Lightning
+	kspVersion = 1.12.4
+	stagesCount = 1
+	cost = 108856.797
+	partCount = 63
+	mass = 30.1614857
+	description = 
+	crewCapacity = 4
+	partNames = mk2Cockpit.Standard
+	partNames = mk2Cockpit.Inline
+	partNames = wingShuttleStrake
+	partNames = mk2FuselageShortLFO
+	partNames = mk2DroneCore
+	partNames = mk2CargoBayS
+	partNames = batteryBank
+	partNames = mk2.1m.AdapterLong
+	partNames = LiquidEngineRE-J10
+	partNames = stackPoint1
+	partNames = fuelTank
+	partNames = RCSBlock.v2
+	partNames = rotoServo.04
+	partNames = radialEngineBody
+	partNames = shockConeIntake
+	partNames = liquidEngine3.v2
+	partNames = landingLeg1-2
+	partNames = mediumDishAntenna
+	partNames = solarPanelSP10C
+	partNames = foldingRadSmall
+	partNames = dockingPort2
+	partNames = dockingPort3
+	partNames = externalTankCapsule
+	partNames = science.module
+	partNames = ScienceBox
+	partNames = sensorThermometer
+	partNames = sensorAccelerometer
+	partNames = sensorBarometer
+	partNames = sensorGravimeter
+	partNames = rtg
+	partNames = rcsTankRadialLong
+}

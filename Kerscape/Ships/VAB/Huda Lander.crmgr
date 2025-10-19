@@ -1,0 +1,41 @@
+craftName = Huda Lander
+cachedCraftData
+{
+	origChecksum = 7e188f9b852138c23da469096f6fbe1f
+	cacheVersion = 3
+	name = Huda Lander
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 221640
+	partCount = 88
+	mass = 72.4330521
+	description = 
+	crewCapacity = 3
+	partNames = probeStackSmall
+	partNames = mk1-3pod
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = RCSBlock.v2
+	partNames = dockingPort2
+	partNames = ConformalStorageUnit
+	partNames = ISRU
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Size1p5.Tank.04
+	partNames = MiniDrill
+	partNames = pointyNoseConeB
+	partNames = liquidEngine3.v2
+	partNames = fuelTank
+	partNames = adapterSmallMiniShort
+	partNames = fuelTank.long
+	partNames = landingLeg1-2
+	partNames = mediumDishAntenna
+	partNames = sensorAccelerometer
+	partNames = sensorGravimeter
+	partNames = GooExperiment
+	partNames = sensorBarometer
+	partNames = rtg
+	partNames = SurfaceScanner
+	partNames = sensorThermometer
+	partNames = foldingRadSmall
+	partNames = largeSolarPanel
+}

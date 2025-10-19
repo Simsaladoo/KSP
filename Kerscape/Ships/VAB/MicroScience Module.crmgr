@@ -1,0 +1,27 @@
+tag = Type\Unmanned
+craftName = MicroScience Module
+cachedCraftData
+{
+	origChecksum = 6bb9e16c8f0187aa6c95f159dd9392d2
+	cacheVersion = 3
+	name = MicroScience Module
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 12946.001
+	partCount = 22
+	mass = 0.804500043
+	description = 
+	crewCapacity = 0
+	partNames = bluedog.Juno1.Guidance
+	partNames = probeStackSmall
+	partNames = bluedog.Nimbus.Instrument.THIR
+	partNames = dockingPort2
+	partNames = monopropMiniSphere
+	partNames = bluedog.ProbeRCS
+	partNames = bluedog.Ranger.Lander.Solar.Tracking
+	partNames = cargoContainer
+	partNames = bluedog.IRspec
+	partNames = bluedog.Skylab.EOSS.MWspec
+	partNames = bluedog.Mariner2.Radiometer
+	partNames = bluedog.Nimbus.Instrument.ESMR
+}

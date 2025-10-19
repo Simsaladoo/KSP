@@ -1,0 +1,34 @@
+tag = Type\Unmanned
+craftName = Poseidon Tanker I
+cachedCraftData
+{
+	origChecksum = 596d91426da0824993f72b5d33c8a9a9
+	cacheVersion = 3
+	name = Poseidon Tanker I
+	kspVersion = 1.12.5
+	stagesCount = 6
+	cost = 188252.422
+	partCount = 46
+	mass = 635.486206
+	description = 
+	crewCapacity = 0
+	partNames = bluedog.Minotaur.GCA
+	partNames = WBI.SolarBatteryModule
+	partNames = bluedog.Vega.ThirdStage.Tank
+	partNames = wbiMk2DockingPort
+	partNames = Size1p5.Tank.02
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Rockomax64.BW
+	partNames = sepMotor1
+	partNames = EnginePlate2
+	partNames = WBI.Corvette
+	partNames = Separator.2
+	partNames = Size3To2Adapter.v2
+	partNames = Size3MediumTank
+	partNames = EnginePlate3
+	partNames = liquidEngineMainsail.v2
+	partNames = radialDecoupler2
+	partNames = bluedog.SRMU
+	partNames = bluedog.1875.NoseSep
+	partNames = launchClamp1
+}

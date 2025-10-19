@@ -1,0 +1,44 @@
+craftName = Junkwork's Utility Rover
+cachedCraftData
+{
+	origChecksum = 71ffd4f41dcc7ee58dfae30e8c705919
+	cacheVersion = 3
+	name = Junkwork's Utility Rover
+	kspVersion = 1.12.3
+	stagesCount = 0
+	cost = 100040
+	partCount = 61
+	mass = 12.460001
+	description = 
+	crewCapacity = 1
+	partNames = CargoStorageUnit
+	partNames = asasmodule1-2
+	partNames = probeStackSmall
+	partNames = MiniISRU
+	partNames = LargeTank
+	partNames = batteryBankLarge
+	partNames = largeAdapter2
+	partNames = foldingRadMed
+	partNames = rtg
+	partNames = RadialDrill
+	partNames = cupola
+	partNames = trussPiece3x
+	partNames = trussPiece1x
+	partNames = wheelMed
+	partNames = solarPanels5
+	partNames = radPanelLg
+	partNames = largeSolarPanel
+	partNames = solarPanels1
+	partNames = cargoContainer
+	partNames = science.module
+	partNames = dockingPort2
+	partNames = telescopicLadder
+	partNames = spotLight1.v2
+	partNames = navLight1
+	partNames = hc.wideangle
+	partNames = DC.TurretCam
+	partNames = SurfaceScanner
+	partNames = RobotArmScanner.S3
+	partNames = sensorBarometer
+	partNames = stripLight1
+}

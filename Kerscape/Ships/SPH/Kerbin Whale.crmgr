@@ -1,0 +1,44 @@
+craftName = Kerbin Whale
+cachedCraftData
+{
+	origChecksum = a176aab69ef43397566c42e69b49c3f9
+	cacheVersion = 3
+	name = Kerbin Whale
+	kspVersion = 1.12.5
+	stagesCount = 1
+	cost = 182887.188
+	partCount = 68
+	mass = 100.51606
+	description = 
+	crewCapacity = 5
+	partNames = adapterMk3-Size2
+	partNames = mk3CargoBayL
+	partNames = wingShuttleDelta
+	partNames = mk3FuselageLFO.25
+	partNames = wingShuttleRudder
+	partNames = AdvancedCanard
+	partNames = wingShuttleElevon2
+	partNames = wingShuttleElevon1
+	partNames = MK1Fuselage
+	partNames = vernierEngine
+	partNames = solarPanels5
+	partNames = mk1-3pod
+	partNames = Mk2Pod
+	partNames = avionicsNoseCone
+	partNames = mediumDishAntenna
+	partNames = dockingPort2
+	partNames = Rockomax64.BW
+	partNames = strutConnector
+	partNames = rtg
+	partNames = asasmodule1-2
+	partNames = dockingPort3
+	partNames = pointyNoseConeB
+	partNames = solarPanels2
+	partNames = SSME
+	partNames = WBI.SAFER
+	partNames = adapterEngines
+	partNames = WBILargeElectricPart
+	partNames = GearMedium
+	partNames = GearSmall
+	partNames = airbrake1
+}

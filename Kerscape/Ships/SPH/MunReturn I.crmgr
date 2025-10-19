@@ -1,0 +1,34 @@
+craftName = MunReturn I
+cachedCraftData
+{
+	origChecksum = 7469c66643e894676a7894ba5d5309b7
+	cacheVersion = 3
+	name = MunReturn I
+	kspVersion = 1.12.3
+	stagesCount = 1
+	cost = 31490
+	partCount = 41
+	mass = 32.163002
+	description = 
+	crewCapacity = 7
+	partNames = mk1-3pod
+	partNames = crewCabin
+	partNames = batteryBank
+	partNames = solarPanels1
+	partNames = Rockomax32.BW
+	partNames = telescopicLadderBay
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = HeatShield1
+	partNames = landingLeg1-2
+	partNames = airbrake1
+	partNames = parachuteRadial
+	partNames = fuelTank
+	partNames = advSasModule
+	partNames = pointyNoseConeB
+	partNames = radialDrogue
+	partNames = adapterSmallMiniShort
+	partNames = LiquidEngineLV-T91
+	partNames = solarPanels5
+	partNames = probeStackSmall
+	partNames = dockingPort2
+}

@@ -1,0 +1,23 @@
+craftName = Alhambra LR Third Stage
+cachedCraftData
+{
+	origChecksum = 64cb8dcedd3ae68f825fcabf57f16f96
+	cacheVersion = 3
+	name = Alhambra LR Third Stage
+	kspVersion = 1.12.4
+	stagesCount = 1
+	cost = 8177.59961
+	partCount = 16
+	mass = 18.1199989
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = solarPanels5
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = Rockomax16.BW
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = dockingPort2
+	partNames = EnginePlate2
+	partNames = liquidEngine3.v2
+	partNames = Decoupler.2
+}

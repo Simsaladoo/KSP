@@ -1,0 +1,37 @@
+craftName = Santa Barbara Base - Port Truck
+cachedCraftData
+{
+	origChecksum = 615f2a3bccc6f43cac99aa6390d6a895
+	cacheVersion = 3
+	name = Santa Barbara Base - Port Truck
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 509763.625
+	partCount = 82
+	mass = 17.8939819
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = ISRU
+	partNames = CargoStorageUnit
+	partNames = batteryBankLarge
+	partNames = largeAdapter2
+	partNames = cargoContainer
+	partNames = dockingPort2
+	partNames = rtg
+	partNames = MiniDrill
+	partNames = RCSBlock.v2
+	partNames = LargeTank
+	partNames = trussPiece3x
+	partNames = wheelMed
+	partNames = rcsTankRadialLong
+	partNames = GrapplingDevice
+	partNames = HighGainAntenna5.v2
+	partNames = spotLight1.v2
+	partNames = hinge.03
+	partNames = standardNoseCone
+	partNames = largeSolarPanel
+	partNames = foldingRadSmall
+	partNames = hc.wideangle
+	partNames = missileController
+}

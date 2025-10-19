@@ -1,0 +1,43 @@
+craftName = K-61 Kilo
+cachedCraftData
+{
+	origChecksum = 9d1417557f4ec0940345f29d52680f5e
+	cacheVersion = 3
+	name = K-61 Kilo
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 38663.3984
+	partCount = 47
+	mass = 9.53940105
+	description = 
+	crewCapacity = 1
+	partNames = Mark2Cockpit
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = cargoContainer
+	partNames = structuralWing4
+	partNames = AdvancedCanard
+	partNames = SmallGearBay
+	partNames = telescopicLadder
+	partNames = bahaHiddenVulcan
+	partNames = baha20mmAmmo
+	partNames = BahaF86Launcher
+	partNames = CircularIntake
+	partNames = airbrake1
+	partNames = missileController
+	partNames = bahaIRSTpod
+	partNames = MK1Fuselage
+	partNames = wingConnector4
+	partNames = GearSmall
+	partNames = bahaAdjustableRail
+	partNames = bahaAGM-65
+	partNames = wingShuttleElevon1
+	partNames = bahaPython
+	partNames = elevon3
+	partNames = turboFanEngine
+	partNames = hinge.03.s
+	partNames = smallClaw
+	partNames = DC.aerocam2.180
+	partNames = strutOcto
+	partNames = avionicsNoseCone
+}

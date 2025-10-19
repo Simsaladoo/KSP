@@ -1,0 +1,35 @@
+craftName = Alhambra Ocean Floor Mining Rig
+cachedCraftData
+{
+	origChecksum = 8cae904e431119135437d94f9dabe59f
+	cacheVersion = 3
+	name = Alhambra Ocean Floor Mining Rig
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 218084.828
+	partCount = 64
+	mass = 50.1765213
+	description = 
+	crewCapacity = 11
+	partNames = probeStackLarge
+	partNames = CargoStorageUnit
+	partNames = LargeTank
+	partNames = MK1Fuselage
+	partNames = MiniDrill
+	partNames = adapterSmallMiniShort
+	partNames = miniLandingLeg
+	partNames = largeAdapter2
+	partNames = rtg
+	partNames = stackPoint1
+	partNames = MK1CrewCabin
+	partNames = dockingPort2
+	partNames = spotLight3
+	partNames = foldingRadSmall
+	partNames = DC.aerocam2.180
+	partNames = externalTankCapsule
+	partNames = Large.Crewed.Lab
+	partNames = cupola
+	partNames = noseCone
+	partNames = hc.wideangle
+	partNames = dockingPort3
+}

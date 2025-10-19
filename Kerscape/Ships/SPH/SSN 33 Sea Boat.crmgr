@@ -1,0 +1,32 @@
+craftName = SSN 33 Sea Boat
+cachedCraftData
+{
+	origChecksum = 62611d3d839acc5c5416f5c3fa42ef57
+	cacheVersion = 3
+	name = SSN 33 Sea Boat
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 138835.594
+	partCount = 123
+	mass = 36.8884888
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = Panel2
+	partNames = structuralIBeam3
+	partNames = trussPiece3x
+	partNames = MK1Fuselage
+	partNames = strutConnector
+	partNames = EquiTriangle2
+	partNames = miniFuselage
+	partNames = MOISTprop1
+	partNames = avionicsNoseCone
+	partNames = dockingPort3
+	partNames = SmallTank
+	partNames = RadialDrill
+	partNames = solarPanelSP10C
+	partNames = radPanelLg
+	partNames = foldingRadSmall
+	partNames = rtg
+	partNames = smallCtrlSrf
+}

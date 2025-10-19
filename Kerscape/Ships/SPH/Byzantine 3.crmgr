@@ -1,0 +1,47 @@
+craftName = Byzantine 3
+cachedCraftData
+{
+	origChecksum = 5e88489019b17bae50b7873887f2c906
+	cacheVersion = 3
+	name = Byzantine 3
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 75394.2344
+	partCount = 66
+	mass = 35.0706673
+	description = 
+	crewCapacity = 1
+	partNames = SmallTank
+	partNames = probeStackSmall
+	partNames = cargoContainer
+	partNames = mk2FuselageLongLFO
+	partNames = mk2SpacePlaneAdapter
+	partNames = delta.small
+	partNames = wingConnector3
+	partNames = structuralWing4
+	partNames = smallCtrlSrf
+	partNames = Mark2Cockpit
+	partNames = vernierEngine
+	partNames = ksp.r.largeBatteryPack
+	partNames = wingShuttleElevon1
+	partNames = noseConeAdapter
+	partNames = avionicsNoseCone
+	partNames = missileController
+	partNames = fuelTank
+	partNames = SmallGearBay
+	partNames = GearSmall
+	partNames = InflatableAirlock
+	partNames = DC.aerocam2.180
+	partNames = bahaTurret
+	partNames = bahaAdjustableRail
+	partNames = dockingPort3
+	partNames = stackPoint1
+	partNames = dockingPort1
+	partNames = solarPanels1
+	partNames = rtg
+	partNames = bahaHEKV1
+	partNames = baha50CalAmmo
+	partNames = shockConeIntake
+	partNames = RAPIER
+	partNames = nfex-antenna-deploy-wv3-1
+}

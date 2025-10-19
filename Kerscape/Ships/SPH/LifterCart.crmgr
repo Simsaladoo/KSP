@@ -1,0 +1,24 @@
+craftName = LifterCart
+cachedCraftData
+{
+	origChecksum = 036dd741b1fb8e1a9651e874c71719a8
+	cacheVersion = 3
+	name = LifterCart
+	kspVersion = 1.12.4
+	stagesCount = 0
+	cost = 33890
+	partCount = 18
+	mass = 2.76000023
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = mk1opencockpit.RP.type2
+	partNames = trussPiece3x
+	partNames = roverWheel1
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = hinge.03
+	partNames = hinge.03.s
+	partNames = dockingPort3
+	partNames = rtg
+}

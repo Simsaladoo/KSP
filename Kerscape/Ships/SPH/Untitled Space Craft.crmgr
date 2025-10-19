@@ -1,0 +1,27 @@
+craftName = Untitled Space Craft
+cachedCraftData
+{
+	origChecksum = 7d91dade8a72feedacb6b991749f9615
+	cacheVersion = 3
+	name = Untitled Space Craft
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 13507.5996
+	partCount = 23
+	mass = 8.64799976
+	description = 
+	crewCapacity = 1
+	partNames = Mark2Cockpit
+	partNames = sweptWing
+	partNames = MK1Fuselage
+	partNames = bdRadome1snub
+	partNames = pointyNoseConeB
+	partNames = adapterSmallMiniShort
+	partNames = Mk1FuselageStructuralJr
+	partNames = WBISmallElectricPart
+	partNames = smallCtrlSrf
+	partNames = elevon3
+	partNames = structuralWing4
+	partNames = SmallGearBay
+	partNames = GearSmall
+}

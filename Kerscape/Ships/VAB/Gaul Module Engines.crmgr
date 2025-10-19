@@ -1,0 +1,37 @@
+craftName = Gaul Module Engines
+cachedCraftData
+{
+	origChecksum = 9c13da2cfb587a32bd4944afa6412d5c
+	cacheVersion = 3
+	name = Gaul Module Engines
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 239318.781
+	partCount = 59
+	mass = 61.8769875
+	description = 
+	crewCapacity = 2
+	partNames = mk2LanderCabin.v2
+	partNames = rtg
+	partNames = adapterMk3-Size2
+	partNames = adapterSize2-Size1Slant
+	partNames = RCSTank1-2
+	partNames = adapterLargeSmallBi
+	partNames = nuclearEngine
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = asasmodule1-2
+	partNames = Size1p5.Size2.Adapter.01
+	partNames = RCSBlock.v2
+	partNames = commDish
+	partNames = foldingRadLarge
+	partNames = foldingRadSmall
+	partNames = largeSolarPanel
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = probeStackSmall
+	partNames = dockingPort2
+	partNames = probeStackLarge
+	partNames = adapterLargeSmallQuad
+	partNames = strutConnector
+	partNames = launchClamp1
+}

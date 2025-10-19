@@ -1,0 +1,40 @@
+craftName = Hercules Lander
+cachedCraftData
+{
+	origChecksum = 90460e7460056cdc8617675d9fc07f3f
+	cacheVersion = 3
+	name = Hercules Lander
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 138708.797
+	partCount = 72
+	mass = 624.156982
+	description = 
+	crewCapacity = 2
+	partNames = mk2Cockpit.Inline
+	partNames = mk2FuselageLongLFO
+	partNames = adapterMk3-Mk2
+	partNames = adapterEngines
+	partNames = landingLeg1-2
+	partNames = airbrake1
+	partNames = mk2SpacePlaneAdapter
+	partNames = foldingRadMed
+	partNames = solarPanels1
+	partNames = strutOcto
+	partNames = avionicsNoseCone
+	partNames = advSasModule
+	partNames = batteryBank
+	partNames = dockingPort2
+	partNames = DC.aerocam2.180
+	partNames = solarPanelSP10L
+	partNames = RadialDrill
+	partNames = SmallTank
+	partNames = WBI.RCS5Way
+	partNames = rcsTankRadialLong
+	partNames = adapterSmallMiniShort
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = liquidEngine3.v2
+}

@@ -1,0 +1,38 @@
+tag = Type\Crewed
+craftName = Test Article 003
+cachedCraftData
+{
+	origChecksum = 84992c7c473eed464a5f3151d3a8465f
+	cacheVersion = 3
+	name = Test Article 003
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 25737.5
+	partCount = 34
+	mass = 61.8682442
+	description = 
+	crewCapacity = 1
+	partNames = bluedog.X15.Cockpit
+	partNames = bluedog.X15.Fuselage
+	partNames = bluedog.X15.Engine
+	partNames = bluedog.X15.Wing
+	partNames = bluedog.X15.WingtipPod
+	partNames = bluedog.X15.RearWing
+	partNames = bluedog.X15.DorsalFin
+	partNames = bluedog.X15.VentralFin
+	partNames = bluedog.X15.Skid
+	partNames = sensorThermometer
+	partNames = launchClamp1
+	partNames = DC.aerocam2.180
+	partNames = parachuteRadial
+	partNames = radialDrogue
+	partNames = bluedog.X15.NoseGear
+	partNames = bluedog.X15.Nose
+	partNames = Decoupler.1
+	partNames = bluedog.Thor.LowerTank.1
+	partNames = Size1p5.Size1.Adapter.02
+	partNames = bluedog.LR87
+	partNames = radialDecoupler
+	partNames = bluedog.SOLTAN.SRB
+	partNames = bluedog.SOLTAN.NoseCone
+}
