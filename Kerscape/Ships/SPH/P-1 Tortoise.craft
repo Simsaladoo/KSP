@@ -51,7 +51,7 @@ PART
 	link = MK1Fuselage2_4293383012
 	link = MK1Fuselage2_4293355732
 	link = bahaAdjustableRail_4293779502
-	link = GasTurbineGenerator_4293309466
+	link = GasTurbineGenerator2A_4293309466
 	attN = top,advSasModule_4291132698_0|0.9375|0_0|1|0_0|0.9375|0_0|1|0
 	attN = bottom,batteryBank_4291051052_0|-0.9375|0_0|-1|0_0|-0.9375|0_0|-1|0
 	EVENTS
@@ -17099,7 +17099,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4293309466
+	part = GasTurbineGenerator2A_4293309466
 	partName = Part
 	persistentId = 1451122732
 	pos = 0.886419296,15.2453012,-1.96995342

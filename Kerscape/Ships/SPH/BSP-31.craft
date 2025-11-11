@@ -5785,7 +5785,7 @@ PART
 	link = MK1Fuselage_4292325938
 	link = bdPilotAI_4293432940
 	link = noseCone_4292274168
-	link = GasTurbineGenerator_4293133048
+	link = GasTurbineGenerator2A_4293133048
 	attN = top,cargoContainer_4292294200_0|0.9375|0_0|1|0_0|0.9375|0_0|1|0
 	attN = bottom,noseCone_4292274168_0|-0.9375|0_0|-1|0_0|-0.9375|0_0|-1|0
 	EVENTS
@@ -14237,7 +14237,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4293133048
+	part = GasTurbineGenerator2A_4293133048
 	partName = Part
 	persistentId = 1556328676
 	pos = 0.0551970303,9.30670261,-2.80388021

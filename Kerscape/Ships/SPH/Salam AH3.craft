@@ -1701,8 +1701,8 @@ PART
 	link = SurfaceScanner_4293655662
 	link = stackPoint1_4293589066
 	link = stackPoint1_4293588328
-	link = GasTurbineGenerator_4292970256
-	link = GasTurbineGenerator_4292967824
+	link = GasTurbineGenerator2A_4292970256
+	link = GasTurbineGenerator2A_4292967824
 	link = airbrake1_4292935572
 	link = airbrake1_4292935068
 	link = bdVTOLAI_4292883082
@@ -17085,7 +17085,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4292970256
+	part = GasTurbineGenerator2A_4292970256
 	partName = Part
 	persistentId = 3655054253
 	pos = -0.973189354,5.71533442,-2.64585471
@@ -17109,7 +17109,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4292967824
+	sym = GasTurbineGenerator2A_4292967824
 	srfN = srfAttach,Large.Crewed.Lab_4294513156,ColliderMain.collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -17396,7 +17396,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4292967824
+	part = GasTurbineGenerator2A_4292967824
 	partName = Part
 	persistentId = 3707516464
 	pos = 0.62681067,5.71533442,-2.64585567
@@ -17420,7 +17420,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4292970256
+	sym = GasTurbineGenerator2A_4292970256
 	srfN = srfAttach,Large.Crewed.Lab_4294513156,ColliderMain.collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{

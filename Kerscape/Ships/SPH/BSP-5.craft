@@ -1499,7 +1499,7 @@ PART
 	link = adapterSmallMiniShort_4293249132
 	link = GearSmall_4293217462
 	link = bahaAdjustableRail_4293214144
-	link = GasTurbineGenerator_4293032646
+	link = GasTurbineGenerator2A_4293032646
 	link = sweptWing_4293368824
 	sym = MK1Fuselage_4293366472
 	srfN = srfAttach,Mark2Cockpit_4293433058,COL,0|0|-0.625,0|0|1,0|0|-0.625
@@ -1845,7 +1845,7 @@ PART
 	link = adapterSmallMiniShort_4293248310
 	link = GearSmall_4293215564
 	link = bahaAdjustableRail_4293213210
-	link = GasTurbineGenerator_4293030412
+	link = GasTurbineGenerator2A_4293030412
 	link = sweptWing_4292723054
 	sym = MK1Fuselage_4293366792
 	srfN = srfAttach,Mark2Cockpit_4293433058,COL,0|0|-0.625,0|0|1,0|0|-0.625
@@ -10528,7 +10528,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4293032646
+	part = GasTurbineGenerator2A_4293032646
 	partName = Part
 	persistentId = 2538783609
 	pos = -0.00643950701,9.35646248,-1.93459356
@@ -10552,7 +10552,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4293030412
+	sym = GasTurbineGenerator2A_4293030412
 	srfN = srfAttach,MK1Fuselage_4293366792,CylCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -10891,7 +10891,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4293030412
+	part = GasTurbineGenerator2A_4293030412
 	partName = Part
 	persistentId = 3882383150
 	pos = 0.00643932819,9.35646248,-1.93459308
@@ -10915,7 +10915,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4293032646
+	sym = GasTurbineGenerator2A_4293032646
 	srfN = srfAttach,MK1Fuselage_4293366472,CylCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{

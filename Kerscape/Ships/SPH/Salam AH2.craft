@@ -1906,8 +1906,8 @@ PART
 	link = rtg_4293860018
 	link = strutCube_4294254776
 	link = dockingPort2_4290276236
-	link = GasTurbineGenerator_4285324210
-	link = GasTurbineGenerator_4285318360
+	link = GasTurbineGenerator2A_4285324210
+	link = GasTurbineGenerator2A_4285318360
 	link = miniFuselage_4285244586
 	link = miniFuselage_4285243890
 	attN = top,asasmodule1-2_4293429530_0|1.82500005|0_0|1|0_0|1.82500005|0_0|1|0
@@ -14825,7 +14825,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4285324210
+	part = GasTurbineGenerator2A_4285324210
 	partName = Part
 	persistentId = 2806437826
 	pos = -0.326685607,6.17647505,-1.84584594
@@ -14849,7 +14849,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4285318360
+	sym = GasTurbineGenerator2A_4285318360
 	srfN = srfAttach,Large.Crewed.Lab_4294513156,ColliderMain.collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -15217,7 +15217,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4285318360
+	part = GasTurbineGenerator2A_4285318360
 	partName = Part
 	persistentId = 2469584797
 	pos = -0.0196930766,6.17647505,-1.84584689
@@ -15241,7 +15241,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4285324210
+	sym = GasTurbineGenerator2A_4285324210
 	srfN = srfAttach,Large.Crewed.Lab_4294513156,ColliderMain.collider,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{

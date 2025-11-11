@@ -8165,7 +8165,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = standardNoseCone_4293549286
-	link = GasTurbineGenerator_4291786418
+	link = GasTurbineGenerator2A_4291786418
 	sym = noseConeAdapter_4293548078
 	attN = top,standardNoseCone_4293549286_0|1.125|0_0|1|0_0|1.125|0_0|1|0
 	attN = bottom01,MK1Fuselage_4293549384_0|-0.75|0_0|-1|0_0|-0.75|0_0|-1|0
@@ -9791,7 +9791,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = standardNoseCone_4293548022
-	link = GasTurbineGenerator_4291784094
+	link = GasTurbineGenerator2A_4291784094
 	sym = noseConeAdapter_4293549336
 	attN = top,standardNoseCone_4293548022_0|1.125|0_0|1|0_0|1.125|0_0|1|0
 	attN = bottom01,MK1Fuselage_4293548132_0|-0.75|0_0|-1|0_0|-0.75|0_0|-1|0
@@ -25319,7 +25319,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4291786418
+	part = GasTurbineGenerator2A_4291786418
 	partName = Part
 	persistentId = 3547330019
 	pos = -2.26610398,9.70139408,-6.08470201
@@ -25343,7 +25343,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4291784094
+	sym = GasTurbineGenerator2A_4291784094
 	srfN = srfAttach,noseConeAdapter_4293549336,NCSCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -25603,7 +25603,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4291784094
+	part = GasTurbineGenerator2A_4291784094
 	partName = Part
 	persistentId = 1893174834
 	pos = 3.73389602,9.70139408,-6.08470488
@@ -25627,7 +25627,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4291786418
+	sym = GasTurbineGenerator2A_4291786418
 	srfN = srfAttach,noseConeAdapter_4293548078,NCSCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -25912,7 +25912,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = standardNoseCone_4291758174
-	link = GasTurbineGenerator_4291758122
+	link = GasTurbineGenerator2A_4291758122
 	sym = noseConeAdapter_4291756406
 	attN = top,standardNoseCone_4291758174_0|1.125|0_0|1|0_0|1.125|0_0|1|0
 	attN = bottom01,MK1Fuselage2_4293763708_0|-0.75|0_0|-1|0_0|-0.75|0_0|-1|0
@@ -26326,7 +26326,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4291758122
+	part = GasTurbineGenerator2A_4291758122
 	partName = Part
 	persistentId = 2337241942
 	pos = -5.06610441,9.70139408,-5.00967169
@@ -26350,7 +26350,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4291756286
+	sym = GasTurbineGenerator2A_4291756286
 	srfN = srfAttach,noseConeAdapter_4291758230,NCSCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -26635,7 +26635,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = standardNoseCone_4291756344
-	link = GasTurbineGenerator_4291756286
+	link = GasTurbineGenerator2A_4291756286
 	sym = noseConeAdapter_4291758230
 	attN = top,standardNoseCone_4291756344_0|1.125|0_0|1|0_0|1.125|0_0|1|0
 	attN = bottom01,MK1Fuselage2_4293533976_0|-0.75|0_0|-1|0_0|-0.75|0_0|-1|0
@@ -27049,7 +27049,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4291756286
+	part = GasTurbineGenerator2A_4291756286
 	partName = Part
 	persistentId = 3188687264
 	pos = 6.53389692,9.70139408,-5.00967407
@@ -27073,7 +27073,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4291758122
+	sym = GasTurbineGenerator2A_4291758122
 	srfN = srfAttach,noseConeAdapter_4291756406,NCSCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{

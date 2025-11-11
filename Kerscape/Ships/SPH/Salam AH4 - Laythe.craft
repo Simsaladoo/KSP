@@ -3970,7 +3970,7 @@ PART
 	link = stackPoint1_4293588328
 	link = airScoop_4291758384
 	link = airScoop_4291757818
-	link = GasTurbineGenerator_4285682518
+	link = GasTurbineGenerator2A_4285682518
 	attN = top,cupola_4294514138_0|1.82500005|0_0|1|0_0|1.82500005|0_0|1|0
 	attN = bottom,probeStackLarge_4294414478_0|-1.83099997|0_0|-1|0_0|-1.83099997|0_0|-1|0
 	attN = airlockR,Null_0_0|0|1.23000002_0|0|1_0|0|1.23000002_0|0|1
@@ -28351,7 +28351,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4285682518
+	part = GasTurbineGenerator2A_4285682518
 	partName = Part
 	persistentId = 3961389356
 	pos = -0.173189238,6.14745331,-2.41481161

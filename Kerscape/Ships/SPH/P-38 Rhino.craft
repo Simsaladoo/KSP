@@ -14072,7 +14072,7 @@ PART
 	link = dockingPort3_4289175638
 	link = baha37mmAmmo_4289789812
 	link = baha37mmAmmo_4289788986
-	link = GasTurbineGenerator_4293301850
+	link = GasTurbineGenerator2A_4293301850
 	link = sensorAccelerometer_4293954592
 	link = sensorBarometer_4293955436
 	link = sensorGravimeter_4293954388
@@ -27410,7 +27410,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4293301850
+	part = GasTurbineGenerator2A_4293301850
 	partName = Part
 	persistentId = 1831365898
 	pos = 0.452205122,14.954524,-2.23425245

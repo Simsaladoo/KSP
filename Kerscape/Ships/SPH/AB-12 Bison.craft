@@ -5017,8 +5017,8 @@ PART
 	modSize = 0,0,0
 	link = strutCube_4291385488
 	link = missileController_4293456830
-	link = GasTurbineGenerator_4292297574
-	link = GasTurbineGenerator_4290355554
+	link = GasTurbineGenerator2A_4292297574
+	link = GasTurbineGenerator2A_4290355554
 	link = DC.aerocam2_4292361750
 	link = vernierEngine_4290870824
 	link = vernierEngine_4290354178
@@ -16506,7 +16506,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4292297574
+	part = GasTurbineGenerator2A_4292297574
 	partName = Part
 	persistentId = 214804565
 	pos = 0.484112978,13.150691,-3.90970373
@@ -16530,7 +16530,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4290355554
+	sym = GasTurbineGenerator2A_4290355554
 	srfN = srfAttach,adapterSize2-Size1Slant_4290364190,Size2-Size1SlantCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
@@ -16817,7 +16817,7 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator_4290355554
+	part = GasTurbineGenerator2A_4290355554
 	partName = Part
 	persistentId = 3279992928
 	pos = 1.28411305,13.150691,-3.90970469
@@ -16841,7 +16841,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	sym = GasTurbineGenerator_4292297574
+	sym = GasTurbineGenerator2A_4292297574
 	srfN = srfAttach,adapterSize2-Size1Slant_4290364190,Size2-Size1SlantCOL,0|0|0,0|0|-1,0|0|0
 	EVENTS
 	{
