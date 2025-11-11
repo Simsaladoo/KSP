@@ -1,14 +1,14 @@
 craftName = Alhambra Station
 cachedCraftData
 {
-	origChecksum = ef43398230f175eb511ef524e2e98f8a
+	origChecksum = 3f1583a894bbf5e425de43520b10f6ad
 	cacheVersion = 3
 	name = Alhambra Station
-	kspVersion = 1.12.3
+	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 501514.406
+	cost = 447901.313
 	partCount = 278
-	mass = 184.545013
+	mass = 179.434204
 	description = 
 	crewCapacity = 17
 	partNames = mk2Cockpit.Standard

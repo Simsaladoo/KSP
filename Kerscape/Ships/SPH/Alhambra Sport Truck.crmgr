@@ -1,28 +1,31 @@
 craftName = Alhambra Sport Truck
 cachedCraftData
 {
-	origChecksum = 7e65da845bebf5e9cbeb100d4bc65d32
+	origChecksum = 134230b3bd904f8b0fa09b4333fbef0c
 	cacheVersion = 3
 	name = Alhambra Sport Truck
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 41238.1992
-	partCount = 24
-	mass = 4.45800018
+	cost = 103702
+	partCount = 33
+	mass = 5.67500114
 	description = 
 	crewCapacity = 3
-	partNames = landerCabinSmall
+	partNames = roverBody.v2
 	partNames = probeStackSmall
 	partNames = wingConnector5
 	partNames = roverWheel1
 	partNames = SmallTank
-	partNames = piston.03
-	partNames = smallClaw
 	partNames = WBI.SAFER
 	partNames = foldingRadSmall
+	partNames = RadialDrill
+	partNames = telescopicLadder
 	partNames = batteryBank
 	partNames = spotLight1.v2
+	partNames = structuralIBeam3
+	partNames = structuralIBeam2
 	partNames = seatExternalCmd
-	partNames = telescopicLadder
-	partNames = RadialDrill
+	partNames = bluedog.mariner10.lowGainAntenna
+	partNames = radPanelSm
+	partNames = missileController
 }

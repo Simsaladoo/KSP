@@ -1,14 +1,14 @@
 craftName = Kerbin Whale
 cachedCraftData
 {
-	origChecksum = a176aab69ef43397566c42e69b49c3f9
+	origChecksum = 995498abb123035fa042735d85e4dfed
 	cacheVersion = 3
 	name = Kerbin Whale
 	kspVersion = 1.12.5
-	stagesCount = 1
-	cost = 182887.188
-	partCount = 68
-	mass = 100.51606
+	stagesCount = 0
+	cost = 290860.188
+	partCount = 67
+	mass = 103.508034
 	description = 
 	crewCapacity = 5
 	partNames = adapterMk3-Size2
@@ -37,7 +37,6 @@ cachedCraftData
 	partNames = SSME
 	partNames = WBI.SAFER
 	partNames = adapterEngines
-	partNames = WBILargeElectricPart
 	partNames = GearMedium
 	partNames = GearSmall
 	partNames = airbrake1

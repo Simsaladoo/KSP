@@ -1,16 +1,16 @@
 craftName = CB-02 Seagull
 cachedCraftData
 {
-	origChecksum = 7ceaca1c7e01952f6f04e92bb2634644
+	origChecksum = 244080dd597e81337aeca70fac39729b
 	cacheVersion = 3
 	name = CB-02 Seagull
-	kspVersion = 1.12.4
+	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 614885.938
-	partCount = 185
-	mass = 81.0929489
+	cost = 385257.875
+	partCount = 182
+	mass = 84.8306427
 	description = 
-	crewCapacity = 10
+	crewCapacity = 12
 	partNames = mk3Cockpit.Shuttle
 	partNames = GearMedium
 	partNames = mk3FuselageLF.25
@@ -70,8 +70,6 @@ cachedCraftData
 	partNames = BahaF86Launcher
 	partNames = delta.small
 	partNames = bahaAdjustableRail
-	partNames = StingRayBDATorpedo
-	partNames = bahaAIR-2
 	partNames = DC.aerocam2.180
 	partNames = mediumDishAntenna
 	partNames = hinge.03.s

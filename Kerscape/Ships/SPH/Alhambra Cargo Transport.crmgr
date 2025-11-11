@@ -1,16 +1,16 @@
 craftName = Alhambra Cargo Transport
 cachedCraftData
 {
-	origChecksum = e35214c008c84029ac1b3db2226b46d6
+	origChecksum = ccabf056cf73e4e8b1b0646c2eb632cc
 	cacheVersion = 3
 	name = Alhambra Cargo Transport
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 339182.563
+	cost = 348652.594
 	partCount = 215
-	mass = 182.605713
+	mass = 192.447678
 	description = 
-	crewCapacity = 8
+	crewCapacity = 10
 	partNames = mk3Cockpit.Shuttle
 	partNames = nacelleBody
 	partNames = GearSmall
@@ -67,7 +67,7 @@ cachedCraftData
 	partNames = GearLarge
 	partNames = adapterMk3-Mk2
 	partNames = stackQuadCoupler
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = sensorAtmosphere
 	partNames = radarDataReceiver
 	partNames = missileController

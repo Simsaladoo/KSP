@@ -1,14 +1,14 @@
 craftName = AB-04 Mantis
 cachedCraftData
 {
-	origChecksum = 64e8323508f53d6605259d4ff8158dd1
+	origChecksum = 561c722185d585cfed0e1b215f57cd9c
 	cacheVersion = 3
 	name = AB-04 Mantis
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 179106.219
-	partCount = 111
-	mass = 46.0463943
+	cost = 157281.438
+	partCount = 125
+	mass = 52.5264816
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard
@@ -40,12 +40,7 @@ cachedCraftData
 	partNames = wingShuttleElevon2
 	partNames = delta.small
 	partNames = wingShuttleElevon1
-	partNames = bahaFlirBall
 	partNames = bahaAdjustableRail
-	partNames = bahaIRSTpod
-	partNames = bahaHEKV1
-	partNames = hinge.03.s
-	partNames = smallClaw
 	partNames = airbrake1
 	partNames = bahaHiddenVulcan
 	partNames = stackBiCoupler.v2
@@ -55,4 +50,7 @@ cachedCraftData
 	partNames = bdRadome1snub
 	partNames = GearMedium
 	partNames = baha20mmAmmo
+	partNames = bahaAGM-114
+	partNames = bahaFlirBall
+	partNames = bahaDroptank
 }

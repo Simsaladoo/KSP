@@ -1,14 +1,14 @@
 craftName = BSP-1
 cachedCraftData
 {
-	origChecksum = cb20f7e90f9667c1d135df11d851dea9
+	origChecksum = c3e35cd2d2bc2d08d21d36293a53e91b
 	cacheVersion = 3
 	name = BSP-1
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 138560
+	cost = 115490
 	partCount = 105
-	mass = 36.4308167
+	mass = 38.750824
 	description = Medium sized double rotor attack heli equipped with 4 hellfires, 2 rocket pods and a chain gun
 	crewCapacity = 5
 	partNames = Mark1Cockpit

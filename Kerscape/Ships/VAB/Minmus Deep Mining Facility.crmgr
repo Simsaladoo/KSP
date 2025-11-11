@@ -1,14 +1,14 @@
 craftName = Minmus Deep Mining Facility
 cachedCraftData
 {
-	origChecksum = 288a148aa050dafd139e41f7ea8c9485
+	origChecksum = 9c2796b26b224c76fea6ee9b6e86468a
 	cacheVersion = 3
 	name = Minmus Deep Mining Facility
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 183735.406
+	cost = 177885.406
 	partCount = 127
-	mass = 83.1436234
+	mass = 82.3943634
 	description = 
 	crewCapacity = 15
 	partNames = mk2LanderCabin.v2

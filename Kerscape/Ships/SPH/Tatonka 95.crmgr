@@ -1,24 +1,21 @@
 craftName = Tatonka 95
 cachedCraftData
 {
-	origChecksum = 439f4c75296404e31016f935dcaa6a5a
+	origChecksum = 4cbfb8d144ac21b46f8301f766b6fab2
 	cacheVersion = 3
 	name = Tatonka 95
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 1226086.25
-	partCount = 193
-	mass = 41.2656097
+	cost = 376476.563
+	partCount = 139
+	mass = 51.1626205
 	description = 
-	crewCapacity = 4
+	crewCapacity = 6
 	partNames = mk3Cockpit.Shuttle
 	partNames = mk3CargoBayL
 	partNames = airlinerMainWing
 	partNames = wingStrake
 	partNames = Mk1FuselageStructural
-	partNames = rotor.03s
-	partNames = largePropeller
-	partNames = standardNoseCone
 	partNames = batteryBank
 	partNames = rtg
 	partNames = bdRadome1GA
@@ -46,7 +43,6 @@ cachedCraftData
 	partNames = avionicsNoseCone
 	partNames = wingShuttleStrake
 	partNames = baha50CalAmmo
-	partNames = StingRayBDATorpedo
 	partNames = bahaAGM-65
 	partNames = bahaTurret
 	partNames = SmallGearBay
@@ -55,4 +51,6 @@ cachedCraftData
 	partNames = DC.aerocam2
 	partNames = domeLight1
 	partNames = navLight1
+	partNames = nfa-turboprop-125-1
+	partNames = MK1Fuselage
 }

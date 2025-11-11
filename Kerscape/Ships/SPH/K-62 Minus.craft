@@ -2,7 +2,7 @@ ship = K-62 Minus
 version = 1.12.5
 description = 
 type = SPH
-size = 7.64570808,4.21758652,9.64976501
+size = 7.64570713,4.21758652,9.64976692
 steamPublishedFileId = 0
 persistentId = 2771239140
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = Mark2Cockpit_4294590108
 	partName = Part
-	persistentId = 1291188492
+	persistentId = 58393180
 	pos = 0.947268546,14.6874952,-0.922114968
 	attPos = 0,0,0
 	attPos0 = 0.947268546,14.6874952,-0.922114968
@@ -281,6 +281,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -407,33 +408,28 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
+		name = AirPark
 		isEnabled = True
-		OriginalCost = 1608.99995136261
-		OriginalResourcesCost = 9.0000
-		OriginalModulesCost = -0.00004863739
+		Parked = False
+		ParkPosition = (0, 0, 0)
+		ParkVelocity = (0, 0, 0)
+		ParkAcceleration = (0, 0, 0)
+		ParkAngularVelocity = (0, 0, 0)
+		ParkAltitude = 0
+		previousState = 0
+		isActive = False
+		partDebug = True
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
+			TogglePart_AG
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -462,6 +458,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -498,6 +495,54 @@ PART
 		armoredCockpit = False
 		FireBottles = 0
 		FBRemaining = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1397,29 +1442,6 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
-		isEnabled = True
-		type = stack_square
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1590.19995
-		OriginalCrewCapacity = 1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = WBIPartScrapper
 		isEnabled = True
 		stagingEnabled = True
@@ -1450,8 +1472,56 @@ PART
 	}
 	MODULE
 	{
+		name = ELWorkshop
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ShipEffectsCollisions
 		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SCANRPMStorage
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSYPartTracker
+		isEnabled = True
+		id = 58393180
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1495,22 +1565,26 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = Proximity
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, -0.922114968)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.9, 0.0)
-		originalAttachNodePos = (0.0, -0.9, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MASFlightComputer
+		isEnabled = True
+		flightComputerId = 
+		shipDescription = 
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -1589,13 +1663,24 @@ PART
 		isVisible = True
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = Snacks
+		amount = 50
+		maxAmount = 50
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = batteryBank_4293923268
 	partName = Part
-	persistentId = 938387113
-	pos = 0.947268546,14.6874952,0.126244903
+	persistentId = 2057397345
+	pos = 0.947268546,14.6874952,0.126245141
 	attPos = 0,0,0
 	attPos0 = 0,1.04835546,-1.1920929E-07
 	rot = -0.707106829,0,0,0.707106829
@@ -1679,6 +1764,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 360
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -1695,43 +1781,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 880
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -1750,6 +1802,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -1779,16 +1832,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 880
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1847,22 +1925,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, 0.126244903)
-		originalRotation = (-0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 2057397345
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -1889,8 +1957,8 @@ PART
 {
 	part = advSasModule_4293919440
 	partName = Part
-	persistentId = 3320596368
-	pos = 0.947268546,14.6874952,0.436127186
+	persistentId = 3875430927
+	pos = 0.947268546,14.6874952,0.436127424
 	attPos = 0,0,0
 	attPos0 = 0,-0.309882283,0
 	rot = -0.707106829,0,0,0.707106829
@@ -2013,6 +2081,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 650
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -2029,43 +2098,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 1200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -2084,6 +2119,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -2113,12 +2149,41 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTweakableReactionWheel
+		name = FMRS_PM
 		isEnabled = True
-		RollTorque = 15
-		PitchTorque = 15
-		YawTorque = 15
-		TorqueGain = 1
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2132,16 +2197,12 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleTweakableReactionWheel
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1200
-		OriginalCrewCapacity = 0
+		RollTorque = 15
+		PitchTorque = 15
+		YawTorque = 15
+		TorqueGain = 1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2200,22 +2261,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, 0.436127186)
-		originalRotation = (-0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 3875430927
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.2, 0.0)
-		originalAttachNodePos = (0.0, -0.2, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -2231,8 +2282,8 @@ PART
 {
 	part = shockConeIntake_4293557828
 	partName = Part
-	persistentId = 4292807150
-	pos = 0.947268546,14.6874952,1.26015699
+	persistentId = 2708997988
+	pos = 0.947268546,14.6874952,1.26015747
 	attPos = 0,0,0
 	attPos0 = 0,-0.824027061,1.1920929E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -2350,43 +2401,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 2200
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 3050
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2421,6 +2439,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -2450,14 +2469,68 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRestockDepthMask
+		name = FMRS_PM
 		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -2490,16 +2563,8 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = WBIPartScrapper
 		isEnabled = True
-		type = stack_square
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 3050
-		OriginalCrewCapacity = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2513,7 +2578,7 @@ PART
 	}
 	MODULE
 	{
-		name = WBIPartScrapper
+		name = ModuleRestockDepthMask
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -2543,18 +2608,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, 1.26015699)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 2708997988
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, -0.6, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -2576,13 +2635,24 @@ PART
 		isVisible = False
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = IntakeAtm
+		amount = 2
+		maxAmount = 2
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = AdvancedCanard_4293537700
 	partName = Part
-	persistentId = 3042246694
-	pos = 0.340883374,14.6874952,0.161638141
+	persistentId = 391701265
+	pos = 0.340883374,14.6874952,0.161638379
 	attPos = 0,0,0
 	attPos0 = -0.606385171,-0.0353932381,0
 	rot = -0.707106769,-4.21468513E-08,0,-0.707106888
@@ -2785,43 +2855,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 650
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 800
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2856,6 +2893,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -2885,16 +2923,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 800
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2938,14 +3001,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.340883374, 14.6874952, 0.161638141)
-		originalRotation = (-0.707106769, -4.21468513E-08, 0, -0.707106888)
-		moduleVersion = 6
+		id = 391701265
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -2961,8 +3022,8 @@ PART
 {
 	part = AdvancedCanard_4293536444
 	partName = Part
-	persistentId = 1840587880
-	pos = 1.55365372,14.6874952,0.161638141
+	persistentId = 3322367117
+	pos = 1.55365372,14.6874952,0.161638379
 	attPos = 0,0,0
 	attPos0 = 0.606385171,-0.0353932381,0
 	rot = -3.09086232E-08,0.707106829,0.707106829,1.12382255E-08
@@ -3157,43 +3218,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 650
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 800
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3228,6 +3256,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -3257,16 +3286,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 800
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3310,14 +3364,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.55365372, 14.6874952, 0.161638141)
-		originalRotation = (-3.09086232E-08, 0.707106829, 0.707106829, 1.12382255E-08)
-		moduleVersion = 6
+		id = 3322367117
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -3333,8 +3385,8 @@ PART
 {
 	part = SmallGearBay_4293510534
 	partName = Part
-	persistentId = 325367079
-	pos = 0.947268546,14.0207891,-0.122111619
+	persistentId = 1326549884
+	pos = 0.947268546,14.0207891,-0.12211138
 	attPos = 0,-0.0846883059,0.0457019806
 	attPos0 = 0,0.884690404,0.621004045
 	rot = -2.08616257E-07,-2.66453526E-15,1.0054654E-08,1.00000012
@@ -3774,43 +3826,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 140
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3845,6 +3864,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -3874,16 +3894,59 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FStextureSwitch2
 		isEnabled = True
-		type = free
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 600
-		OriginalCrewCapacity = 0
+		selectedTexture = 0
+		selectedTextureURL = Cormorant Aeronology/Assets/mk3_Shuttle/LandingGear
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3942,14 +4005,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.0207891, -0.122111619)
-		originalRotation = (-2.08616257E-07, -2.66453526E-15, 1.0054654E-08, 1.00000012)
-		moduleVersion = 6
+		id = 1326549884
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -3965,7 +4026,7 @@ PART
 {
 	part = telescopicLadder_4293466538
 	partName = Part
-	persistentId = 4037204589
+	persistentId = 2329431857
 	pos = 0.347268522,14.6874952,-0.922114849
 	attPos = 0.0198594332,-0.316212654,2.98023082E-08
 	attPos0 = -0.619859457,0.316212773,-2.98023224E-08
@@ -4083,6 +4144,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 50
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -4099,43 +4161,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 350
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -4154,6 +4182,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -4170,6 +4199,54 @@ PART
 		maxSupportedArmor = 35
 		armorVolume = 2.37656164
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4228,14 +4305,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.347268522, 14.6874952, -0.922114849)
-		originalRotation = (-1.1920929E-07, 5.96046519E-08, 0, -1.00000012)
-		moduleVersion = 6
+		id = 2329431857
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -4251,8 +4326,8 @@ PART
 {
 	part = bahaHiddenVulcan_4293455498
 	partName = Part
-	persistentId = 3118385821
-	pos = 1.49745119,15.0051432,-0.647045016
+	persistentId = 202174505
+	pos = 1.49745119,15.0051432,-0.647044957
 	attPos = 0,0,0
 	attPos0 = 0.550182641,0.275069237,-0.317647994
 	rot = 0.5,0.866025448,-8.94069672E-08,-8.94069672E-08
@@ -4343,7 +4418,7 @@ PART
 		roundsPerMinute = 5500
 		defaultDetonationRange = 3500
 		detonationRange = 0
-		maxAirDetonationRange = 3500
+		detonateAtMinimumDistance = True
 		AmmoTypeNum = 1
 		advancedAmmoOption = False
 		useCustomBelt = False
@@ -4352,6 +4427,7 @@ PART
 		deployWepGroup = 0
 		canHotSwap = False
 		useRippleFire = False
+		useThisWeaponForAim = False
 		isAPS = False
 		dualModeAPS = False
 		customFireKey = 
@@ -4362,6 +4438,7 @@ PART
 		engageMissile = True
 		engageGround = True
 		engageSLW = True
+		weaponChannel = 0
 		shortName = Vulcan (Hidden)
 		stagingEnabled = True
 		EVENTS
@@ -4397,40 +4474,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 950
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 200
@@ -4452,6 +4495,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -4462,12 +4506,60 @@ PART
 		muParam3S = 7.37037039
 		HEEquiv = 0.210114747
 		HEATEquiv = 0.55794096
-		maxForce = 0
-		maxTorque = 0
-		maxG = 0
+		maxForce = 22
+		maxTorque = 22
+		maxG = 50
 		maxSupportedArmor = 20
 		armorVolume = 1.33100998
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4511,14 +4603,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.49745119, 15.0051432, -0.647045016)
-		originalRotation = (0.5, 0.866025448, -8.94069672E-08, -8.94069672E-08)
-		moduleVersion = 6
+		id = 202174505
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -4533,6 +4623,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 360
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -4552,8 +4643,8 @@ PART
 {
 	part = MK1Fuselage_4292489158
 	partName = Part
-	persistentId = 3571647982
-	pos = 0.947268546,14.6874952,-2.79711819
+	persistentId = 2946788264
+	pos = 0.947268546,14.6874952,-2.79711866
 	attPos = 0,0,0
 	attPos0 = 0,-1.87500024,2.38418579E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -4579,7 +4670,6 @@ PART
 	link = delta.small_4292471566
 	link = IntakeRadialLong_4292387254
 	link = IntakeRadialLong_4292385578
-	link = bahaCamPod_4292383544
 	link = rtg_4292373696
 	link = strutOcto_4291152670
 	link = DC.aerocam2.180_4292414610
@@ -4643,43 +4733,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 870.0000
-		OriginalResourcesCost = 320.0000
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4714,6 +4771,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -4763,6 +4821,54 @@ PART
 	}
 	MODULE
 	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTweakableFuelPump
 		isEnabled = True
 		stagingEnabled = True
@@ -4786,29 +4892,6 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 229.199997
-		OriginalCrewCapacity = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -4846,22 +4929,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, -2.79711819)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 2946788264
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.9, 0.0)
-		originalAttachNodePos = (0.0, -0.9, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -4899,8 +4972,8 @@ PART
 {
 	part = MK1Fuselage_4293846866
 	partName = Part
-	persistentId = 1459109006
-	pos = 0.947268546,14.6874952,-4.67212248
+	persistentId = 1859509575
+	pos = 0.947268546,14.6874952,-4.67212343
 	attPos = 0,0,0
 	attPos0 = 0,-1.87500072,2.38418579E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -4990,43 +5063,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 870.0000
-		OriginalResourcesCost = 320.0000
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5061,6 +5101,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -5110,6 +5151,54 @@ PART
 	}
 	MODULE
 	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ModuleTweakableFuelPump
 		isEnabled = True
 		stagingEnabled = True
@@ -5133,29 +5222,6 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TweakScale
-		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 229.199997
-		OriginalCrewCapacity = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -5193,22 +5259,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, -4.67212248)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 1859509575
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.9, 0.0)
-		originalAttachNodePos = (0.0, -0.9, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -5246,8 +5302,8 @@ PART
 {
 	part = airbrake1_4293466642
 	partName = Part
-	persistentId = 1887285629
-	pos = 0.500231504,15.134532,-4.13800621
+	persistentId = 1593414046
+	pos = 0.500231504,15.134532,-4.13800716
 	attPos = 0,0,0
 	attPos0 = -0.447037071,0.534116268,-0.447036743
 	rot = -0.270598143,0.653281629,0.653281391,-0.270598024
@@ -5479,43 +5535,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 750
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 1000
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5550,6 +5573,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -5579,16 +5603,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1000
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5632,14 +5681,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.500231504, 15.134532, -4.13800621)
-		originalRotation = (-0.270598143, 0.653281629, 0.653281391, -0.270598024)
-		moduleVersion = 6
+		id = 1593414046
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -5655,8 +5702,8 @@ PART
 {
 	part = airbrake1_4293841990
 	partName = Part
-	persistentId = 621601137
-	pos = 1.39430559,15.134532,-4.13800621
+	persistentId = 762428041
+	pos = 1.39430559,15.134532,-4.13800716
 	attPos = 0,0,0
 	attPos0 = 0.447037071,0.534116268,-0.447036743
 	rot = 0.270598173,0.653281629,0.653281391,0.270597994
@@ -5888,43 +5935,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 750
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 1000
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5959,6 +5973,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -5988,16 +6003,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 1000
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6041,14 +6081,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.39430559, 15.134532, -4.13800621)
-		originalRotation = (0.270598173, 0.653281629, 0.653281391, 0.270597994)
-		moduleVersion = 6
+		id = 762428041
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -6064,8 +6102,8 @@ PART
 {
 	part = missileController_4292804638
 	partName = Part
-	persistentId = 3479463129
-	pos = 0.947268546,14.1024036,-4.45170403
+	persistentId = 3551982186
+	pos = 0.947268546,14.1024036,-4.45170498
 	attPos = 0,0,0
 	attPos0 = 6.9420962E-11,0.220418692,0.585091591
 	rot = 1.00000012,-9.64180291E-10,-4.99600361E-16,2.38418579E-07
@@ -6193,7 +6231,13 @@ PART
 		chaffRepetition = 2
 		chaffInterval = 0.5
 		chaffWaitTime = 0.600000024
+		smokeRepetition = 1
+		smokeInterval = 1
+		smokeWaitTime = 1
+		nonGuardModeCMs = False
+		DynamicRadarOverride = False
 		isVIP = False
+		weaponChannel = 0
 		guardMode = False
 		team = <"Name":"A","Neutral":false,"Allies":[]>
 		isArmed = False
@@ -6204,6 +6248,16 @@ PART
 		ACTIONS
 		{
 			AGToggleGuardMode
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			AGEnableGuardMode
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			AGDisableGuardMode
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -6311,43 +6365,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 0
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -6366,6 +6386,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -6382,6 +6403,54 @@ PART
 		maxSupportedArmor = 15
 		armorVolume = 0.405558974
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6425,14 +6494,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.1024036, -4.45170403)
-		originalRotation = (1.00000012, -9.64180291E-10, -4.99600361E-16, 2.38418579E-07)
-		moduleVersion = 6
+		id = 3551982186
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -6447,6 +6514,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 0
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -6466,8 +6534,8 @@ PART
 {
 	part = turboFanEngine_4293562016
 	partName = Part
-	persistentId = 3020926891
-	pos = 0.947268546,14.6874952,-7.00963211
+	persistentId = 920702377
+	pos = 0.947268546,14.6874952,-7.00963402
 	attPos = 0,0,0
 	attPos0 = 0,-2.33750081,2.38418579E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -6746,40 +6814,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 2250
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 1800
@@ -6801,6 +6835,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -6850,8 +6885,41 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRestockDepthMask
+		name = FMRS_PM
 		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6886,16 +6954,8 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = WBIPartScrapper
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 1.25
-		defaultScale = 1.25
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 2250
-		OriginalCrewCapacity = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6909,7 +6969,7 @@ PART
 	}
 	MODULE
 	{
-		name = WBIPartScrapper
+		name = ModuleRestockDepthMask
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -6954,18 +7014,28 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.6874952, -7.00963211)
-		originalRotation = (0.707106829, 0, 0, 0.707106829)
-		moduleVersion = 6
+		id = 920702377
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 1.4, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = MASIdEngineGroup
+		isEnabled = True
+		partId = 0
+		stagingEnabled = True
 		EVENTS
 		{
 		}
@@ -6980,6 +7050,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 6480
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -6999,8 +7070,8 @@ PART
 {
 	part = wingConnector3_4292476402
 	partName = Part
-	persistentId = 1581728947
-	pos = 0.347268522,14.6874952,-4.58591557
+	persistentId = 2259043156
+	pos = 0.347268522,14.6874952,-4.58591652
 	attPos = 0.0115681887,0.0632283539,0
 	attPos0 = -0.611568213,0.0229794923,0
 	rot = 0.707106888,4.21468513E-08,-4.21468513E-08,0.707106769
@@ -7105,43 +7176,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 250
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7176,6 +7214,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -7205,16 +7244,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 250
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7258,14 +7322,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.347268522, 14.6874952, -4.58591557)
-		originalRotation = (0.707106888, 4.21468513E-08, -4.21468513E-08, 0.707106769)
-		moduleVersion = 6
+		id = 2259043156
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -7281,8 +7343,8 @@ PART
 {
 	part = wingConnector3_4292471968
 	partName = Part
-	persistentId = 761898098
-	pos = 1.54726863,14.6874952,-4.58591652
+	persistentId = 1789318960
+	pos = 1.54726863,14.6874952,-4.58591747
 	attPos = -0.0115681291,0.0632274002,0
 	attPos0 = 0.611568213,0.0229794923,0
 	rot = -7.30554746E-08,0.707106709,0.707106948,1.12382281E-08
@@ -7387,43 +7449,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 250
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7458,6 +7487,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -7487,16 +7517,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 250
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7540,14 +7595,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.54726863, 14.6874952, -4.58591652)
-		originalRotation = (-7.30554746E-08, 0.707106709, 0.707106948, 1.12382281E-08)
-		moduleVersion = 6
+		id = 1789318960
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -7563,8 +7616,8 @@ PART
 {
 	part = delta.small_4292471850
 	partName = Part
-	persistentId = 535122839
-	pos = 0.347268522,14.6874952,-2.9971199
+	persistentId = 2285641182
+	pos = 0.347268522,14.6874952,-2.99712038
 	attPos = 0.00937390327,0.0488481522,0
 	attPos0 = -0.609373927,-0.248849154,0
 	rot = 0.707106888,0,4.21468513E-08,0.707106769
@@ -7662,43 +7715,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7733,6 +7753,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -7762,16 +7783,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 200
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7815,14 +7861,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.347268522, 14.6874952, -2.9971199)
-		originalRotation = (0.707106888, 0, 4.21468513E-08, 0.707106769)
-		moduleVersion = 6
+		id = 2285641182
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -7838,8 +7882,8 @@ PART
 {
 	part = delta.small_4292471566
 	partName = Part
-	persistentId = 791883588
-	pos = 1.54726863,14.6874952,-2.99712038
+	persistentId = 3542377796
+	pos = 1.54726863,14.6874952,-2.99712086
 	attPos = -0.00937390327,0.0488476753,0
 	attPos0 = 0.609373927,-0.248849154,0
 	rot = 1.12382166E-08,0.707106709,0.707106948,-3.09086197E-08
@@ -7937,43 +7981,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8008,6 +8019,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -8037,16 +8049,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 200
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8090,14 +8127,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.54726863, 14.6874952, -2.99712038)
-		originalRotation = (1.12382166E-08, 0.707106709, 0.707106948, -3.09086197E-08)
-		moduleVersion = 6
+		id = 3542377796
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -8113,8 +8148,8 @@ PART
 {
 	part = structuralWing4_4293538172
 	partName = Part
-	persistentId = 2276233623
-	pos = -1.55024433,14.6874952,-4.98591852
+	persistentId = 88416272
+	pos = -1.55024433,14.6874952,-4.98591948
 	attPos = -0.0218509436,-0.128048152,3.05290513E-08
 	attPos0 = -1.87566185,-0.271954954,6.48390781E-08
 	rot = 0.707107008,1.2644054E-07,8.42936956E-08,0.70710665
@@ -8213,43 +8248,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 450
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 150
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8284,6 +8286,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -8313,16 +8316,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 150
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8366,14 +8394,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-1.55024433, 14.6874952, -4.98591852)
-		originalRotation = (0.707107008, 1.2644054E-07, 8.42936956E-08, 0.70710665)
-		moduleVersion = 6
+		id = 88416272
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -8389,8 +8415,8 @@ PART
 {
 	part = structuralWing4_4292468286
 	partName = Part
-	persistentId = 2350806680
-	pos = 3.4447813,14.6874952,-4.98591948
+	persistentId = 505749581
+	pos = 3.4447813,14.6874952,-4.98592043
 	attPos = -0.0218509436,-0.128047943,-4.77038213E-08
 	attPos0 = -1.87566185,-0.271955252,-2.61234334E-07
 	rot = 5.33850439E-08,0.70710659,0.707107067,9.55318811E-08
@@ -8489,43 +8515,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 450
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 150
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8560,6 +8553,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -8589,16 +8583,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 150
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8642,14 +8661,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (3.4447813, 14.6874952, -4.98591948)
-		originalRotation = (5.33850439E-08, 0.70710659, 0.707107067, 9.55318811E-08)
-		moduleVersion = 6
+		id = 505749581
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -8665,8 +8682,8 @@ PART
 {
 	part = bahaAdjustableRail_4293485498
 	partName = Part
-	persistentId = 1747710771
-	pos = -2.51235962,14.6874952,-5.60448885
+	persistentId = 11801467
+	pos = -2.51235962,14.6874952,-5.6044898
 	attPos = 0,0,0
 	attPos0 = -0.962114871,-0.618570149,8.22468671E-09
 	rot = 4.76837158E-07,1.49011612E-07,-0.70710659,0.707107008
@@ -8773,43 +8790,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -8828,6 +8811,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -8844,6 +8828,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563712835
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8887,30 +8919,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-2.51235962, 14.6874952, -5.60448885)
-		originalRotation = (4.76837158E-07, 1.49011612E-07, -0.70710659, 0.707107008)
-		moduleVersion = 6
+		id = 11801467
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -8925,6 +8939,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -8944,8 +8959,8 @@ PART
 {
 	part = bahaAGM-114_4292517616
 	partName = Part
-	persistentId = 3688590256
-	pos = -2.67123413,14.6874952,-5.5876689
+	persistentId = 1457767816
+	pos = -2.67123413,14.6874952,-5.58766985
 	attPos = 0,0,0
 	attPos0 = 1.0573806E-07,-0.158874452,0.0168204978
 	rot = -8.3565712E-05,8.40127468E-05,-0.707106352,0.707107306
@@ -9032,16 +9047,18 @@ PART
 		decoupleSpeed = 15
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 8000
 		minStaticLaunchRange = 500
-		maxOffBoresight = 65
+		maxOffBoresight = 100
 		DetonationDistance = 0.100000001
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0.400000006
+		missileFireAngle = 75
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -9049,16 +9066,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -9069,6 +9076,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = AGM-114R
 		stagingEnabled = True
 		EVENTS
@@ -9124,40 +9132,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 1200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -9179,6 +9153,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -9195,6 +9170,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 1.24522197
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9238,18 +9261,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-2.67123413, 14.6874952, -5.5876689)
-		originalRotation = (-8.3565712E-05, 8.40127468E-05, -0.707106352, 0.707107306)
-		moduleVersion = 6
+		id = 1457767816
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -9264,6 +9281,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 180
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -9283,8 +9301,8 @@ PART
 {
 	part = bahaAdjustableRail_4292467184
 	partName = Part
-	persistentId = 114120135
-	pos = 4.40689659,14.6874952,-5.60449028
+	persistentId = 1631209720
+	pos = 4.40689659,14.6874952,-5.60449123
 	attPos = 0,0,0
 	attPos0 = -0.962114871,-0.618570447,-1.2920529E-07
 	rot = 4.47034836E-07,-2.68220901E-07,0.707106709,0.707106948
@@ -9391,43 +9409,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -9446,6 +9430,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -9462,6 +9447,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563712835
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9505,30 +9538,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (4.40689659, 14.6874952, -5.60449028)
-		originalRotation = (4.47034836E-07, -2.68220901E-07, 0.707106709, 0.707106948)
-		moduleVersion = 6
+		id = 1631209720
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -9543,6 +9558,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -9562,11 +9578,11 @@ PART
 {
 	part = bahaAGM-114_4292467126
 	partName = Part
-	persistentId = 10149442
-	pos = 4.5657711,14.6874952,-5.58766985
+	persistentId = 247872850
+	pos = 4.5657711,14.6874952,-5.5876708
 	attPos = 0,0,0
 	attPos0 = 1.0573806E-07,-0.158874452,0.0168204978
-	rot = -8.35955143E-05,-8.39531422E-05,0.707106471,0.707107186
+	rot = -8.36253166E-05,-8.39531422E-05,0.707106471,0.707107186
 	attRot = 0.49999994,0.49999994,0.49999994,-0.49999994
 	attRot0 = -0.000118762269,-1.19209304E-07,4.02331409E-07,1
 	mir = 1,1,1
@@ -9650,16 +9666,18 @@ PART
 		decoupleSpeed = 15
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 8000
 		minStaticLaunchRange = 500
-		maxOffBoresight = 65
+		maxOffBoresight = 100
 		DetonationDistance = 0.100000001
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0.400000006
+		missileFireAngle = 75
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -9667,16 +9685,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -9687,6 +9695,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = AGM-114R
 		stagingEnabled = True
 		EVENTS
@@ -9742,40 +9751,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 1200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -9797,6 +9772,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -9813,6 +9789,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 1.24522197
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9856,18 +9880,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (4.5657711, 14.6874952, -5.58766985)
-		originalRotation = (-8.35955143E-05, -8.39531422E-05, 0.707106471, 0.707107186)
-		moduleVersion = 6
+		id = 247872850
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -9882,6 +9900,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 180
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -9901,8 +9920,8 @@ PART
 {
 	part = wingShuttleElevon1_4293537956
 	partName = Part
-	persistentId = 3320793259
-	pos = -1.05273151,14.6874952,-5.58591747
+	persistentId = 3244146840
+	pos = -1.05273151,14.6874952,-5.58591843
 	attPos = 0.0567902327,-0.161543489,3.85149974E-08
 	attPos0 = -1.45679009,-0.8384583,1.9990398E-07
 	rot = 0.707106948,-1.47513987E-07,1.2644054E-07,0.707106709
@@ -10105,43 +10124,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 800
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 950
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10176,6 +10162,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -10205,16 +10192,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 950
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10258,14 +10270,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-1.05273151, 14.6874952, -5.58591747)
-		originalRotation = (0.707106948, -1.47513987E-07, 1.2644054E-07, 0.707106709)
-		moduleVersion = 6
+		id = 3244146840
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -10281,8 +10291,8 @@ PART
 {
 	part = wingShuttleElevon1_4292466890
 	partName = Part
-	persistentId = 3392108283
-	pos = 2.94726849,14.6874952,-5.58591843
+	persistentId = 2931153853
+	pos = 2.94726849,14.6874952,-5.58591938
 	attPos = 0.0567902327,-0.161543548,-5.28077067E-08
 	attPos0 = -1.45679009,-0.838458478,-4.27212797E-07
 	rot = 9.55318455E-08,0.70710665,0.707107008,-1.78422567E-07
@@ -10477,43 +10487,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 800
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 950
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10548,6 +10525,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -10577,16 +10555,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 950
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10630,14 +10633,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (2.94726849, 14.6874952, -5.58591843)
-		originalRotation = (9.55318455E-08, 0.70710665, 0.707107008, -1.78422567E-07)
-		moduleVersion = 6
+		id = 2931153853
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -10653,8 +10654,8 @@ PART
 {
 	part = baha20mmAmmo_4293453538
 	partName = Part
-	persistentId = 2597883724
-	pos = 0.740067422,14.7430143,-1.97251701
+	persistentId = 2150596248
+	pos = 0.740067422,14.7430143,-1.97251725
 	attPos = 0,0,0
 	attPos0 = -0.207201123,-1.05040073,-0.0555189848
 	rot = 0.707106829,0,0,-0.707106829
@@ -10766,40 +10767,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 200
@@ -10821,6 +10788,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -10837,6 +10805,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 0.562400162
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10880,14 +10896,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.740067422, 14.7430143, -1.97251701)
-		originalRotation = (0.707106829, 0, 0, -0.707106829)
-		moduleVersion = 6
+		id = 2150596248
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -10902,6 +10916,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -10932,8 +10947,8 @@ PART
 {
 	part = baha20mmAmmo_4293453172
 	partName = Part
-	persistentId = 2030872008
-	pos = 0.725603819,14.7391386,-2.2187984
+	persistentId = 658582064
+	pos = 0.725603819,14.7391386,-2.21879864
 	attPos = 0,0,0
 	attPos0 = -0.0144636147,0.246281445,-0.00387567165
 	rot = 0.707106829,0,0,-0.707106829
@@ -11044,40 +11059,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 200
@@ -11099,6 +11080,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -11115,6 +11097,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 0.562400162
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11158,14 +11188,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.725603819, 14.7391386, -2.2187984)
-		originalRotation = (0.707106829, 0, 0, -0.707106829)
-		moduleVersion = 6
+		id = 658582064
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -11180,6 +11208,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -11210,8 +11239,8 @@ PART
 {
 	part = baha20mmAmmo_4292462816
 	partName = Part
-	persistentId = 4200890122
-	pos = 1.15446973,14.7430143,-1.97251701
+	persistentId = 1225953693
+	pos = 1.15446973,14.7430143,-1.97251725
 	attPos = 0,0,0
 	attPos0 = 0.207201123,-1.05040073,-0.0555189848
 	rot = -0.707106888,0,0,0.707106769
@@ -11323,40 +11352,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 200
@@ -11378,6 +11373,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -11394,6 +11390,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 0.562400162
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11437,14 +11481,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.15446973, 14.7430143, -1.97251701)
-		originalRotation = (-0.707106888, 0, 0, 0.707106769)
-		moduleVersion = 6
+		id = 1225953693
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -11459,6 +11501,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -11489,8 +11532,8 @@ PART
 {
 	part = baha20mmAmmo_4292462774
 	partName = Part
-	persistentId = 1544372821
-	pos = 1.16893327,14.7391386,-2.21879864
+	persistentId = 2431109027
+	pos = 1.16893327,14.7391386,-2.21879888
 	attPos = 0,0,0
 	attPos0 = -0.0144636147,0.246281445,-0.00387567165
 	rot = -0.707106888,0,0,0.707106769
@@ -11601,40 +11644,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 200
@@ -11656,6 +11665,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -11672,6 +11682,54 @@ PART
 		maxSupportedArmor = 20
 		armorVolume = 0.562400162
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11715,14 +11773,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.16893327, 14.7391386, -2.21879864)
-		originalRotation = (-0.707106888, 0, 0, 0.707106769)
-		moduleVersion = 6
+		id = 2431109027
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -11737,6 +11793,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -11767,11 +11824,11 @@ PART
 {
 	part = GearSmall_4293511462
 	partName = Part
-	persistentId = 3064366258
-	pos = -0.45273155,14.7896738,-4.78591728
+	persistentId = 2421071604
+	pos = -0.45273155,14.7896738,-4.78591824
 	attPos = -0.0200110078,0.0876187831,-0.102178574
 	attPos0 = -0.779989064,-0.287620574,6.85740744E-08
-	rot = 2.08616257E-07,-1.93715096E-07,0,1.00000012
+	rot = 2.08616257E-07,-1.93715096E-07,-7.10542736E-15,1.00000012
 	attRot = 0,0,0.707106709,0.707106709
 	attRot0 = -0.707106769,-1.79124086E-07,1.79124143E-07,0.707106888
 	mir = 1,1,1
@@ -12209,43 +12266,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 600
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 700
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12280,6 +12304,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -12309,16 +12334,59 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FStextureSwitch2
 		isEnabled = True
-		type = free
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 700
-		OriginalCrewCapacity = 0
+		selectedTexture = 0
+		selectedTextureURL = Cormorant Aeronology/Assets/mk3_Shuttle/LandingGear
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12377,14 +12445,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-0.45273155, 14.7896738, -4.78591728)
-		originalRotation = (2.08616257E-07, -1.93715096E-07, 0, 1.00000012)
-		moduleVersion = 6
+		id = 2421071604
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -12400,8 +12466,8 @@ PART
 {
 	part = GearSmall_4292444394
 	partName = Part
-	persistentId = 2490406506
-	pos = 2.34726858,14.7896738,-4.78591824
+	persistentId = 2541990362
+	pos = 2.34726858,14.7896738,-4.78591919
 	attPos = -0.0200110078,0.0876178443,0.102178603
 	attPos0 = -0.779989064,-0.28761968,-1.71049635E-07
 	rot = 2.38418579E-07,1.9371511E-07,0,1.00000012
@@ -12810,43 +12876,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 600
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 700
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12881,6 +12914,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -12910,16 +12944,59 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FStextureSwitch2
 		isEnabled = True
-		type = free
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 700
-		OriginalCrewCapacity = 0
+		selectedTexture = 0
+		selectedTextureURL = Cormorant Aeronology/Assets/mk3_Shuttle/LandingGear
+		selectedMapURL = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12978,14 +13055,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (2.34726858, 14.7896738, -4.78591824)
-		originalRotation = (2.38418579E-07, 1.9371511E-07, 0, 1.00000012)
-		moduleVersion = 6
+		id = 2541990362
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -13001,8 +13076,8 @@ PART
 {
 	part = bahaAdjustableRail_4293463548
 	partName = Part
-	persistentId = 3204456022
-	pos = -0.852731526,14.4874954,-3.98591757
+	persistentId = 643486578
+	pos = -0.852731526,14.4874954,-3.98591852
 	attPos = 0.0270264149,-0.0677880645,0.0656805038
 	attPos0 = -1.22702658,0.667785883,0.134319112
 	rot = 0,1.04056579E-15,-1.04056579E-15,1.00000012
@@ -13109,43 +13184,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -13164,6 +13205,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -13180,6 +13222,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563711703
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -13223,30 +13313,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-0.852731526, 14.4874954, -3.98591757)
-		originalRotation = (0, 1.04056579E-15, -1.04056579E-15, 1.00000012)
-		moduleVersion = 6
+		id = 643486578
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -13261,6 +13333,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -13280,11 +13353,11 @@ PART
 {
 	part = bahaMk82BombBrake_4293780230
 	partName = Part
-	persistentId = 3314510317
-	pos = -0.852731526,14.2811203,-4.11911869
+	persistentId = 4028306448
+	pos = -0.852731526,14.2811203,-4.11911964
 	attPos = 0,0,0
 	attPos0 = 8.32237674E-08,-0.206375033,-0.133200899
-	rot = 0,2.98023721E-08,1.47991727E-07,1.00000012
+	rot = 0,2.98023828E-08,1.47991727E-07,1.00000012
 	attRot = 0.707106709,0,0,-0.707106709
 	attRot0 = 0,2.98023473E-08,1.47991713E-07,1
 	mir = 1,1,1
@@ -13368,7 +13441,6 @@ PART
 		decoupleSpeed = 2
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 5000
@@ -13376,8 +13448,11 @@ PART
 		maxOffBoresight = 360
 		DetonationDistance = 0
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0.5
+		missileFireAngle = -1
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -13385,16 +13460,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -13405,6 +13470,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = Mk82 SnakeEye
 		stagingEnabled = True
 		EVENTS
@@ -13460,40 +13526,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 125
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -13515,6 +13547,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -13531,6 +13564,54 @@ PART
 		maxSupportedArmor = 15
 		armorVolume = 1.2258749
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -13574,18 +13655,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-0.852731526, 14.2811203, -4.11911869)
-		originalRotation = (0, 2.98023721E-08, 1.47991727E-07, 1.00000012)
-		moduleVersion = 6
+		id = 4028306448
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.2)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -13600,6 +13675,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 817.200012
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -13619,11 +13695,11 @@ PART
 {
 	part = bahaAdjustableRail_4292442658
 	partName = Part
-	persistentId = 3035173323
-	pos = 2.74726868,14.4874954,-3.98591852
+	persistentId = 2909954812
+	pos = 2.74726868,14.4874954,-3.98591948
 	attPos = 0.0270265341,-0.0677890778,-0.0656805336
 	attPos0 = -1.2270267,0.667787015,-0.134319171
-	rot = 0,6.28037068E-15,2.13532601E-14,1.00000012
+	rot = 0,3.76822173E-15,2.88897019E-14,1.00000012
 	attRot = 6.75981084E-08,2.05426304E-07,-0.608761251,-0.793353617
 	attRot0 = -0.0922959372,-0.701057136,-0.701057673,0.0922961384
 	mir = 1,1,1
@@ -13727,43 +13803,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -13782,6 +13824,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -13798,6 +13841,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563711703
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -13841,30 +13932,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (2.74726868, 14.4874954, -3.98591852)
-		originalRotation = (0, 6.28037068E-15, 2.13532601E-14, 1.00000012)
-		moduleVersion = 6
+		id = 2909954812
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -13879,6 +13952,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -13898,11 +13972,11 @@ PART
 {
 	part = bahaMk82BombBrake_4292442600
 	partName = Part
-	persistentId = 3395329018
-	pos = 2.74726868,14.2811203,-4.11911964
+	persistentId = 1519729903
+	pos = 2.74726868,14.2811203,-4.1191206
 	attPos = 0,0,0
 	attPos0 = 8.32237674E-08,-0.206375033,-0.133200899
-	rot = 0,-2.98023437E-08,-1.47991756E-07,1.00000012
+	rot = 0,-2.98023508E-08,-1.47991756E-07,1.00000012
 	attRot = 0.707106709,0,0,-0.707106709
 	attRot0 = 0,2.98023473E-08,1.47991713E-07,1
 	mir = 1,1,1
@@ -13986,7 +14060,6 @@ PART
 		decoupleSpeed = 2
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 5000
@@ -13994,8 +14067,11 @@ PART
 		maxOffBoresight = 360
 		DetonationDistance = 0
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0.5
+		missileFireAngle = -1
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -14003,16 +14079,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -14023,6 +14089,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = Mk82 SnakeEye
 		stagingEnabled = True
 		EVENTS
@@ -14078,40 +14145,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 125
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -14133,6 +14166,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -14149,6 +14183,54 @@ PART
 		maxSupportedArmor = 15
 		armorVolume = 1.2258749
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14192,18 +14274,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (2.74726868, 14.2811203, -4.11911964)
-		originalRotation = (0, -2.98023437E-08, -1.47991756E-07, 1.00000012)
-		moduleVersion = 6
+		id = 1519729903
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.2)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -14218,6 +14294,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 817.200012
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -14237,8 +14314,8 @@ PART
 {
 	part = bahaS-8Launcher_4293473546
 	partName = Part
-	persistentId = 571032959
-	pos = -1.37015843,14.3284721,-4.73166418
+	persistentId = 1319318329
+	pos = -1.37015843,14.3284721,-4.73166513
 	attPos = 0.0273280144,-0.458216071,0.0508537889
 	attPos0 = -1.74475491,0.312467366,0.308169246
 	rot = 0,0,1.1818944E-07,-1.00000012
@@ -14329,7 +14406,7 @@ PART
 		roundsPerMinute = 1000
 		defaultDetonationRange = 3500
 		detonationRange = 7.97678518
-		maxAirDetonationRange = 3500
+		detonateAtMinimumDistance = True
 		AmmoTypeNum = 1
 		advancedAmmoOption = False
 		useCustomBelt = False
@@ -14338,6 +14415,7 @@ PART
 		deployWepGroup = 0
 		canHotSwap = False
 		useRippleFire = True
+		useThisWeaponForAim = False
 		isAPS = False
 		dualModeAPS = False
 		customFireKey = 
@@ -14348,6 +14426,7 @@ PART
 		engageMissile = True
 		engageGround = True
 		engageSLW = True
+		weaponChannel = 0
 		shortName = S-8KOM
 		stagingEnabled = True
 		EVENTS
@@ -14399,40 +14478,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 3500
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 375
@@ -14454,6 +14499,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -14464,12 +14510,60 @@ PART
 		muParam3S = 7.37037039
 		HEEquiv = 0.210114747
 		HEATEquiv = 0.55794096
-		maxForce = 0
-		maxTorque = 0
-		maxG = 0
+		maxForce = 22
+		maxTorque = 22
+		maxG = 50
 		maxSupportedArmor = 25
 		armorVolume = 1.67373013
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14513,18 +14607,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-1.37015843, 14.3284721, -4.73166418)
-		originalRotation = (0, 0, 1.1818944E-07, -1.00000012)
-		moduleVersion = 6
+		id = 1319318329
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.3, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 0.8, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -14539,6 +14627,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 144
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -14569,11 +14658,11 @@ PART
 {
 	part = bahaS-8Launcher_4292441000
 	partName = Part
-	persistentId = 735795120
-	pos = 3.26469541,14.3284721,-4.73166561
+	persistentId = 394800535
+	pos = 3.26469541,14.3284721,-4.73166656
 	attPos = 0.0273281336,-0.458217144,-0.0508539081
 	attPos0 = -1.74475491,0.312467963,-0.308169395
-	rot = 0,-1.0658141E-14,1.1818949E-07,1.00000012
+	rot = 0,-7.10542736E-15,1.18189504E-07,1.00000012
 	attRot = 7.23518245E-10,2.59478668E-07,-0.608761609,-0.793353379
 	attRot0 = -0.092295818,-0.701057315,-0.701057553,0.0922957435
 	mir = 1,1,1
@@ -14661,7 +14750,7 @@ PART
 		roundsPerMinute = 1000
 		defaultDetonationRange = 3500
 		detonationRange = 7.97678518
-		maxAirDetonationRange = 3500
+		detonateAtMinimumDistance = True
 		AmmoTypeNum = 1
 		advancedAmmoOption = False
 		useCustomBelt = False
@@ -14670,6 +14759,7 @@ PART
 		deployWepGroup = 0
 		canHotSwap = False
 		useRippleFire = True
+		useThisWeaponForAim = False
 		isAPS = False
 		dualModeAPS = False
 		customFireKey = 
@@ -14680,6 +14770,7 @@ PART
 		engageMissile = True
 		engageGround = True
 		engageSLW = True
+		weaponChannel = 0
 		shortName = S-8KOM
 		stagingEnabled = True
 		EVENTS
@@ -14731,40 +14822,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 3500
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 375
@@ -14786,6 +14843,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -14796,12 +14854,60 @@ PART
 		muParam3S = 7.37037039
 		HEEquiv = 0.210114747
 		HEATEquiv = 0.55794096
-		maxForce = 0
-		maxTorque = 0
-		maxG = 0
+		maxForce = 22
+		maxTorque = 22
+		maxG = 50
 		maxSupportedArmor = 25
 		armorVolume = 1.67373013
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -14845,18 +14951,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (3.26469541, 14.3284721, -4.73166561)
-		originalRotation = (0, -1.0658141E-14, 1.1818949E-07, 1.00000012)
-		moduleVersion = 6
+		id = 394800535
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.3, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 0.8, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -14871,6 +14971,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 144
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -14901,8 +15002,8 @@ PART
 {
 	part = wingStrake_4292437874
 	partName = Part
-	persistentId = 2151963009
-	pos = 0.947268486,15.3105993,-5.46699572
+	persistentId = 2097739069
+	pos = 0.947268486,15.3105993,-5.46699667
 	attPos = 0,0,0
 	attPos0 = -5.96046448E-08,-0.794872105,-0.623103976
 	rot = -0.50000006,0.50000006,0.499999821,-0.500000298
@@ -15000,43 +15101,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = -1
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 400
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15071,6 +15139,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -15100,16 +15169,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 400
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15153,14 +15247,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268486, 15.3105993, -5.46699572)
-		originalRotation = (-0.50000006, 0.50000006, 0.499999821, -0.500000298)
-		moduleVersion = 6
+		id = 2097739069
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -15176,8 +15268,8 @@ PART
 {
 	part = elevon3_4293529922
 	partName = Part
-	persistentId = 1245387032
-	pos = 0.947268486,16.2233047,-6.76699495
+	persistentId = 3175707133
+	pos = 0.947268486,16.2233047,-6.76699591
 	attPos = -0.413588047,-0.0699141026,-0.133738235
 	attPos0 = -0.499118567,-1.2300849,0.133738175
 	rot = -0.500000238,0.499999911,0.499999911,-0.500000238
@@ -15379,43 +15471,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 550
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 650
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15450,6 +15509,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -15479,16 +15539,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 650
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15532,14 +15617,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268486, 16.2233047, -6.76699495)
-		originalRotation = (-0.500000238, 0.499999911, 0.499999911, -0.500000238)
-		moduleVersion = 6
+		id = 3175707133
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -15555,8 +15638,8 @@ PART
 {
 	part = smallCtrlSrf_4292435730
 	partName = Part
-	persistentId = 2382494881
-	pos = -0.0450157523,14.6874952,-5.52341747
+	persistentId = 1954649172
+	pos = -0.0450157523,14.6874952,-5.52341843
 	attPos = 0,0,0
 	attPos0 = -0.392284155,-0.937501788,2.23517802E-07
 	rot = -0.707106829,0,0,-0.707106829
@@ -15759,43 +15842,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 135
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 400
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15830,6 +15880,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -15859,16 +15910,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 400
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -15912,14 +15988,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (-0.0450157523, 14.6874952, -5.52341747)
-		originalRotation = (-0.707106829, 0, 0, -0.707106829)
-		moduleVersion = 6
+		id = 1954649172
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -15935,11 +16009,11 @@ PART
 {
 	part = smallCtrlSrf_4292435538
 	partName = Part
-	persistentId = 3271091056
-	pos = 1.93955278,14.6874952,-5.52341747
+	persistentId = 3184674050
+	pos = 1.93955278,14.6874952,-5.52341843
 	attPos = 0,0,0
 	attPos0 = -0.392284036,-0.937501073,-3.69571069E-07
-	rot = -3.09086481E-08,0.707106829,0.707106829,-3.0908641E-08
+	rot = -3.09086516E-08,0.707106829,0.707106829,-3.09086445E-08
 	attRot = 0,0,0,1
 	attRot0 = 1.78813934E-07,3.55271326E-15,5.96046519E-08,1
 	mir = 1,1,1
@@ -16131,43 +16205,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 135
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 400
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -16202,6 +16243,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -16231,16 +16273,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 400
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -16284,14 +16351,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.93955278, 14.6874952, -5.52341747)
-		originalRotation = (-3.09086481E-08, 0.707106829, 0.707106829, -3.0908641E-08)
-		moduleVersion = 6
+		id = 3184674050
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -16307,8 +16372,8 @@ PART
 {
 	part = bahaAdjustableRail_4292429972
 	partName = Part
-	persistentId = 925758302
-	pos = 0.0516424179,14.4874954,-4.34279108
+	persistentId = 3466890915
+	pos = 0.0516424179,14.4874954,-4.34279203
 	attPos = -0.0258783996,-0.370076001,0.0842390805
 	attPos0 = -0.269747734,0.613200426,0.115760624
 	rot = 1.1920929E-07,-3.93121979E-10,-1.25183163E-07,-1.00000012
@@ -16415,43 +16480,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -16470,6 +16501,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -16486,6 +16518,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563711703
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -16529,30 +16609,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.0516424179, 14.4874954, -4.34279108)
-		originalRotation = (1.1920929E-07, -3.93121979E-10, -1.25183163E-07, -1.00000012)
-		moduleVersion = 6
+		id = 3466890915
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -16567,6 +16629,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -16586,11 +16649,11 @@ PART
 {
 	part = bahaAdjustableRail_4292429550
 	partName = Part
-	persistentId = 755995423
-	pos = 1.84289467,14.4874954,-4.34279203
+	persistentId = 1515843715
+	pos = 1.84289467,14.4874954,-4.34279299
 	attPos = -0.0258783698,-0.370077014,-0.0842391476
 	attPos0 = -0.269747674,0.613201559,-0.115760602
-	rot = -1.1920929E-07,-3.93107769E-10,-1.25183192E-07,1.00000012
+	rot = -1.1920929E-07,-3.93114874E-10,-1.25183192E-07,1.00000012
 	attRot = 8.94069601E-08,2.98023188E-08,0.70710665,0.707106769
 	attRot0 = 0.0922957435,-0.701057494,-0.701057374,-0.0922959894
 	mir = 1,1,1
@@ -16694,43 +16757,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 50
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -16749,6 +16778,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -16765,6 +16795,54 @@ PART
 		maxSupportedArmor = 5
 		armorVolume = 0.563711703
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -16808,30 +16886,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.84289467, 14.4874954, -4.34279203)
-		originalRotation = (-1.1920929E-07, -3.93107769E-10, -1.25183192E-07, 1.00000012)
-		moduleVersion = 6
+		id = 1515843715
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodePos = (0.0, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-1.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -16846,6 +16906,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 36
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -16865,11 +16926,11 @@ PART
 {
 	part = bdPilotAI_4292808850
 	partName = Part
-	persistentId = 3557682571
-	pos = 0.947268546,14.0499058,-3.84110212
-	attPos = 0,0,0
+	persistentId = 521873809
+	pos = 0.947268546,14.2874947,-3.8721242
+	attPos = 0,-0.0310195088,-0.237588704
 	attPos0 = 0,0.831018507,0.637589037
-	rot = 1.00000012,-9.64165525E-10,-3.33066907E-16,2.38418579E-07
+	rot = 1.00000012,-9.64165636E-10,-2.77555756E-16,2.38418579E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.70710665,-6.81768086E-10,6.81767642E-10,0.707107008
 	mir = 1,1,1
@@ -16955,8 +17016,12 @@ PART
 		steerMult = 6
 		steerKiAdjust = 0.0500000007
 		steerDamping = 3
+		threeAxisPID = False
+		threeAxisSteerDamping = False
 		dynamicSteerDamping = False
-		CustomDynamicAxisFields = True
+		steerDampingPitch = 5
+		steerDampingYaw = 5
+		steerDampingRoll = 5
 		DynamicDampingMin = 6
 		DynamicDampingMax = 6.69999981
 		dynamicSteerDampingFactor = 5
@@ -16972,15 +17037,28 @@ PART
 		DynamicDampingRollMin = 6
 		DynamicDampingRollMax = 6.5
 		dynamicSteerDampingRollFactor = 8
+		threeAxisPIDPitchMult = 14
+		threeAxisPIDPitchKi = 0.400000006
+		threeAxisPIDPitchDamping = 5
+		threeAxisPIDYawMult = 14
+		threeAxisPIDYawKi = 0.400000006
+		threeAxisPIDYawDamping = 5
+		threeAxisPIDRollMult = 14
+		threeAxisPIDRollKi = 0.400000006
+		threeAxisPIDRollDamping = 5
 		autoTuningOptionNumSamples = 5
 		autoTuningOptionFastResponseRelevance = 0.200000003
 		autoTuningOptionInitialLearningRate = 1
+		autoTuningOptionInitialRollRelevance = 0.5
 		autoTuningAltitude = 1000
 		autoTuningSpeed = 200
 		autoTuningRecenteringDistance = 15
 		autoTuningOptionFixedP = False
 		autoTuningOptionFixedI = False
 		autoTuningOptionFixedD = False
+		autoTuningOptionFixedDP = False
+		autoTuningOptionFixedDY = False
+		autoTuningOptionFixedDR = False
 		autoTuningOptionFixedDOff = False
 		autoTuningOptionFixedDOn = False
 		autoTuningOptionFixedDF = False
@@ -16993,12 +17071,23 @@ PART
 		autoTuningOptionFixedDROff = False
 		autoTuningOptionFixedDROn = False
 		autoTuningOptionFixedDRF = False
+		autoTuningOptionFixedPp = False
+		autoTuningOptionFixedIp = False
+		autoTuningOptionFixedDp = False
+		autoTuningOptionFixedPy = False
+		autoTuningOptionFixedIy = False
+		autoTuningOptionFixedDy = False
+		autoTuningOptionFixedPr = False
+		autoTuningOptionFixedIr = False
+		autoTuningOptionFixedDr = False
 		autoTuningOptionClampMaximums = False
 		defaultAltitude = 1500
 		minAltitude = 500
 		hardMinAltitude = False
 		maxAltitude = 7500
 		maxAltitudeToggle = False
+		bombingAltitude = 500
+		divebombing = False
 		maxSpeed = 325
 		takeOffSpeed = 70
 		minSpeed = 60
@@ -17006,6 +17095,7 @@ PART
 		idleSpeed = 120
 		ABPriority = 50
 		ABOverrideThreshold = 0
+		brakingPriority = 50
 		maxSteer = 1
 		lowSpeedSwitch = 100
 		maxSteerAtMaxSpeed = 1
@@ -17019,11 +17109,14 @@ PART
 		maxAllowedAoA = 35
 		postStallAoA = 35
 		ImmelmannTurnAngle = 30
+		ImmelmannPitchUpBias = 10
 		minEvasionTime = 0.200000003
 		evasionThreshold = 25
 		evasionTimeThreshold = 0.100000001
+		evasionMinRangeThreshold = 0
 		evasionNonlinearity = 2
 		evasionIgnoreMyTargetTargetingMe = False
+		evasionMissileKinematic = False
 		collisionAvoidanceThreshold = 20
 		vesselCollisionAvoidanceLookAheadPeriod = 1.5
 		vesselCollisionAvoidanceStrength = 2
@@ -17036,6 +17129,7 @@ PART
 		extendTargetAngle = 78
 		extendTargetDist = 300
 		extendAbortTime = 15
+		extendMinGainRate = 10
 		canExtend = True
 		turnRadiusTwiddleFactorMin = 2
 		turnRadiusTwiddleFactorMax = 3
@@ -17048,7 +17142,7 @@ PART
 		controlSurfaceLag = 0.00999999978
 		sliderResolution = Normal
 		ClockwiseOrbit = True
-		UpToEleven = False
+		upToEleven = False
 		standbyMode = False
 		pilotOn = False
 		stagingEnabled = True
@@ -17094,43 +17188,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 0
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -17149,6 +17209,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -17165,6 +17226,54 @@ PART
 		maxSupportedArmor = 25
 		armorVolume = 0.756086826
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -17208,14 +17317,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.0499058, -3.84110212)
-		originalRotation = (1.00000012, -9.64165525E-10, -3.33066907E-16, 2.38418579E-07)
-		moduleVersion = 6
+		id = 521873809
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -17230,6 +17337,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 0
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -17249,8 +17357,8 @@ PART
 {
 	part = IntakeRadialLong_4292387254
 	partName = Part
-	persistentId = 1203598958
-	pos = 0.347268522,14.6874952,-2.99711943
+	persistentId = 13616384
+	pos = 0.347268522,14.6874952,-2.9971199
 	attPos = 0.0184084773,0.388019562,0
 	attPos0 = -0.618408501,-0.588020325,0
 	rot = 8.94069672E-08,5.96046448E-08,-0.707106709,0.707106948
@@ -17354,43 +17462,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 600
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 900.0
-		OriginalResourcesCost = 0.0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -17425,6 +17500,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -17454,14 +17530,68 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRestockDepthMask
+		name = FMRS_PM
 		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -17494,16 +17624,8 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = WBIPartScrapper
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 900
-		OriginalCrewCapacity = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -17517,7 +17639,7 @@ PART
 	}
 	MODULE
 	{
-		name = WBIPartScrapper
+		name = ModuleRestockDepthMask
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -17547,14 +17669,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.347268522, 14.6874952, -2.99711943)
-		originalRotation = (8.94069672E-08, 5.96046448E-08, -0.707106709, 0.707106948)
-		moduleVersion = 6
+		id = 13616384
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -17576,13 +17696,24 @@ PART
 		isVisible = False
 		flowMode = Both
 	}
+	RESOURCE
+	{
+		name = IntakeAtm
+		amount = 0.5
+		maxAmount = 0.5
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
 }
 PART
 {
 	part = IntakeRadialLong_4292385578
 	partName = Part
-	persistentId = 2562341629
-	pos = 1.54726863,14.6874952,-2.9971199
+	persistentId = 1026542591
+	pos = 1.54726863,14.6874952,-2.99712038
 	attPos = -0.0184084177,0.388019085,0
 	attPos0 = 0.618408501,-0.588020325,0
 	rot = 5.96046448E-08,0,0.707106888,0.707106829
@@ -17686,43 +17817,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 600
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 900.0
-		OriginalResourcesCost = 0.0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -17757,6 +17855,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -17786,14 +17885,68 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleRestockDepthMask
+		name = FMRS_PM
 		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -17826,16 +17979,8 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = WBIPartScrapper
 		isEnabled = True
-		type = free_square
-		active = True
-		available = True
-		currentScale = 100
-		defaultScale = 100
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 900
-		OriginalCrewCapacity = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -17849,7 +17994,7 @@ PART
 	}
 	MODULE
 	{
-		name = WBIPartScrapper
+		name = ModuleRestockDepthMask
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
@@ -17879,14 +18024,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.54726863, 14.6874952, -2.9971199)
-		originalRotation = (5.96046448E-08, 0, 0.707106888, 0.707106829)
-		moduleVersion = 6
+		id = 1026542591
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
 		EVENTS
 		{
 		}
@@ -17908,286 +18051,27 @@ PART
 		isVisible = False
 		flowMode = Both
 	}
-}
-PART
-{
-	part = bahaCamPod_4292383544
-	partName = Part
-	persistentId = 1187468003
-	pos = 0.947268546,13.7965937,-2.9908185
-	attPos = 0,0,0
-	attPos0 = 0,-0.193699598,0.890901804
-	rot = -2.38418579E-07,-4.99600361E-16,9.64180291E-10,1.00000012
-	attRot = 0,0,0,1
-	attRot0 = -0.707107008,6.81778023E-10,6.81778578E-10,0.70710665
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,MK1Fuselage_4292489158,CylCOL,0|0.279205889|-0.127289101,0|1|0,0|0.279205889|-0.127289101
-	attN = top,Null_0_0|0.279205889|-0.127289101_0|1|0_0|0.279205889|-0.127289101_0|1|0
-	EVENTS
+	RESOURCE
 	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutOff
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutRoot
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutHeaviest
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutGrandparent
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			active = False
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			active = False
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleTargetingCamera
-		isEnabled = True
-		cameraEnabled = False
-		currentFovIndex = 0
-		slaveTurrets = False
-		CoMLock = False
-		groundStabilized = False
-		savedLat = 0
-		savedLong = 0
-		savedAlt = 0
-		nvMode = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			AGEnable
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 600
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = HitpointTracker
-		isEnabled = True
-		Hitpoints = 550
-		Armor = 10
-		ArmorRemaining = 100
-		ArmorTypeNum = 1
-		HullTypeNum = 2
-		hullType = Aluminium
-		SelectedArmorType = None
-		maxHitPoints = -1
-		ArmorThickness = 0
-		ArmorSet = True
-		ExplodeMode = Never
-		FireFX = True
-		FireFXLifeTimeInSeconds = 5
-		Density = 2700
-		Diffusivity = 237
-		Ductility = 0.600000024
-		Hardness = 300
-		Strength = 200
-		SafeUseTemp = 993
-		Cost = 0
-		vFactor = 1.82712211E-06
-		muParam1 = 1.37732458
-		muParam2 = 2.04939008
-		muParam3 = 4.5333333
-		muParam1S = 1.92650819
-		muParam2S = 2.65274119
-		muParam3S = 7.37037039
-		HEEquiv = 0.210114747
-		HEATEquiv = 0.55794096
-		maxForce = 22
-		maxTorque = 22
-		maxG = 50
-		maxSupportedArmor = 20
-		armorVolume = 2.08864641
-		ignitionTemp = -1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = WBIPartScrapper
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ShipEffectsCollisions
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = AttachedOnEditor
-		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 13.7965937, -2.9908185)
-		originalRotation = (-2.38418579E-07, -4.99600361E-16, 9.64180291E-10, 1.00000012)
-		moduleVersion = 6
-		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.3, -0.1)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
+		name = IntakeAtm
+		amount = 0.5
+		maxAmount = 0.5
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }
 PART
 {
 	part = bahaAGM-65_4292383048
 	partName = Part
-	persistentId = 1608750140
-	pos = 0.0516424179,14.267621,-4.2259922
+	persistentId = 157942304
+	pos = 0.0516424179,14.267621,-4.22599316
 	attPos = 0,0,0
 	attPos0 = -5.61185338E-08,-0.219874248,0.116799138
-	rot = 0,-4.12349327E-14,-3.98373317E-15,-1.00000012
+	rot = 0,-4.37470799E-14,-6.49588212E-15,-1.00000012
 	attRot = 0.707106709,0,0,-0.707106709
 	attRot0 = 1.19209275E-07,-3.93125477E-10,-1.25183163E-07,1
 	mir = 1,1,1
@@ -18271,7 +18155,6 @@ PART
 		decoupleSpeed = 0
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 5500
@@ -18279,8 +18162,11 @@ PART
 		maxOffBoresight = 65
 		DetonationDistance = 0
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0
+		missileFireAngle = 48.75
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -18288,16 +18174,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -18308,6 +18184,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = AGM-65
 		stagingEnabled = True
 		EVENTS
@@ -18363,40 +18240,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 2500
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -18418,6 +18261,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -18434,6 +18278,54 @@ PART
 		maxSupportedArmor = 25
 		armorVolume = 2.38765526
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -18477,18 +18369,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.0516424179, 14.267621, -4.2259922)
-		originalRotation = (0, -4.12349327E-14, -3.98373317E-15, -1.00000012)
-		moduleVersion = 6
+		id = 157942304
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.2, -0.1)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -18503,6 +18389,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 972
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -18522,11 +18409,11 @@ PART
 {
 	part = bahaAGM-65_4292382310
 	partName = Part
-	persistentId = 4088746267
-	pos = 1.84289467,14.267621,-4.22599363
+	persistentId = 4023663331
+	pos = 1.84289467,14.267621,-4.22599459
 	attPos = 0,0,0
 	attPos0 = 4.55382221E-08,-0.219874308,0.116799295
-	rot = 0,-5.08709997E-14,-1.57009246E-14,1.00000012
+	rot = 0,-6.65719243E-14,-1.13046643E-14,1.00000012
 	attRot = 0.707106709,0,0,-0.707106709
 	attRot0 = 1.19209268E-07,3.93121924E-10,1.25183149E-07,1
 	mir = 1,1,1
@@ -18610,7 +18497,6 @@ PART
 		decoupleSpeed = 0
 		maxAltitude = 0
 		terminalGuidanceShouldActivate = False
-		priority = 0
 		DetonationOffset = 0.100000001
 		autoDetCalc = False
 		maxStaticLaunchRange = 5500
@@ -18618,8 +18504,11 @@ PART
 		maxOffBoresight = 65
 		DetonationDistance = 0
 		DetonateAtMinimumDistance = False
+		UseStaticMaxLaunchRange = False
 		dropTime = 0
+		missileFireAngle = 48.75
 		inCargoBay = False
+		priority = 0
 		customBayGroup = 0
 		detonationTime = 2
 		BallisticOverShootFactor = 0.699999988
@@ -18627,16 +18516,6 @@ PART
 		CruiseAltitude = 500
 		CruiseSpeed = 300
 		CruisePredictionTime = 5
-		LoftMaxAltitude = 16000
-		LoftRangeOverride = 15000
-		LoftAltitudeAdvMax = 3000
-		LoftMinAltitude = 6000
-		LoftAngle = 45
-		LoftTermAngle = 20
-		LoftRangeFac = 0.5
-		LoftVelComp = -0.5
-		LoftVertVelComp = -0.5
-		terminalHomingRange = 3000
 		gpsSet = False
 		assignedGPSCoords = (0, 0, 0)
 		gpsTargetName = Unknown
@@ -18647,6 +18526,7 @@ PART
 		engageMissile = False
 		engageGround = True
 		engageSLW = False
+		weaponChannel = 0
 		shortName = AGM-65
 		stagingEnabled = True
 		EVENTS
@@ -18702,40 +18582,6 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 2500
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
 		Hitpoints = 5
@@ -18757,6 +18603,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -18773,6 +18620,54 @@ PART
 		maxSupportedArmor = 25
 		armorVolume = 2.38765526
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -18816,18 +18711,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (1.84289467, 14.267621, -4.22599363)
-		originalRotation = (0, -5.08709997E-14, -1.57009246E-14, 1.00000012)
-		moduleVersion = 6
+		id = 4023663331
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.2, -0.1)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -18842,6 +18731,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 972
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -18861,8 +18751,8 @@ PART
 {
 	part = rtg_4292373696
 	partName = Part
-	persistentId = 419149312
-	pos = 0.947268546,14.7014608,-4.06142521
+	persistentId = 67599894
+	pos = 0.947268546,14.7014608,-4.06142616
 	attPos = 0,0,0
 	attPos0 = 0,-1.26430392,-0.0139653683
 	rot = 0.707106829,0,0,-0.707106829
@@ -18944,41 +18834,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleGenerator
-		isEnabled = True
-		generatorIsActive = False
-		throttle = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ActivateAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ShutdownAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleCoreHeat
 		isEnabled = True
 		CoreTempGoalAdjustment = 0
@@ -18999,6 +18854,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 90
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -19015,43 +18871,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 23300
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 75
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -19070,6 +18892,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -19099,16 +18922,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 23300
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19137,6 +18985,22 @@ PART
 	}
 	MODULE
 	{
+		name = ModuleRadioisotopeGenerator
+		isEnabled = True
+		EasyMode = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = ShipEffectsCollisions
 		isEnabled = True
 		stagingEnabled = True
@@ -19152,22 +19016,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.7014608, -4.06142521)
-		originalRotation = (0.707106829, 0, 0, -0.707106829)
-		moduleVersion = 6
+		id = 67599894
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.3, 0.0)
-		originalAttachNodePos = (0.0, -0.3, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -19183,11 +19037,11 @@ PART
 {
 	part = strutOcto_4291152670
 	partName = Part
-	persistentId = 2824348022
-	pos = 0.947268546,14.887495,-2.39711857
+	persistentId = 535323679
+	pos = 0.947268546,14.887495,-2.39711881
 	attPos = -5.96046448E-08,0.0368303061,0.143745303
 	attPos0 = 5.96046448E-08,0.363169193,-0.343745232
-	rot = 0.500000179,0.499999821,-0.500000179,-0.499999821
+	rot = 0.500000238,0.499999881,-0.500000238,-0.499999881
 	attRot = 0,0,0.999999881,0
 	attRot0 = 0.707106829,-2.38418579E-07,-0.707106829,2.38418579E-07
 	mir = 1,1,1
@@ -19273,6 +19127,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 90
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -19289,43 +19144,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 20
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -19344,6 +19165,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -19373,16 +19195,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 20
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19426,22 +19273,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.887495, -2.39711857)
-		originalRotation = (0.500000179, 0.499999821, -0.500000179, -0.499999821)
-		moduleVersion = 6
+		id = 535323679
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, 0.1, 0.0)
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, 1.0, 0.0)
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -19457,11 +19294,11 @@ PART
 {
 	part = avionicsNoseCone_4291142426
 	partName = Part
-	persistentId = 3843615502
+	persistentId = 435692415
 	pos = 0.947268546,14.887495,-2.0183835
 	attPos = 0,0,0
 	attPos0 = -1.7456874E-07,-0.378734767,-2.84217128E-14
-	rot = -3.62283954E-15,-0.707107067,-0.707106471,5.79771606E-15
+	rot = 1.20557793E-14,-0.707107186,-0.70710659,7.03148308E-15
 	attRot = 0,0,0,1
 	attRot0 = 0.707106829,5.96046448E-08,0.707106829,-5.96046448E-08
 	mir = 1,1,1
@@ -19591,43 +19428,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 350
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 5200
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19662,6 +19466,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -19691,9 +19496,41 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTweakableSAS
+		name = FMRS_PM
 		isEnabled = True
-		SASServiceLevel = 3
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19707,16 +19544,9 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = ModuleTweakableSAS
 		isEnabled = True
-		type = stack_square
-		active = True
-		available = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 5200
-		OriginalCrewCapacity = 0
+		SASServiceLevel = 3
 		stagingEnabled = True
 		EVENTS
 		{
@@ -19760,18 +19590,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.887495, -2.0183835)
-		originalRotation = (-3.62283954E-15, -0.707107067, -0.707106471, 5.79771606E-15)
-		moduleVersion = 6
+		id = 435692415
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, -0.3, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -19787,9 +19611,9 @@ PART
 {
 	part = hinge.03.s_4292412394
 	partName = Part
-	persistentId = 913626348
-	pos = 0.947268546,13.887495,-4.8721242
-	attPos = 0,0.590040207,0.0739593506
+	persistentId = 1984187812
+	pos = 0.947268546,13.887495,-4.50021505
+	attPos = 0,0.961950421,0.0739593506
 	attPos0 = 0,-0.790042043,0.72604084
 	rot = -0.0922959149,0.701057434,0.0922959149,-0.701057434
 	attRot = 0.608761489,0.793353796,0,1.38405184E-17
@@ -19810,9 +19634,10 @@ PART
 	modMass = 0.0600000024
 	modSize = 0,0,0
 	link = smallClaw_4292357778
+	link = bahaFlirBall_4288415316
 	srfN = srfAttach,MK1Fuselage_4293846866,CylCOL,0.109375|0.468748987|0,1|0|0,0.109375|0.468748987|0
 	attN = bottom,Null_0_0.109375|0.468748987|0_1|0|0_0.109375|0.468748987|0_1|0|0
-	attN = top,Null_0_-0.468748987|-0.109375|0_0|-1|0_-0.48134014|-0.00112697494|1.19209304E-07_-0.224951208|-0.97437042|-5.96046448E-08
+	attN = top,Null_0_-0.468748987|-0.109375|0_0|-1|0_-0.481341839|-0.0011264683|0_-0.224951282|-0.97437042|0
 	EVENTS
 	{
 	}
@@ -20057,43 +19882,10 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 60
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 270
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 150
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
 		stagingEnabled = True
 		EVENTS
 		{
@@ -20128,6 +19920,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -20144,6 +19937,54 @@ PART
 		maxSupportedArmor = 15
 		armorVolume = 2.72487187
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -20187,22 +20028,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 13.887495, -4.8721242)
-		originalRotation = (-0.0922959149, 0.701057434, 0.0922959149, -0.701057434)
-		moduleVersion = 6
+		id = 1984187812
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.1, 0.5, 0.0)
-		originalAttachNodePos = (-0.5, 0.0, 0.0)
-		originalAttachNodeSize = 0
-		originalAttachNodeSize = 0
-		originalAttachNodeOrientation = (1.0, 0.0, 0.0)
-		originalAttachNodeOrientation = (-0.2, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -20218,11 +20049,11 @@ PART
 {
 	part = smallClaw_4292357778
 	partName = Part
-	persistentId = 905751875
-	pos = 0.947268665,14.2630711,-5.57848597
+	persistentId = 2957772169
+	pos = 0.947268665,14.2630711,-5.20657873
 	attPos = 0.175855637,0.109372243,-5.96046519E-08
 	attPos0 = -0.975857556,-0.109374076,-5.96046519E-08
-	rot = 0,0.857167304,-0.515038431,0
+	rot = 4.21468513E-08,0.857167125,-0.515038371,8.42937027E-08
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = 0.500000119,-0.499999881,0.500000119,0.499999881
 	mir = 1,1,1
@@ -20391,6 +20222,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 300
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -20407,43 +20239,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 315
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 150
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -20462,6 +20260,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -20531,16 +20330,41 @@ PART
 	}
 	MODULE
 	{
-		name = TweakScale
+		name = FMRS_PM
 		isEnabled = True
-		type = stack
-		active = True
-		available = True
-		currentScale = 0.625
-		defaultScale = 0.625
-		defaultTransformScale = (0, 0, 0)
-		DryCost = 315
-		OriginalCrewCapacity = 0
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -20756,18 +20580,12 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268665, 14.2630711, -5.57848597)
-		originalRotation = (0, 0.857167304, -0.515038431, 0)
-		moduleVersion = 6
+		id = 2957772169
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
-		originalAttachNodePos = (0.0, -0.1, 0.0)
-		originalAttachNodeSize = 1
-		originalAttachNodeOrientation = (0.0, -1.0, 0.0)
-		originalAttachNodeOffset = (0.0, 0.0, 0.0)
 		EVENTS
 		{
 		}
@@ -20783,11 +20601,11 @@ PART
 {
 	part = DC.aerocam2.180_4292414610
 	partName = Part
-	persistentId = 2155796130
-	pos = 0.947268546,14.0625381,-1.92503083
+	persistentId = 2602145402
+	pos = 0.947268546,14.0625381,-1.92503107
 	attPos = 0,0,0
 	attPos0 = 0,0.872087598,0.624957085
-	rot = 1.00000012,-9.64179181E-10,-2.77555756E-16,2.38418579E-07
+	rot = 1.00000012,-9.64179181E-10,-3.33066907E-16,2.38418579E-07
 	attRot = 0,0,0,1
 	attRot0 = 0.70710665,-6.81777801E-10,6.81777357E-10,0.707107008
 	mir = 1,1,1
@@ -20911,6 +20729,7 @@ PART
 	{
 		name = ModuleCargoPart
 		isEnabled = True
+		packedVolume = 10
 		beingAttached = False
 		beingSettled = False
 		reinitResourcesOnStoreInVessel = False
@@ -20927,43 +20746,9 @@ PART
 	}
 	MODULE
 	{
-		name = FundsKeeper
-		isEnabled = True
-		OriginalCost = 100
-		OriginalResourcesCost = 0
-		OriginalModulesCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = StealBackMyFunds
-		isEnabled = True
-		active = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = HitpointTracker
 		isEnabled = True
-		Hitpoints = 100
+		Hitpoints = 25
 		Armor = 10
 		ArmorRemaining = 100
 		ArmorTypeNum = 1
@@ -20982,6 +20767,7 @@ PART
 		Hardness = 300
 		Strength = 200
 		SafeUseTemp = 993
+		radarReflectivity = 1
 		Cost = 0
 		vFactor = 1.82712211E-06
 		muParam1 = 1.37732458
@@ -20998,6 +20784,54 @@ PART
 		maxSupportedArmor = 10
 		armorVolume = 0.118047468
 		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -21058,14 +20892,292 @@ PART
 	}
 	MODULE
 	{
-		name = AttachedOnEditor
+		name = ModuleSYPartTracker
 		isEnabled = True
-		active = True
-		originalPos = (0.947268546, 14.0625381, -1.92503059)
-		originalRotation = (1.00000012, -9.64179181E-10, -3.33066907E-16, 2.38418579E-07)
-		moduleVersion = 6
+		id = 2602145402
+		TimesRecovered = 0
+		Inventoried = False
 		stagingEnabled = True
-		userReallyDeactivatedIt = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = bahaFlirBall_4288415316
+	partName = Part
+	persistentId = 2679773586
+	pos = 0.947268546,14.0686512,-4.30802345
+	attPos = -0.046140179,0.162663311,0
+	attPos0 = 0.187559605,0.0822849423,0
+	rot = 0.258819163,0,0,0.965925992
+	attRot = 0.13052626,1.22417654E-09,9.29853705E-09,0.991445005
+	attRot0 = -0.0922960341,-0.701057434,0.0922960341,-0.701057434
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,hinge.03.s_4292412394,BaseCol,0|0|-0.0781308636,0|0|1,0|0|-0.0781308636
+	attN = top,Null_0_0|0|-0.0781308636_0|0|-1_0|0|-0.0781308636_0|0|-1
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			active = False
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleTargetingCamera
+		isEnabled = True
+		cameraEnabled = False
+		currentFovIndex = 0
+		slaveTurrets = False
+		CoMLock = False
+		groundStabilized = False
+		savedLat = 0
+		savedLong = 0
+		savedAlt = 0
+		nvMode = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			AGEnable
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = HitpointTracker
+		isEnabled = True
+		Hitpoints = 75
+		Armor = 10
+		ArmorRemaining = 100
+		ArmorTypeNum = 1
+		HullTypeNum = 2
+		hullType = Aluminium
+		SelectedArmorType = None
+		maxHitPoints = -1
+		ArmorThickness = 10
+		ArmorSet = True
+		ExplodeMode = Never
+		FireFX = True
+		FireFXLifeTimeInSeconds = 5
+		Density = 2700
+		Diffusivity = 237
+		Ductility = 0.600000024
+		Hardness = 300
+		Strength = 200
+		SafeUseTemp = 993
+		radarReflectivity = 1
+		Cost = 0
+		vFactor = 1.82712211E-06
+		muParam1 = 1.37732458
+		muParam2 = 2.04939008
+		muParam3 = 4.5333333
+		muParam1S = 1.92650819
+		muParam2S = 2.65274119
+		muParam3S = 7.37037039
+		HEEquiv = 0.210114747
+		HEATEquiv = 0.55794096
+		maxForce = 22
+		maxTorque = 22
+		maxG = 50
+		maxSupportedArmor = 20
+		armorVolume = 0.562488556
+		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = WBIPartScrapper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSYPartTracker
+		isEnabled = True
+		id = 2679773586
+		TimesRecovered = 0
+		Inventoried = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		packedVolume = 288
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
 		EVENTS
 		{
 		}

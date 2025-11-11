@@ -1,14 +1,14 @@
 craftName = K-62 Minus
 cachedCraftData
 {
-	origChecksum = f7d1c3f4f6c858c116c5246cb6c66045
+	origChecksum = 624c635c21de999cca167efe5ef4d8f3
 	cacheVersion = 3
 	name = K-62 Minus
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 71182.6016
+	cost = 60132.6016
 	partCount = 57
-	mass = 11.9310036
+	mass = 12.2782059
 	description = 
 	crewCapacity = 1
 	partNames = Mark2Cockpit
@@ -38,7 +38,6 @@ cachedCraftData
 	partNames = smallCtrlSrf
 	partNames = bdPilotAI
 	partNames = IntakeRadialLong
-	partNames = bahaCamPod
 	partNames = bahaAGM-65
 	partNames = rtg
 	partNames = strutOcto
@@ -46,4 +45,5 @@ cachedCraftData
 	partNames = hinge.03.s
 	partNames = smallClaw
 	partNames = DC.aerocam2.180
+	partNames = bahaFlirBall
 }

@@ -1,14 +1,14 @@
 craftName = Salam AH1
 cachedCraftData
 {
-	origChecksum = 3f9f9d731ce9ba60483fb283bba66b62
+	origChecksum = 7cdecbb5a1b3defd513b56ba13084766
 	cacheVersion = 3
 	name = Salam AH1
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 90074.6016
+	cost = 95674.6016
 	partCount = 65
-	mass = 13.8068027
+	mass = 14.9118023
 	description = 
 	crewCapacity = 5
 	partNames = Mark1Cockpit
@@ -38,7 +38,7 @@ cachedCraftData
 	partNames = MiniDrill
 	partNames = foldingRadSmall
 	partNames = KAXkueyEngine
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = MK1Fuselage
 	partNames = avionicsNoseCone
 	partNames = bdVTOLAI

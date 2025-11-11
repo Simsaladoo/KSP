@@ -2,14 +2,14 @@ tag = Type\Unmanned
 craftName = Alhambra AAG Base Heavy Stage
 cachedCraftData
 {
-	origChecksum = 12298fcae981e5907eb829f59d535bf1
+	origChecksum = d96112639560ea3f271852ae50744e69
 	cacheVersion = 3
 	name = Alhambra AAG Base Heavy Stage
 	kspVersion = 1.12.5
-	stagesCount = 3
-	cost = 349108.438
-	partCount = 39
-	mass = 1272.93103
+	stagesCount = 4
+	cost = 360957.625
+	partCount = 82
+	mass = 1287.09253
 	description = 
 	crewCapacity = 0
 	partNames = bluedog.Apollo.AARDV.Core
@@ -22,6 +22,17 @@ cachedCraftData
 	partNames = Clydesdale
 	partNames = launchClamp1
 	partNames = bluedog.MORL.aeroCone
+	partNames = strutConnector
 	partNames = fairingSize2
-	partNames = bluedog.Decoupler.1p875m
+	partNames = Separator.2
+	partNames = adapterSize2-Size1
+	partNames = radialLiquidEngine1-2
+	partNames = restock-rcs-block-multi-2
+	partNames = nfex-antenna-rover-2
+	partNames = fuelTank
+	partNames = snackTin500
+	partNames = radialSnackTin
+	partNames = RCSTanka5a
+	partNames = dockingPort2
+	partNames = solarPanels1
 }

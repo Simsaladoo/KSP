@@ -1,14 +1,14 @@
 craftName = AB-110 Valkyrie
 cachedCraftData
 {
-	origChecksum = cc2cf88ad0244378845213096f534c94
+	origChecksum = 02994cae2fa6471d0b7bc0eb59ccd3c2
 	cacheVersion = 3
 	name = AB-110 Valkyrie
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 173350.828
-	partCount = 161
-	mass = 92.2290878
+	cost = 173602.828
+	partCount = 167
+	mass = 92.5291061
 	description = 
 	crewCapacity = 10
 	partNames = mk2Cockpit.Standard

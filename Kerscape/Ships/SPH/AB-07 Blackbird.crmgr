@@ -1,14 +1,14 @@
 craftName = AB-07 Blackbird
 cachedCraftData
 {
-	origChecksum = 4545fb0325fd022a176b255fcf3d00b6
+	origChecksum = 6019304a3b868faa7423207caf19d502
 	cacheVersion = 3
 	name = AB-07 Blackbird
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 133500.219
-	partCount = 103
-	mass = 68.8290253
+	cost = 132200.219
+	partCount = 98
+	mass = 61.9090157
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard
@@ -53,6 +53,8 @@ cachedCraftData
 	partNames = shockConeIntake
 	partNames = WBI.Mk1RadialDockingPort
 	partNames = navLight1
-	partNames = structuralPylon
+	partNames = radialDecoupler
 	partNames = cone05ra
+	partNames = bluedog.CELV.Fin
+	partNames = GearMedium
 }

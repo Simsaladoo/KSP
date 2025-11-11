@@ -1,14 +1,14 @@
 craftName = Alhambra LKO Mining Truck
 cachedCraftData
 {
-	origChecksum = b3727f9193636dd2b9113f3001fd35b9
+	origChecksum = c197924277943d33279b2fb38afb545a
 	cacheVersion = 3
 	name = Alhambra LKO Mining Truck
 	kspVersion = 1.12.5
 	stagesCount = 4
-	cost = 394999.406
-	partCount = 84
-	mass = 1377.47412
+	cost = 398025.406
+	partCount = 121
+	mass = 1363.90588
 	description = 
 	crewCapacity = 1
 	partNames = Mark2Cockpit
@@ -27,6 +27,13 @@ cachedCraftData
 	partNames = adapterSmallMiniShort
 	partNames = avionicsNoseCone
 	partNames = solarPanels1
+	partNames = mediumDishAntenna
+	partNames = RCSBlock.v2
+	partNames = DC.aerocam2.180
+	partNames = DC.aerocam2
+	partNames = parachuteRadial
+	partNames = KKAOSS.Landing.Control.g
+	partNames = HeatShield2
 	partNames = Separator.2
 	partNames = Size3.Size4.Adapter.01
 	partNames = Size4.Tank.04
@@ -36,8 +43,4 @@ cachedCraftData
 	partNames = Clydesdale
 	partNames = rocketNoseCone.v3
 	partNames = launchClamp1
-	partNames = mediumDishAntenna
-	partNames = RCSBlock.v2
-	partNames = DC.aerocam2.180
-	partNames = DC.aerocam2
 }
