@@ -1,0 +1,34 @@
+tag = Type\Unmanned
+craftName = Alhambra GPS IV
+cachedCraftData
+{
+	origChecksum = 6dfa5eeb8b0e21337b59b590b18b9b9c
+	cacheVersion = 3
+	name = Alhambra GPS IV
+	kspVersion = 1.12.5
+	stagesCount = 4
+	cost = 223776
+	partCount = 59
+	mass = 1020.11176
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = rtg
+	partNames = avionicsNoseCone
+	partNames = largeAdapter
+	partNames = RelayAntenna100
+	partNames = foldingRadSmall
+	partNames = Rockomax32.BW
+	partNames = solarPanelSP10C
+	partNames = Tube2
+	partNames = liquidEngine3.v2
+	partNames = Decoupler.2
+	partNames = Size3To2Adapter.v2
+	partNames = Size3LargeTank
+	partNames = Size3EngineCluster
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = strutConnector
+}

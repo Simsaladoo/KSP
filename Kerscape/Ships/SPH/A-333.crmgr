@@ -1,0 +1,38 @@
+craftName = A-333
+cachedCraftData
+{
+	origChecksum = afa5be1b4878970d231991e0e63067d4
+	cacheVersion = 3
+	name = A-333
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 88950.7969
+	partCount = 47
+	mass = 52.7124672
+	description = 
+	crewCapacity = 2
+	partNames = mk2Cockpit.Standard
+	partNames = M2X.Short25adapter
+	partNames = Rockomax32.BW
+	partNames = CADelta
+	partNames = MK1Fuselage2
+	partNames = radialEngineBody
+	partNames = RCSFuelTank
+	partNames = airbrake1
+	partNames = stackBiCoupler.v2
+	partNames = RAPIER
+	partNames = adapterSize2-Size1
+	partNames = mk25WingShuttleRudder
+	partNames = GearMedium
+	partNames = GearSmall
+	partNames = wingShuttleElevon1
+	partNames = AdvancedCanard
+	partNames = telescopicLadderBay
+	partNames = mediumDishAntenna
+	partNames = advSasModule
+	partNames = shockConeIntake
+	partNames = stackPoint1
+	partNames = avionicsNoseCone
+	partNames = nfe-rtg-snap27-1
+	partNames = strutConnector
+}

@@ -1,0 +1,46 @@
+craftName = Alhambra Craft Carrier
+cachedCraftData
+{
+	origChecksum = 1a439d28bdc3ae319c1617a85d38a027
+	cacheVersion = 3
+	name = Alhambra Craft Carrier
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 182215.594
+	partCount = 63
+	mass = 68.5647888
+	description = 
+	crewCapacity = 6
+	partNames = probeStackLarge
+	partNames = crewCabin
+	partNames = missileController
+	partNames = mk2LanderCabin.v2
+	partNames = solarPanelSP10C
+	partNames = bdShipAI
+	partNames = radarDataReceiver
+	partNames = bahaFlirBall
+	partNames = DC.aerocam2
+	partNames = mk3FuselageLFO.50
+	partNames = adapterMk3-Mk2
+	partNames = bahaCannonShellDrum
+	partNames = radPanelLg
+	partNames = MK1Fuselage2
+	partNames = pointyNoseConeB
+	partNames = MOISTprop1
+	partNames = R8winglet
+	partNames = ReleaseValve
+	partNames = mk3CargoBayL
+	partNames = mk3FuselageLFO.100
+	partNames = BDAsonarPod1A
+	partNames = noseCone
+	partNames = bahaAdjustableRail
+	partNames = StingRayBDATorpedo
+	partNames = SmallTank
+	partNames = bahaRBS-15Cruise
+	partNames = missileTurretTest
+	partNames = bahaIRSTpod
+	partNames = bahaPython
+	partNames = bahaAIR-2
+	partNames = bdRadome1snub
+	partNames = WBI.SAFER
+}

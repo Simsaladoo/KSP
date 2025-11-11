@@ -1,0 +1,41 @@
+craftName = Alhambra Port Bison
+cachedCraftData
+{
+	origChecksum = 76f4195a15ecce91cceb8683440ccb62
+	cacheVersion = 3
+	name = Alhambra Port Bison
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 111008.008
+	partCount = 46
+	mass = 7.65600157
+	description = 
+	crewCapacity = 24
+	partNames = WBI.BisonCab
+	partNames = WBI.PassengerGondola
+	partNames = WBI.BisonAirlock
+	partNames = wheelMed
+	partNames = bahaCamPod
+	partNames = WBI.BigSolarPanel
+	partNames = rtg
+	partNames = stackPoint1
+	partNames = landerCabinSmall
+	partNames = telescopicLadder
+	partNames = DC.aerocam2.180
+	partNames = ladder1
+	partNames = RadialOreTank
+	partNames = missileController
+	partNames = bahaIRSTpod
+	partNames = miniFuselage
+	partNames = avionicsNoseCone
+	partNames = standardNoseCone
+	partNames = MiniDrill
+	partNames = foldingRadSmall
+	partNames = DC.aerocam2
+	partNames = GasTurbineGenerator2A
+	partNames = hinge.01
+	partNames = smallClaw
+	partNames = piston.01
+	partNames = dockingPort3
+	partNames = WBI.MicroISRU
+}
