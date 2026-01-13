@@ -1,0 +1,47 @@
+craftName = BSP-29B
+cachedCraftData
+{
+	origChecksum = dc0cebe73a3cf0761b036cadbddfc538
+	cacheVersion = 3
+	name = BSP-29B
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 59218.793
+	partCount = 55
+	mass = 23.3876953
+	description = 
+	crewCapacity = 2
+	partNames = Mark2Cockpit
+	partNames = GearSmall
+	partNames = bahaFlirBall
+	partNames = bdRadome1inlineGA
+	partNames = probeStackSmall
+	partNames = batteryBank
+	partNames = advSasModule
+	partNames = fuelTank.long
+	partNames = missileController
+	partNames = radarDataReceiver
+	partNames = DC.aerocam2.180
+	partNames = DC.aerocam2
+	partNames = bahaAdjustableRail
+	partNames = bahaAgm86B
+	partNames = noseCone
+	partNames = strutCube
+	partNames = avionicsNoseCone
+	partNames = Mark1Cockpit
+	partNames = liquidEngine3.v2
+	partNames = MK1Fuselage2
+	partNames = radialEngineBody
+	partNames = delta.small
+	partNames = wingShuttleElevon1
+	partNames = turboFanEngine
+	partNames = wingConnector5
+	partNames = elevon2
+	partNames = elevon3
+	partNames = structuralWing2
+	partNames = shockConeIntake
+	partNames = baha20mmAmmo
+	partNames = bahaHiddenVulcan
+	partNames = sensorAtmosphere
+	partNames = airbrake1
+}

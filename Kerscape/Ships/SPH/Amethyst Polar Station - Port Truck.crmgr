@@ -1,0 +1,39 @@
+craftName = Amethyst Polar Station - Port Truck
+cachedCraftData
+{
+	origChecksum = a6bae1dee2d51f2565c9d95bcbbf0b46
+	cacheVersion = 3
+	name = Amethyst Polar Station - Port Truck
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 440618.625
+	partCount = 76
+	mass = 25.0119915
+	description = 
+	crewCapacity = 0
+	partNames = probeStackLarge
+	partNames = ISRU
+	partNames = CargoStorageUnit
+	partNames = batteryBankLarge
+	partNames = largeAdapter2
+	partNames = cargoContainer
+	partNames = dockingPort2
+	partNames = rtg
+	partNames = MiniDrill
+	partNames = RCSBlock.v2
+	partNames = LargeTank
+	partNames = trussPiece3x
+	partNames = wheelMed
+	partNames = rcsTankRadialLong
+	partNames = spotLight1.v2
+	partNames = foldingRadSmall
+	partNames = missileController
+	partNames = fuelTank
+	partNames = bahaFlirBall
+	partNames = WBI.SAFER
+	partNames = rotoServo.04
+	partNames = hinge.03
+	partNames = piston.03
+	partNames = hinge.01
+	partNames = smallClaw
+}

@@ -1,0 +1,42 @@
+craftName = Alhambra Craft Tanker
+cachedCraftData
+{
+	origChecksum = 444fb44b628923234bd65e980821222a
+	cacheVersion = 3
+	name = Alhambra Craft Tanker
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 242796.797
+	partCount = 45
+	mass = 65.3999939
+	description = 
+	crewCapacity = 6
+	partNames = probeStackLarge
+	partNames = mk3FuselageLFO.50
+	partNames = adapterMk3-Mk2
+	partNames = mk3FuselageLFO.100
+	partNames = BDAsonarPod1A
+	partNames = noseCone
+	partNames = LargeTank
+	partNames = batteryBankLarge
+	partNames = crewCabin
+	partNames = mk2LanderCabin.v2
+	partNames = solarPanelSP10C
+	partNames = bdShipAI
+	partNames = radarDataReceiver
+	partNames = missileController
+	partNames = bahaFlirBall
+	partNames = DC.aerocam2
+	partNames = fuelTankSmall
+	partNames = pointyNoseConeB
+	partNames = WaterJetTiny
+	partNames = mk25WingShuttleElevon2
+	partNames = landingLeg1-2
+	partNames = LiquidIntakeMK2-Powered
+	partNames = mk25WingShuttleElevon1
+	partNames = WBI.SAFER
+	partNames = RadialDrill
+	partNames = DC.TurretCam
+	partNames = DC.aerocam2.180
+	partNames = domeLight1
+}

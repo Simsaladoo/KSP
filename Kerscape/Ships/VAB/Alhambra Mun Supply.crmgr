@@ -1,0 +1,47 @@
+craftName = Alhambra Mun Supply
+cachedCraftData
+{
+	origChecksum = 12022a344860a46a19de113920ebb277
+	cacheVersion = 3
+	name = Alhambra Mun Supply
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 335720.5
+	partCount = 118
+	mass = 1044.047
+	description = 
+	crewCapacity = 0
+	partNames = probeStackSmall
+	partNames = radialRCSTank
+	partNames = fuelTank
+	partNames = externalTankCapsule
+	partNames = mediumDishAntenna
+	partNames = RCSBlock.v2
+	partNames = solarPanels2
+	partNames = Decoupler.1
+	partNames = miniLandingLeg
+	partNames = snackTin500
+	partNames = dockingPort2
+	partNames = radialSnackTin
+	partNames = liquidEngine3.v2
+	partNames = avionicsNoseCone
+	partNames = adapterSize2-Size1
+	partNames = fairingSize2
+	partNames = Rockomax16.BW
+	partNames = EnginePlate2
+	partNames = Decoupler.2
+	partNames = probeStackLarge
+	partNames = Rockomax64.BW
+	partNames = SSME
+	partNames = adapterMk3-Size2
+	partNames = mk3FuselageLFO.50
+	partNames = mk3FuselageLFO.25
+	partNames = adapterSize3-Mk3
+	partNames = EnginePlate3
+	partNames = strutConnector
+	partNames = radialDecoupler2
+	partNames = Clydesdale
+	partNames = rocketNoseCone.v3
+	partNames = launchClamp1
+	partNames = solarPanels5
+}

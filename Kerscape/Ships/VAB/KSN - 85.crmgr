@@ -1,0 +1,47 @@
+craftName = KSN - 85
+cachedCraftData
+{
+	origChecksum = 4b228ea68dc3ec499d41a1289d7b1aab
+	cacheVersion = 3
+	name = KSN - 85
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 134045.219
+	partCount = 68
+	mass = 47.7390022
+	description = 
+	crewCapacity = 3
+	partNames = mk2LanderCabin.v2
+	partNames = mk3FuselageLFO.100
+	partNames = structuralPylon
+	partNames = MK1Fuselage
+	partNames = advSasModule
+	partNames = noseConeAdapter
+	partNames = avionicsNoseCone
+	partNames = AdvancedCanard
+	partNames = SmallTank
+	partNames = adapterSmallMiniShort
+	partNames = rtg
+	partNames = mk3CargoRamp
+	partNames = science.module
+	partNames = sensorAtmosphere
+	partNames = SurfaceScanner
+	partNames = GooExperiment
+	partNames = miniFuselage
+	partNames = LiquidIntakeMK2-Powered
+	partNames = probeStackSmall
+	partNames = MOISTprop1
+	partNames = mk1pod.v2
+	partNames = adapterMk3-Size2
+	partNames = BDAsonarPod1A
+	partNames = bahaAdjustableRail
+	partNames = landingLeg1-2
+	partNames = RadialDrill
+	partNames = batteryBankLarge
+	partNames = largeAdapter
+	partNames = bdRadome1snub
+	partNames = bahaFlirBall
+	partNames = DC.aerocam2
+	partNames = DC.aerocam2.180
+	partNames = TigersharkBDATorpedo
+}

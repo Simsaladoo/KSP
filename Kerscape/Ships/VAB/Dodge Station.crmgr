@@ -1,0 +1,47 @@
+craftName = Dodge Station
+cachedCraftData
+{
+	origChecksum = e0001a4860b494e0ee27cd875ee4763c
+	cacheVersion = 3
+	name = Dodge Station
+	kspVersion = 1.12.5
+	stagesCount = 0
+	cost = 279064.375
+	partCount = 69
+	mass = 37.6110916
+	description = 
+	crewCapacity = 21
+	partNames = MK1CrewCabin
+	partNames = largeAdapter2
+	partNames = crewCabin
+	partNames = dockingPort2
+	partNames = Large.Crewed.Lab
+	partNames = ISRU
+	partNames = mediumDishAntenna
+	partNames = trussPiece3x
+	partNames = externalTankCapsule
+	partNames = dockingPort3
+	partNames = foldingRadMed
+	partNames = GooExperiment
+	partNames = ScienceBox
+	partNames = sensorThermometer
+	partNames = sensorAccelerometer
+	partNames = sensorGravimeter
+	partNames = sensorBarometer
+	partNames = science.module
+	partNames = missileController
+	partNames = RelayAntenna100
+	partNames = WBI.SAFER
+	partNames = M2X.RadialLeg
+	partNames = sspx-cupola-telescope-125-1
+	partNames = Mark1Cockpit
+	partNames = telescopicLadder
+	partNames = DC.TurretCam
+	partNames = LargeTank
+	partNames = largeSolarPanel
+	partNames = InflatableAirlock
+	partNames = RCSBlock.v2
+	partNames = spotLight1.v2
+	partNames = foldingRadSmall
+	partNames = bahaFlirBall
+}
