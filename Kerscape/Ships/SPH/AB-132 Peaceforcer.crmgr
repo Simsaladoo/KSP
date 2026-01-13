@@ -1,14 +1,14 @@
 craftName = AB-132 Peaceforcer
 cachedCraftData
 {
-	origChecksum = e87448fecd61518d376e808bbd29919c
+	origChecksum = 8f7b1862bc89aff3520a2964117cbb31
 	cacheVersion = 3
 	name = AB-132 Peaceforcer
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 172939.047
-	partCount = 86
-	mass = 165.448837
+	cost = 516852.063
+	partCount = 107
+	mass = 134.498215
 	description = 
 	crewCapacity = 30
 	partNames = mk2Cockpit.Standard
@@ -40,5 +40,12 @@ cachedCraftData
 	partNames = crewCabin
 	partNames = GearLarge
 	partNames = GearSmall
-	partNames = GasTurbineGenerator2A
+	partNames = WBI.SAFER
+	partNames = strutConnector
+	partNames = missileController
+	partNames = bahaCamPod
+	partNames = radarDataReceiver
+	partNames = bahaAgm86B
+	partNames = DC.aerocam2.180
+	partNames = DC.aerocam2
 }

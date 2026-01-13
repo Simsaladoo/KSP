@@ -1,21 +1,21 @@
 craftName = K-1 UltraKern
 cachedCraftData
 {
-	origChecksum = eda62a5de8e02afeadabb0dae14b70d1
+	origChecksum = c3223587aa4780e0c08c9d4bdf857607
 	cacheVersion = 3
 	name = K-1 UltraKern
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 36103.6016
+	cost = 37103.6016
 	partCount = 62
-	mass = 3.27333021
+	mass = 3.42333055
 	description = 
 	crewCapacity = 1
 	partNames = probeCoreCube
 	partNames = strutCube
 	partNames = seatExternalCmd
 	partNames = standardNoseCone
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = miniFuselage
 	partNames = structuralWing4
 	partNames = batteryPack

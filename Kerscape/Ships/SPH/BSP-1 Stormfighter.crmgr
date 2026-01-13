@@ -1,14 +1,14 @@
 craftName = BSP-1 Stormfighter
 cachedCraftData
 {
-	origChecksum = f0c90c6bc669e3575da775634fe2665a
+	origChecksum = 3cd233605d3d570330b0916cc4c0a19f
 	cacheVersion = 3
 	name = BSP-1 Stormfighter
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 36417.6016
-	partCount = 61
-	mass = 11.2766628
+	cost = 38234
+	partCount = 62
+	mass = 11.2474041
 	description = 
 	crewCapacity = 1
 	partNames = Mark2Cockpit
@@ -25,17 +25,14 @@ cachedCraftData
 	partNames = missileController
 	partNames = radarDataReceiver
 	partNames = strutCube
-	partNames = vernierEngine
 	partNames = wingConnector3
 	partNames = delta.small
 	partNames = AdvancedCanard
 	partNames = elevon3
 	partNames = GearSmall
 	partNames = smallCtrlSrf
-	partNames = bahaCamPod
 	partNames = bahaAdjustableRail
 	partNames = bahaAGM-65
-	partNames = baha50CalAmmo
 	partNames = bahaMk82BombBrake
 	partNames = HDSmallGearBay
 	partNames = radPanelEdge
@@ -43,4 +40,11 @@ cachedCraftData
 	partNames = strutConnector
 	partNames = airbrake1
 	partNames = dockingPort3
+	partNames = bahaFlirBall
+	partNames = vernierEngine
+	partNames = hinge.03.s
+	partNames = smallClaw
+	partNames = WBI.StationLight
+	partNames = DC.aerocam2.180
+	partNames = baha20mmAmmo
 }

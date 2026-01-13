@@ -1,14 +1,14 @@
-craftName = Almerra Ship II
+craftName = Almerra Ship
 cachedCraftData
 {
-	origChecksum = c5fce801fde12a13a959cfc6049c031a
+	origChecksum = 5638c2ee72730b03c07941be125d2d25
 	cacheVersion = 3
 	name = Almerra Ship
 	kspVersion = 1.12.5
 	stagesCount = 5
-	cost = 451187.875
-	partCount = 202
-	mass = 1407.80884
+	cost = 494887.875
+	partCount = 210
+	mass = 1696.50891
 	description = 
 	crewCapacity = 14
 	partNames = mk2Cockpit.Inline

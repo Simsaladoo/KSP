@@ -1,14 +1,14 @@
 craftName = Konyption Sable
 cachedCraftData
 {
-	origChecksum = 3f43268caa390a1e05ed5a78c4cbe3fe
+	origChecksum = ad25c46f0cc89dcbd3d96e04fbe3443b
 	cacheVersion = 3
 	name = Konyption Sable
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 114629.797
-	partCount = 82
-	mass = 43.9399948
+	cost = 127129.797
+	partCount = 94
+	mass = 44.8534889
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard
@@ -42,13 +42,15 @@ cachedCraftData
 	partNames = sensorGravimeter
 	partNames = sensorThermometer
 	partNames = sensorBarometer
-	partNames = rtg
-	partNames = radialSnackTin
 	partNames = strutCube
 	partNames = avionicsNoseCone
 	partNames = M2X.RCSBlister
 	partNames = missileController
 	partNames = radarDataReceiver
 	partNames = DC.aerocam2
-	partNames = DC.aerocam2.180
+	partNames = fuelTankSmallFlat
+	partNames = dockingPort1
+	partNames = airbrake1
+	partNames = rtg
+	partNames = radialSnackTin
 }

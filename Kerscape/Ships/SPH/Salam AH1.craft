@@ -2,7 +2,7 @@ ship = Salam AH1
 version = 1.12.5
 description = 
 type = SPH
-size = 13.3929653,4.0407505,11.6481752
+size = 13.3929644,4.0407505,11.6481752
 steamPublishedFileId = 0
 persistentId = 167122724
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = Mark1Cockpit_4290571162
 	partName = Part
-	persistentId = 4191748256
+	persistentId = 3163864631
 	pos = 1.10204065,3.65965986,1.21211278
 	attPos = 0,0,0
 	attPos0 = 1.10204065,3.65965986,1.21211278
@@ -1516,7 +1516,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4191748256
+		id = 3163864631
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -1676,8 +1676,8 @@ PART
 {
 	part = SmallGearBay_4290500924
 	partName = Part
-	persistentId = 2160471146
-	pos = 1.10204065,3.25965381,3.01212454
+	persistentId = 1990103284
+	pos = 1.10204065,3.25965357,3.01212502
 	attPos = 0,-0.379718423,-0.0274078846
 	attPos0 = 0,2.17971921,0.42740798
 	rot = -0.0800881982,1.76191239E-09,-2.19289547E-08,0.996787846
@@ -2298,7 +2298,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2160471146
+		id = 1990103284
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -2317,8 +2317,8 @@ PART
 {
 	part = AdvancedCanard_4290171538
 	partName = Part
-	persistentId = 4185803376
-	pos = 0.601612985,3.65965986,2.32457566
+	persistentId = 2988434134
+	pos = 0.601612985,3.65965986,2.3245759
 	attPos = 0,0,0
 	attPos0 = -0.500427663,1.11245453,-1.1920929E-07
 	rot = 0.705375731,0.0494486168,-0.0494485348,0.705375612
@@ -2669,7 +2669,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4185803376
+		id = 2988434134
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -2688,8 +2688,8 @@ PART
 {
 	part = AdvancedCanard_4290171378
 	partName = Part
-	persistentId = 3279170533
-	pos = 1.60246837,3.65965986,2.32457566
+	persistentId = 3836148016
+	pos = 1.60246837,3.65965986,2.3245759
 	attPos = 0,0,0
 	attPos0 = 0.500427663,1.11245453,-1.1920929E-07
 	rot = -0.0494486429,0.705375671,0.705375671,0.0494485088
@@ -3032,7 +3032,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3279170533
+		id = 3836148016
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -3051,8 +3051,8 @@ PART
 {
 	part = advSasModule_4294205968
 	partName = Part
-	persistentId = 335259173
-	pos = 1.10204065,3.65965986,0.83808428
+	persistentId = 2571337617
+	pos = 1.10204065,3.65965986,0.838084221
 	attPos = 0,0,0
 	attPos0 = 0,-0.374026686,2.98023224E-08
 	rot = 0.707106829,0,0,0.707106829
@@ -3358,7 +3358,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 335259173
+		id = 2571337617
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -3377,8 +3377,8 @@ PART
 {
 	part = radialEngineBody_4290533664
 	partName = Part
-	persistentId = 1678877134
-	pos = 1.10204065,3.65965986,-0.298456788
+	persistentId = 3433988567
+	pos = 1.10204065,3.65965986,-0.298457265
 	attPos = 0,0,0
 	attPos0 = 0,-1.1365267,2.08616171E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -3721,7 +3721,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1678877134
+		id = 3433988567
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -3803,8 +3803,8 @@ PART
 {
 	part = mk2CrewCabin_4290529156
 	partName = Part
-	persistentId = 1413531500
-	pos = 1.10204065,3.65965986,-0.435680151
+	persistentId = 3669612800
+	pos = 1.10204065,3.65965986,-0.435680628
 	attPos = 1.81149197,-0.123851068,-0.401586473
 	attPos0 = -1.81149197,-0.0133722965,0.401586473
 	rot = 0.00478631305,0.707090616,0.707090616,0.00478611374
@@ -4877,7 +4877,7 @@ PART
 		RecyclerCapacity = 4
 		originalSnacksRatio = 4.6299999667098746E-05
 		sourceInputRatio = 0
-		ID = 68ef86a2-3cc5-429e-be72-3be73bb0cc38
+		ID = f002be3a-c1a4-4a1b-9d2a-45a4ba58f6b9
 		cycleStartTime = 0
 		progress = 
 		lastAttempt = 
@@ -4886,7 +4886,7 @@ PART
 		EfficiencyBonus = 1
 		IsActivated = False
 		stagingEnabled = True
-		lastUpdateTime = 15950361.907601582
+		lastUpdateTime = 15957242.259155968
 		EVENTS
 		{
 		}
@@ -4976,7 +4976,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1413531500
+		id = 3669612800
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -5100,8 +5100,8 @@ PART
 {
 	part = smallCtrlSrf_4290529060
 	partName = Part
-	persistentId = 4107740225
-	pos = 2.62163591,3.71932602,-1.24834454
+	persistentId = 3096626573
+	pos = 2.62163591,3.71932602,-1.24834502
 	attPos = -0.268493652,-1.59750319,0.0802318528
 	attPos0 = -1.25015342,0.784839571,-2.03561399E-07
 	rot = 0.00478577102,0.707090557,0.707090676,0.00478678243
@@ -5452,7 +5452,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4107740225
+		id = 3096626573
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -5471,8 +5471,8 @@ PART
 {
 	part = smallCtrlSrf_4290529026
 	partName = Part
-	persistentId = 4216495915
-	pos = -0.417556882,3.71932602,-1.24834406
+	persistentId = 2353244886
+	pos = -0.417557001,3.71932602,-1.24834454
 	attPos = 0.270567298,-1.59750414,0.0729340017
 	attPos0 = 1.24969471,0.784840167,-0.0338443071
 	rot = -0.707090616,-0.00478681456,-0.00478580315,-0.707090616
@@ -5815,7 +5815,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4216495915
+		id = 2353244886
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -5834,8 +5834,8 @@ PART
 {
 	part = strutCube_4290480818
 	partName = Part
-	persistentId = 4130638150
-	pos = 2.45824194,3.72327471,-1.23568213
+	persistentId = 4168071218
+	pos = 2.45824218,3.72327471,-1.23568261
 	attPos = 0.0241414309,-1.61874747,0.0819671899
 	attPos0 = -1.37935054,0.81874615,6.91041294E-07
 	rot = 0.711876869,0.702304363,4.47034836E-07,5.06639481E-07
@@ -6073,7 +6073,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4130638150
+		id = 4168071218
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -6124,8 +6124,8 @@ PART
 {
 	part = strutCube_4290479700
 	partName = Part
-	persistentId = 4003368788
-	pos = 2.71568632,3.71978974,-1.23568237
+	persistentId = 4947963
+	pos = 2.71568656,3.71978974,-1.23568285
 	attPos = 0,0,0
 	attPos0 = 6.91842217E-07,0.257468551,1.09204748E-07
 	rot = -0.496604621,0.503373027,0.49660331,0.503373325
@@ -6362,7 +6362,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4003368788
+		id = 4947963
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -6413,8 +6413,8 @@ PART
 {
 	part = strutCube_4290479148
 	partName = Part
-	persistentId = 2875002814
-	pos = 2.97313452,3.71630502,-1.23568237
+	persistentId = 3326262823
+	pos = 2.97313452,3.71630502,-1.23568285
 	attPos = 0,0,0
 	attPos0 = 4.91651386E-09,-0.2574687,6.98624035E-07
 	rot = -0.496604621,0.503373027,0.49660331,0.503373325
@@ -6652,7 +6652,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2875002814
+		id = 3326262823
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -6703,8 +6703,8 @@ PART
 {
 	part = GearSmall_4294222442
 	partName = Part
-	persistentId = 4021490715
-	pos = 3.35301876,3.79563642,-1.49179089
+	persistentId = 1179385122
+	pos = 3.35301924,3.79563665,-1.49179137
 	attPos = 0.256109476,-0.268769711,0.0620313212
 	attPos0 = 7.48122346E-08,-0.110000134,0.0224309582
 	rot = 0.00676932931,-4.62720636E-05,-0.00676836167,0.999954343
@@ -7327,7 +7327,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4021490715
+		id = 1179385122
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -7346,8 +7346,8 @@ PART
 {
 	part = strutCube_4290479770
 	partName = Part
-	persistentId = 2293860753
-	pos = -0.254157186,3.72327471,-1.23568189
+	persistentId = 3386735515
+	pos = -0.254157305,3.72327471,-1.23568237
 	attPos = -0.0219140053,-1.61874819,0.0825909227
 	attPos0 = 1.37884462,0.818746865,-0.0373410583
 	rot = -0.711876869,0.702304482,5.06639481E-07,-4.76837158E-07
@@ -7585,7 +7585,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2293860753
+		id = 3386735515
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -7636,8 +7636,8 @@ PART
 {
 	part = strutCube_4290479240
 	partName = Part
-	persistentId = 2658499733
-	pos = -0.511604071,3.71978974,-1.23568141
+	persistentId = 4268714976
+	pos = -0.511604309,3.71978974,-1.23568189
 	attPos = 5.86732654E-08,-1.49011612E-07,1.03376543E-07
 	attPos0 = -6.83124256E-07,0.25746873,2.79396062E-09
 	rot = 0.496604562,0.503373027,0.496603429,-0.503373504
@@ -7874,7 +7874,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2658499733
+		id = 4268714976
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -7925,8 +7925,8 @@ PART
 {
 	part = strutCube_4290478860
 	partName = Part
-	persistentId = 1097627018
-	pos = -0.769059062,3.71630502,-1.23568165
+	persistentId = 139641260
+	pos = -0.769059539,3.71630502,-1.23568213
 	attPos = 0,0,0
 	attPos0 = -3.02616314E-08,-0.25746879,6.48204889E-07
 	rot = 0.496604562,0.503373027,0.496603429,-0.503373504
@@ -8164,7 +8164,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1097627018
+		id = 139641260
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -8215,8 +8215,8 @@ PART
 {
 	part = GearSmall_4290472838
 	partName = Part
-	persistentId = 1644171593
-	pos = -1.14894807,3.7956326,-1.49179566
+	persistentId = 1533875556
+	pos = -1.14894903,3.79563284,-1.49179614
 	attPos = -0.256109267,-0.26876992,0.062031243
 	attPos0 = -3.66569878E-07,-0.109999612,0.0224309601
 	rot = -0.0067692101,-4.63782344E-05,-0.00676862244,-0.999954462
@@ -8815,7 +8815,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1644171593
+		id = 1533875556
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -8834,8 +8834,8 @@ PART
 {
 	part = rtg_4294508202
 	partName = Part
-	persistentId = 1408839419
-	pos = 1.9805944,3.64776564,-1.04638159
+	persistentId = 1988778985
+	pos = 1.9805944,3.64776564,-1.04638207
 	attPos = 0,0,0
 	attPos0 = -0.878634453,-0.610697865,6.86956199E-08
 	rot = 1.68516863E-07,0.707106888,0.707106769,-2.29761497E-07
@@ -9102,7 +9102,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1408839419
+		id = 1988778985
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -9121,8 +9121,8 @@ PART
 {
 	part = rtg_4294507654
 	partName = Part
-	persistentId = 1405117665
-	pos = 0.223484576,3.6477654,-1.04638088
+	persistentId = 1695575363
+	pos = 0.223484516,3.6477654,-1.04638135
 	attPos = 0,0,0
 	attPos0 = 0.878312826,-0.610697508,-0.0237863176
 	rot = 1.68516948E-07,0.707106948,0.707106709,-2.29761582E-07
@@ -9389,7 +9389,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1405117665
+		id = 1695575363
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -9408,8 +9408,8 @@ PART
 {
 	part = rtg_4294507314
 	partName = Part
-	persistentId = 2782781874
-	pos = 1.96864486,3.64792776,0.175025105
+	persistentId = 544629346
+	pos = 1.96864486,3.64792776,0.175024867
 	attPos = 0,0,0
 	attPos0 = -0.866683066,0.610697627,4.41277905E-07
 	rot = 2.29761511E-07,-0.707106769,0.707106888,1.68516848E-07
@@ -9676,7 +9676,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2782781874
+		id = 544629346
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -9695,8 +9695,8 @@ PART
 {
 	part = rtg_4294506624
 	partName = Part
-	persistentId = 2911065547
-	pos = 0.235436916,3.67139196,0.175025702
+	persistentId = 3093628092
+	pos = 0.235436916,3.67139196,0.175025463
 	attPos = 0,0,0
 	attPos0 = 0.866683125,0.610697627,-3.44417828E-07
 	rot = 0.707106829,6.16444424E-08,-6.15033855E-08,-0.707106829
@@ -9963,7 +9963,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2911065547
+		id = 3093628092
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -9982,8 +9982,8 @@ PART
 {
 	part = strutConnector_4294446600
 	partName = CompoundPart
-	persistentId = 1603452734
-	pos = -0.938883901,3.79609013,-0.707787991
+	persistentId = 2510024107
+	pos = -0.938884854,3.79609108,-0.707788467
 	attPos = 0,0,0
 	attPos0 = 0.210059986,0.0082193464,0.78395921
 	rot = -0.0168522596,0.793167114,-0.00248232484,0.608766198
@@ -10071,10 +10071,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4290529156
-		tpersID = 3461166744
-		pos = -0.819660783,-0.167329296,0.595559835
-		rot = -2.33787762E-08,0.608726621,0.0234782677,0.793042779
-		dir = -0.798185349,-0.162945211,0.579955935
+		tpersID = 1413531500
+		pos = -0.819661021,-0.167328909,0.595559537
+		rot = -2.24186039E-08,0.608726978,0.0234782808,0.793043256
+		dir = -0.798185706,-0.162944853,0.579955697
 		col = Mk2COL
 	}
 	MODULE
@@ -10275,7 +10275,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1603452734
+		id = 2510024107
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -10294,8 +10294,8 @@ PART
 {
 	part = strutConnector_4294445368
 	partName = CompoundPart
-	persistentId = 109037380
-	pos = 3.14294958,3.79608297,-0.707804203
+	persistentId = 1104798316
+	pos = 3.14295053,3.79608345,-0.707805276
 	attPos = 0,0,0
 	attPos0 = -0.210061267,0.00821949355,0.783960104
 	rot = -0.00248324871,0.608765602,-0.0168525279,0.793167472
@@ -10383,10 +10383,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4290529156
-		tpersID = 3461166744
-		pos = -0.819557071,-0.167335138,-0.595485151
-		rot = 1.06674349E-07,-0.608813167,0.00641595619,0.793295443
-		dir = -0.798181653,-0.162970766,-0.579953909
+		tpersID = 1413531500
+		pos = -0.819556177,-0.167335361,-0.595484793
+		rot = 1.0955192E-07,-0.608813405,0.00641596131,0.793295801
+		dir = -0.798181534,-0.162971124,-0.579954088
 		col = Mk2COL
 	}
 	MODULE
@@ -10587,7 +10587,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 109037380
+		id = 1104798316
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -10606,8 +10606,8 @@ PART
 {
 	part = spotLight1_4290628748
 	partName = Part
-	persistentId = 1972909183
-	pos = 0.250205576,3.81377435,0.661806166
+	persistentId = 3397687612
+	pos = 0.250205338,3.81377435,0.661805928
 	attPos = 0,0,0
 	attPos0 = 0.854804635,0.949801385,0.213922739
 	rot = 4.08620998E-10,-0.923879504,0.382683635,-4.08620998E-10
@@ -10950,7 +10950,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1972909183
+		id = 3397687612
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -11003,11 +11003,11 @@ PART
 {
 	part = spotLight1_4290628366
 	partName = Part
-	persistentId = 2032814781
-	pos = 1.95387578,3.81377435,0.661806822
+	persistentId = 1301273893
+	pos = 1.95387602,3.81377435,0.661806583
 	attPos = 0,0,0
 	attPos0 = -0.84869951,0.949801743,0.236985683
-	rot = -3.70132591E-09,0.923879623,-0.382683516,1.09453158E-08
+	rot = -3.86596222E-09,0.923879623,-0.382683516,1.14392247E-08
 	attRot = 0,0,0,1
 	attRot0 = -0.999977112,1.40862525E-07,0.00676872768,0
 	mir = 1,1,1
@@ -11323,7 +11323,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2032814781
+		id = 1301273893
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -11376,7 +11376,7 @@ PART
 {
 	part = telescopicLadderBay_4290625106
 	partName = Part
-	persistentId = 2794539771
+	persistentId = 2207998662
 	pos = 0.774992764,2.95111084,1.39075005
 	attPos = -0.102202952,0.04697299,0.148195744
 	attPos0 = -0.224844933,0.131664336,0.560353339
@@ -11783,7 +11783,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2794539771
+		id = 2207998662
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -11802,7 +11802,7 @@ PART
 {
 	part = bahaM230ChainGun_4294310796
 	partName = Part
-	persistentId = 736738064
+	persistentId = 4172989364
 	pos = 1.10204065,3.01117969,1.23808551
 	attPos = 0,0.325627536,-0.0168304443
 	attPos0 = 0,0.07437253,0.665310621
@@ -11816,7 +11816,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = -1
 	attm = 1
@@ -12133,7 +12133,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 736738064
+		id = 4172989364
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -12171,8 +12171,8 @@ PART
 {
 	part = bahaAdjustableRail_4292580042
 	partName = Part
-	persistentId = 2930918533
-	pos = -0.563456297,3.49668908,-1.25248349
+	persistentId = 534008649
+	pos = -0.563456416,3.49668884,-1.25248396
 	attPos = -1.38953328E-06,0.0957843065,-0.0741777569
 	attPos0 = -0.0168003477,0.106825873,-0.148201302
 	rot = -3.87430191E-07,7.58096576E-07,0.00676980056,0.999977231
@@ -12410,7 +12410,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2930918533
+		id = 534008649
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -12448,8 +12448,8 @@ PART
 {
 	part = bahaAdjustableRail_4292579120
 	partName = Part
-	persistentId = 2377954657
-	pos = 2.76753807,3.49668932,-1.25248396
+	persistentId = 1938235535
+	pos = 2.76753831,3.49668932,-1.25248444
 	attPos = 1.79931521E-06,0.0957793891,-0.0741778314
 	attPos0 = 0.0167996846,0.106825471,-0.148201182
 	rot = -4.17232513E-07,-7.51810148E-07,-0.00676985644,0.999977231
@@ -12687,7 +12687,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2377954657
+		id = 1938235535
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -12725,8 +12725,8 @@ PART
 {
 	part = structuralWing4_4292575706
 	partName = Part
-	persistentId = 3627177165
-	pos = -0.148410082,3.67658901,-0.958080173
+	persistentId = 558389278
+	pos = -0.14841032,3.67658901,-0.958080649
 	attPos = 0,0,0
 	attPos0 = 1.25056112,-0.522400379,1.19209304E-07
 	rot = -0.707090676,0.0047859014,0.00478661759,-0.707090557
@@ -12972,7 +12972,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3627177165
+		id = 558389278
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -12991,8 +12991,8 @@ PART
 {
 	part = structuralWing4_4292553200
 	partName = Part
-	persistentId = 2344469716
-	pos = 2.35249138,3.67658901,-0.958080411
+	persistentId = 2381701792
+	pos = 2.35249162,3.67658901,-0.958080888
 	attPos = 0,0,0
 	attPos0 = -1.25010312,-0.522399902,0.0338550843
 	rot = -0.00478664786,0.707090497,0.707090735,-0.00478593074
@@ -13238,7 +13238,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2344469716
+		id = 2381701792
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -13257,8 +13257,8 @@ PART
 {
 	part = trussPiece1x_4292552596
 	partName = Part
-	persistentId = 3307472676
-	pos = 1.11199474,4.39492226,-0.752229929
+	persistentId = 3179499871
+	pos = 1.11199474,4.39492226,-0.752230883
 	attPos = 0,0,0
 	attPos0 = 8.19563795E-08,-0.316544652,0.735329986
 	rot = 0.00478630979,0.707090616,0.707090616,0.00478610955
@@ -13280,8 +13280,6 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	link = strutCube_4290524164
-	link = GasTurbineGenerator2A_4290498966
-	link = GasTurbineGenerator2A_4290495386
 	link = avionicsNoseCone_4289586000
 	srfN = srfAttach,mk2CrewCabin_4290529156,Mk2COL,0|-0.559272826|0,0|-1|0,0|-0.559272826|0
 	attN = bottom,avionicsNoseCone_4289586000_0|-0.559272826|0_0|-1|0_0|-0.559272826|0_0|-1|0
@@ -13510,7 +13508,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3307472676
+		id = 3179499871
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -13529,8 +13527,8 @@ PART
 {
 	part = strutCube_4290524164
 	partName = Part
-	persistentId = 4145026230
-	pos = 1.11812639,4.84784889,-0.764338732
+	persistentId = 3807286622
+	pos = 1.11812639,4.84784937,-0.764339685
 	attPos = 0.00578777445,-0.353985786,-0.0277061462
 	attPos0 = 1.27168633E-07,-0.0121088028,0.452960253
 	rot = 0.00676856097,0.999977231,0,-1.41561031E-07
@@ -13768,7 +13766,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4145026230
+		id = 3807286622
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -13819,11 +13817,11 @@ PART
 {
 	part = strutCube_4290523554
 	partName = Part
-	persistentId = 1921732141
-	pos = 1.11475825,5.08665466,-0.764340639
+	persistentId = 3051055175
+	pos = 1.11475825,5.08665514,-0.764341593
 	attPos = 0,0,0
 	attPos0 = 0.00660039764,0.238734454,3.72528888E-07
-	rot = 4.59551811E-05,0.00676868996,-0.00676845992,0.999954402
+	rot = 4.59551811E-05,0.00676869182,-0.00676846178,0.999954402
 	attRot = 0,0,0,1
 	attRot0 = 3.98641866E-08,-0.999977171,-5.96133773E-08,0.00676867412
 	mir = 1,1,1
@@ -14057,7 +14055,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1921732141
+		id = 3051055175
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -14108,8 +14106,8 @@ PART
 {
 	part = bahaFlirBall_4291523622
 	partName = Part
-	persistentId = 4073826790
-	pos = 1.10204065,3.45965981,3.81211901
+	persistentId = 3174252802
+	pos = 1.10204065,3.45965981,3.81211948
 	attPos = 0,-0.318996429,0.0296552181
 	attPos0 = 0,2.91899753,0.170344591
 	rot = 1.1920929E-07,0,0,-1.00000012
@@ -14350,7 +14348,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4073826790
+		id = 3174252802
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -14388,8 +14386,8 @@ PART
 {
 	part = dockingPort3_4293824710
 	partName = Part
-	persistentId = 3157688914
-	pos = 1.09212887,2.92753601,-0.66128242
+	persistentId = 3173655121
+	pos = 1.09212887,2.92753577,-0.661283016
 	attPos = 0,0,0
 	attPos0 = -3.63215769E-08,-0.225602269,-0.732189178
 	rot = 0.999977231,-0.00676872395,-1.42259523E-07,0
@@ -14927,7 +14925,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3157688914
+		id = 3173655121
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -14946,8 +14944,8 @@ PART
 {
 	part = advSasModule_4294502956
 	partName = Part
-	persistentId = 2261248032
-	pos = 1.10204041,3.65965986,-1.57220709
+	persistentId = 1846113349
+	pos = 1.10204041,3.65965986,-1.57220757
 	attPos = 0,0,0
 	attPos0 = -8.17840586E-08,-1.13652706,-1.06024067E-09
 	rot = 0.707106829,0,0,0.707106829
@@ -15253,7 +15251,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2261248032
+		id = 1846113349
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -15272,8 +15270,8 @@ PART
 {
 	part = cargoContainer_4290633004
 	partName = Part
-	persistentId = 2387748157
-	pos = 1.10204041,3.65965986,-2.07124949
+	persistentId = 1439676704
+	pos = 1.10204041,3.65965986,-2.07125139
 	attPos = 0,0,0
 	attPos0 = 0,-0.499027252,2.38418465E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -15297,6 +15295,7 @@ PART
 	link = SmallTank_4294471892
 	link = baha30mmAmmo_4286072180
 	link = baha30mmAmmo_4286071394
+	link = GasTurbineGenerator2A_4290498966
 	attN = top,advSasModule_4294502956_0|0.300000012|0_0|1|0_0|0.300000012|0_0|1|0
 	attN = bottom,SmallTank_4294471892_0|-0.300000012|0_0|-1|0_0|-0.300000012|0_0|-1|0
 	EVENTS
@@ -16963,7 +16962,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2387748157
+		id = 1439676704
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -16982,8 +16981,8 @@ PART
 {
 	part = SmallTank_4294471892
 	partName = Part
-	persistentId = 3583977767
-	pos = 1.10204041,3.65965986,-3.27125359
+	persistentId = 2651194098
+	pos = 1.10204041,3.65965986,-3.27125645
 	attPos = 0,0,0
 	attPos0 = 0,-1.20000041,0
 	rot = 0.707106829,0,0,0.707106829
@@ -17220,7 +17219,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3583977767
+		id = 2651194098
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -17269,8 +17268,8 @@ PART
 {
 	part = pointyNoseConeB_4294522568
 	partName = Part
-	persistentId = 1455005587
-	pos = 1.10204041,3.65966034,-4.79628611
+	persistentId = 258172265
+	pos = 1.10204041,3.65966034,-4.79629183
 	attPos = 0,0,0
 	attPos0 = 0,-1.52500033,0
 	rot = 0,0.707106829,-0.707106829,0
@@ -17523,7 +17522,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1455005587
+		id = 258172265
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -17542,11 +17541,11 @@ PART
 {
 	part = AdvancedCanard_4294521198
 	partName = Part
-	persistentId = 1222090841
-	pos = 0.902039886,4.05966139,-4.79628992
+	persistentId = 2423094765
+	pos = 0.902039766,4.05966139,-4.79629564
 	attPos = 0.0497323275,-0.304886967,0.160807133
 	attPos0 = 0.150267795,0.304890782,-0.560807228
-	rot = -0.706379533,0.00726226764,-0.00785129331,-0.707752705
+	rot = -0.706379533,0.00726226578,-0.00785129145,-0.707752705
 	attRot = -0.792751491,-0.023708785,-0.608299673,0.0308979414
 	attRot0 = 0.000416502822,0.000971585396,-0.999942422,0.0106869722
 	mir = 1,1,1
@@ -17886,7 +17885,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1222090841
+		id = 2423094765
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -17905,11 +17904,11 @@ PART
 {
 	part = AdvancedCanard_4294521052
 	partName = Part
-	persistentId = 3500357856
-	pos = 1.30204129,4.05966091,-4.79628897
+	persistentId = 824019358
+	pos = 1.30204141,4.05966091,-4.79629469
 	attPos = -0.0497323275,-0.304888397,0.160807133
 	attPos0 = -0.150267795,0.304890782,-0.560807228
-	rot = 0.00785130542,0.707753003,0.706379116,-0.00726235006
+	rot = 0.00785130635,0.707753062,0.706379175,-0.00726235053
 	attRot = 0,0,0,1
 	attRot0 = -0.792675734,0.0327834152,-0.608241558,0.02515563
 	mir = 1,1,1
@@ -18249,7 +18248,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3500357856
+		id = 824019358
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -18268,11 +18267,11 @@ PART
 {
 	part = sGripStrip_4294415170
 	partName = Part
-	persistentId = 3721505130
-	pos = 1.10204041,3.3687191,-4.68345451
+	persistentId = 1669100465
+	pos = 1.10204041,3.3687191,-4.68345928
 	attPos = 0,0,0
 	attPos0 = 0,-0.112824969,0.290940315
-	rot = 1.72543357E-09,0.273425013,-0.961893439,5.84782844E-09
+	rot = 2.38397813E-09,0.273425013,-0.961893439,5.18928367E-09
 	attRot = 0,0,0,1
 	attRot0 = 0.486820817,-9.72543024E-09,5.4201843E-09,0.873501897
 	mir = 1,1,1
@@ -18539,7 +18538,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3721505130
+		id = 1669100465
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -18558,11 +18557,11 @@ PART
 {
 	part = missileController_4294293838
 	partName = Part
-	persistentId = 2550080925
-	pos = 1.10204041,4.24535275,-4.4685564
+	persistentId = 3920053750
+	pos = 1.10204041,4.24535275,-4.46856117
 	attPos = 0,0,0
 	attPos0 = 0,-0.327722549,-0.585692883
-	rot = 2.86102295E-06,-3.4408032E-11,5.46936043E-08,1.00000012
+	rot = 2.86102295E-06,-3.44062556E-11,5.60106912E-08,1.00000012
 	attRot = 0,0,0,1
 	attRot0 = -3.16047206E-08,-0.707104802,0.707108855,-3.16045359E-08
 	mir = 1,1,1
@@ -18952,7 +18951,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2550080925
+		id = 3920053750
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -18990,11 +18989,11 @@ PART
 {
 	part = dockingPort3_4292497498
 	partName = Part
-	persistentId = 1062361308
-	pos = 1.10204041,4.28350544,-5.03695536
+	persistentId = 3866010946
+	pos = 1.10204041,4.28350592,-5.03696108
 	attPos = 0,0,0
 	attPos0 = 0,0.240661144,-0.623841286
-	rot = -0.00016567111,-4.32681269E-09,-4.37469367E-08,1.00000012
+	rot = -0.000165551901,-4.98535258E-09,-4.30883986E-08,1.00000012
 	attRot = 0,0,0,1
 	attRot0 = 3.29211005E-08,-0.707224369,0.706989288,3.29320358E-08
 	mir = 1,1,1
@@ -19533,7 +19532,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1062361308
+		id = 3866010946
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -19552,8 +19551,8 @@ PART
 {
 	part = strutConnector_4294463728
 	partName = CompoundPart
-	persistentId = 1409890036
-	pos = 1.10204041,4.28177691,-4.08113766
+	persistentId = 2174865898
+	pos = 1.10204041,4.28177691,-4.08114147
 	attPos = 0,0,0
 	attPos0 = 0,-0.809864759,-0.622116268
 	rot = -0.500000238,0.49999994,0.5,-0.500000119
@@ -19642,10 +19641,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4294502956
-		tpersID = 1240167758
-		pos = 0.00229900191,2.32602906,-0.0207310803
-		rot = 1.49785118E-09,-2.96525883E-07,-0.70710808,0.70710814
-		dir = 0.00098834082,0.999959826,-0.00891229045
+		tpersID = 2261248032
+		pos = 0.00229900191,2.32602811,-0.0207310803
+		rot = 1.49789692E-09,-2.96525968E-07,-0.707108319,0.707108378
+		dir = 0.000988341286,0.999959826,-0.00891229417
 		col = COLLIDER
 	}
 	MODULE
@@ -19846,7 +19845,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1409890036
+		id = 2174865898
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -19865,8 +19864,8 @@ PART
 {
 	part = strutConnector_4294447202
 	partName = CompoundPart
-	persistentId = 999265670
-	pos = 0.563271761,3.34860086,-4.08113956
+	persistentId = 1159485686
+	pos = 0.563271761,3.34860086,-4.08114338
 	attPos = 0,0,0
 	attPos0 = -0.538768649,-0.809864283,0.311058402
 	rot = -0.683012784,-0.183012813,-0.183012754,-0.683012664
@@ -19955,10 +19954,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4294502956
-		tpersID = 1240167758
-		pos = 0.00229376275,2.32602763,-0.0207242165
-		rot = 1.50442894E-08,1.29923151E-07,-0.707107782,0.707107723
-		dir = 0.000986089115,0.999959826,-0.0089093456
+		tpersID = 2261248032
+		pos = 0.00229311129,2.32602644,-0.0207240414
+		rot = 1.91779037E-08,1.26822897E-07,-0.707108021,0.707107902
+		dir = 0.000985809602,0.999959826,-0.00890927482
 		col = COLLIDER
 	}
 	MODULE
@@ -20159,7 +20158,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 999265670
+		id = 1159485686
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -20178,8 +20177,8 @@ PART
 {
 	part = strutConnector_4294447092
 	partName = CompoundPart
-	persistentId = 2198580460
-	pos = 1.64081061,3.34860134,-4.08113956
+	persistentId = 2889711056
+	pos = 1.64081085,3.34860134,-4.08114338
 	attPos = 0,0,0
 	attPos0 = 0.538768768,-0.809864759,0.311057925
 	rot = -0.18301259,-0.683012843,-0.683012843,-0.183012709
@@ -20268,10 +20267,10 @@ PART
 	PARTDATA
 	{
 		tgt = 4294502956
-		tpersID = 1240167758
-		pos = 0.00229101349,2.32602835,-0.0207299367
-		rot = 1.36139455E-08,-1.97401526E-08,-0.707108378,0.707108855
-		dir = 0.000984906917,0.999959826,-0.0089118015
+		tpersID = 2261248032
+		pos = 0.00229059998,2.32602739,-0.0207296982
+		rot = 7.41359507E-09,-1.3539788E-08,-0.707108736,0.707109272
+		dir = 0.000984729617,0.999959826,-0.00891170278
 		col = COLLIDER
 	}
 	MODULE
@@ -20472,7 +20471,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2198580460
+		id = 2889711056
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -20491,8 +20490,8 @@ PART
 {
 	part = MiniDrill_4293809774
 	partName = Part
-	persistentId = 2579172265
-	pos = 1.10204041,3.25965762,-1.57220805
+	persistentId = 1845658270
+	pos = 1.10204041,3.25965738,-1.57220852
 	attPos = -4.65661398E-10,0.382878453,0.161028698
 	attPos0 = -9.31322797E-10,-0.382879406,0.238971725
 	rot = 0,0.707106829,2.08616257E-07,-0.707107067
@@ -20919,7 +20918,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2579172265
+		id = 1845658270
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -20938,8 +20937,8 @@ PART
 {
 	part = foldingRadSmall_4293795338
 	partName = Part
-	persistentId = 1472895496
-	pos = 0.754697442,3.65965986,-3.19322777
+	persistentId = 38959938
+	pos = 0.754697323,3.65965986,-3.19323063
 	attPos = 0.321498215,0.532641411,0
 	attPos0 = -0.668840349,-0.454615951,1.86258831E-09
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -21285,7 +21284,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 1472895496
+		id = 38959938
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -21340,8 +21339,8 @@ PART
 {
 	part = foldingRadSmall_4293791118
 	partName = Part
-	persistentId = 341263377
-	pos = 1.4493835,3.65965986,-3.19322872
+	persistentId = 3986220965
+	pos = 1.44938362,3.65965986,-3.19323158
 	attPos = -0.321498245,0.532640219,9.31322575E-10
 	attPos0 = 0.668840468,-0.454615951,-1.86270199E-09
 	rot = 0.500000179,-0.50000006,-0.50000006,0.49999994
@@ -21687,7 +21686,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 341263377
+		id = 3986220965
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -21742,8 +21741,8 @@ PART
 {
 	part = smallCtrlSrf_4293737036
 	partName = Part
-	persistentId = 2927803380
-	pos = 1.10204041,3.85966063,-5.39629126
+	persistentId = 3982815168
+	pos = 1.10204041,3.85966063,-5.39629698
 	attPos = 2.32830644E-10,-0.165284157,0.0708374679
 	attPos0 = -9.31322575E-10,0.765289426,-0.270837784
 	rot = 0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -22085,7 +22084,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2927803380
+		id = 3982815168
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -22104,11 +22103,11 @@ PART
 {
 	part = KAXkueyEngine_4290524762
 	partName = Part
-	persistentId = 3967539655
-	pos = 1.11475825,4.88665485,-0.764341593
+	persistentId = 3531127920
+	pos = 1.11475825,4.88665533,-0.764342546
 	attPos = 0.00270707463,-0.328715384,3.62244391E-05
 	attPos0 = 5.41529346E-08,0.1287352,-5.06760955E-07
-	rot = -2.38418579E-07,1.16415322E-09,0.00676868856,-0.999977291
+	rot = -2.38418579E-07,1.39698386E-09,0.00676868949,-0.999977291
 	attRot = 0.707106709,0,0,-0.707106709
 	attRot0 = -1.20035139E-07,0.00676883664,7.41701314E-08,-0.999977171
 	mir = 1,1,1
@@ -22118,7 +22117,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 2
+	sidx = 1
 	sqor = 0
 	sepI = -1
 	attm = 0
@@ -22555,7 +22554,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3967539655
+		id = 3531127920
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -22620,8 +22619,8 @@ PART
 {
 	part = KAXkueyEngine_4290523020
 	partName = Part
-	persistentId = 648529058
-	pos = 1.11812639,4.64784813,-0.764339685
+	persistentId = 4177359598
+	pos = 1.11812639,4.64784813,-0.764340639
 	attPos = -0.109976038,-0.158127934,0.0287430361
 	attPos0 = 0.107268699,-0.0418524556,-0.0287420526
 	rot = -0.00412043929,-0.608747423,-0.00536990166,0.793335438
@@ -22634,7 +22633,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 3
+	sidx = 2
 	sqor = 0
 	sepI = -1
 	attm = 1
@@ -23064,7 +23063,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 648529058
+		id = 4177359598
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -23127,826 +23126,10 @@ PART
 }
 PART
 {
-	part = GasTurbineGenerator2A_4290498966
-	partName = Part
-	persistentId = 1981083993
-	pos = 0.911994755,3.99492216,-0.95223105
-	attPos = -0.119199872,-0.0704819858,-0.583824396
-	attPos0 = 0.313766599,-0.129519075,0.181153476
-	rot = -0.614751697,-0.349400371,-0.349400252,-0.614751577
-	attRot = 0,0,0,1
-	attRot0 = 4.79624696E-08,0.866025507,-1.89515461E-08,-0.49999994
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = 0
-	sqor = 0
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = GasTurbineGenerator2A_4290495386
-	srfN = srfAttach,trussPiece1x_4292552596,COLLIDER,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutOff
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutRoot
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutHeaviest
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutGrandparent
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = WBIGasTurbine
-		isEnabled = True
-		outputPercent = 19
-		powerLevel = 0
-		turbineStateID = 0
-		EfficiencyBonus = 1
-		IsActivated = False
-		stagingEnabled = True
-		lastUpdateTime = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleGeneratorAction
-			{
-				actionGroup = Custom02
-				wasActiveBeforePartWasAdjusted = False
-			}
-			StopResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			StartResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = HitpointTracker
-		isEnabled = True
-		Hitpoints = 2525
-		Armor = 10
-		ArmorRemaining = 100
-		ArmorTypeNum = 1
-		HullTypeNum = 2
-		hullType = Aluminium
-		SelectedArmorType = None
-		maxHitPoints = -1
-		ArmorThickness = 10
-		ArmorSet = True
-		ExplodeMode = Never
-		FireFX = True
-		FireFXLifeTimeInSeconds = 5
-		Density = 2700
-		Diffusivity = 237
-		Ductility = 0.600000024
-		Hardness = 300
-		Strength = 200
-		SafeUseTemp = 993
-		radarReflectivity = 1
-		Cost = 0
-		vFactor = 1.82712211E-06
-		muParam1 = 1.37732458
-		muParam2 = 2.04939008
-		muParam3 = 4.5333333
-		muParam1S = 1.92650819
-		muParam2S = 2.65274119
-		muParam3S = 7.37037039
-		HEEquiv = 0.210114747
-		HEATEquiv = 0.55794096
-		maxForce = 22
-		maxTorque = 22
-		maxG = 50
-		maxSupportedArmor = 30
-		armorVolume = 2.51630545
-		ignitionTemp = -1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KRnDModule
-		isEnabled = True
-		upgradeToLatest = 0
-		ispVac_upgrades = 0
-		ispAtm_upgrades = 0
-		dryMass_upgrades = 0
-		fuelFlow_upgrades = 0
-		torque_upgrades = 0
-		harvester_upgrades = 0
-		radiatorEfficiency_upgrades = 0
-		chargeRate_upgrades = 0
-		crashTolerance_upgrades = 0
-		batteryCharge_upgrades = 0
-		generatorEfficiency_upgrades = 0
-		converterEfficiency_upgrades = 0
-		parachuteStrength_upgrades = 0
-		maxTemperature_upgrades = 0
-		fuelCapacity_upgrades = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableResourceIntake
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DeactivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = WBIPartScrapper
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ShipEffectsCollisions
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSYPartTracker
-		isEnabled = True
-		id = 1981083993
-		TimesRecovered = 0
-		Inventoried = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		packedVolume = 900
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 250
-		maxAmount = 250
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = IntakeAir
-		amount = 5.25
-		maxAmount = 5.25
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = IntakeAtm
-		amount = 5.25
-		maxAmount = 5.25
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
-	part = GasTurbineGenerator2A_4290495386
-	partName = Part
-	persistentId = 674497306
-	pos = 1.31199479,3.99492216,-0.952231526
-	attPos = 0.103350967,-0.0704825222,-0.586837411
-	attPos0 = -0.30874759,-0.129518896,0.189581335
-	rot = 0.614751756,-0.349400282,-0.349400222,0.614751399
-	attRot = 0,0,0,1
-	attRot0 = -1.66160419E-07,-0.872714639,3.08664738E-07,-0.488230586
-	mir = 1,1,1
-	symMethod = Mirror
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 0
-	resPri = 0
-	dstg = 0
-	sidx = 0
-	sqor = 0
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = GasTurbineGenerator2A_4290498966
-	srfN = srfAttach,trussPiece1x_4292552596,COLLIDER,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutOff
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutRoot
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutHeaviest
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		AutostrutGrandparent
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesEnableFlow
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		ResourcesDisableFlow
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = WBIGasTurbine
-		isEnabled = True
-		outputPercent = 19
-		powerLevel = 0
-		turbineStateID = 0
-		EfficiencyBonus = 1
-		IsActivated = False
-		stagingEnabled = True
-		lastUpdateTime = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleGeneratorAction
-			{
-				actionGroup = Custom02
-				wasActiveBeforePartWasAdjusted = False
-			}
-			StopResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			StartResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ToggleResourceConverterAction
-			{
-				actionGroup = None
-				active = False
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTestSubject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = HitpointTracker
-		isEnabled = True
-		Hitpoints = 2525
-		Armor = 10
-		ArmorRemaining = 100
-		ArmorTypeNum = 1
-		HullTypeNum = 2
-		hullType = Aluminium
-		SelectedArmorType = None
-		maxHitPoints = -1
-		ArmorThickness = 10
-		ArmorSet = True
-		ExplodeMode = Never
-		FireFX = True
-		FireFXLifeTimeInSeconds = 5
-		Density = 2700
-		Diffusivity = 237
-		Ductility = 0.600000024
-		Hardness = 300
-		Strength = 200
-		SafeUseTemp = 993
-		radarReflectivity = 1
-		Cost = 0
-		vFactor = 1.82712211E-06
-		muParam1 = 1.37732458
-		muParam2 = 2.04939008
-		muParam3 = 4.5333333
-		muParam1S = 1.92650819
-		muParam2S = 2.65274119
-		muParam3S = 7.37037039
-		HEEquiv = 0.210114747
-		HEATEquiv = 0.55794096
-		maxForce = 22
-		maxTorque = 22
-		maxG = 50
-		maxSupportedArmor = 30
-		armorVolume = 2.51630545
-		ignitionTemp = -1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FMRS_PM
-		isEnabled = True
-		stagingEnabled = True
-		MM_DYNAMIC = true
-		parent_vessel = 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KRnDModule
-		isEnabled = True
-		upgradeToLatest = 0
-		ispVac_upgrades = 0
-		ispAtm_upgrades = 0
-		dryMass_upgrades = 0
-		fuelFlow_upgrades = 0
-		torque_upgrades = 0
-		harvester_upgrades = 0
-		radiatorEfficiency_upgrades = 0
-		chargeRate_upgrades = 0
-		crashTolerance_upgrades = 0
-		batteryCharge_upgrades = 0
-		generatorEfficiency_upgrades = 0
-		converterEfficiency_upgrades = 0
-		parachuteStrength_upgrades = 0
-		maxTemperature_upgrades = 0
-		fuelCapacity_upgrades = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleResourceIntake
-		isEnabled = True
-		intakeEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleTweakableResourceIntake
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			DeactivateAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = WBIPartScrapper
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ShipEffectsCollisions
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSYPartTracker
-		isEnabled = True
-		id = 674497306
-		TimesRecovered = 0
-		Inventoried = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleCargoPart
-		isEnabled = True
-		packedVolume = 900
-		beingAttached = False
-		beingSettled = False
-		reinitResourcesOnStoreInVessel = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	RESOURCE
-	{
-		name = ElectricCharge
-		amount = 250
-		maxAmount = 250
-		flowState = True
-		isTweakable = True
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = IntakeAir
-		amount = 5.25
-		maxAmount = 5.25
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = False
-		flowMode = Both
-	}
-	RESOURCE
-	{
-		name = IntakeAtm
-		amount = 5.25
-		maxAmount = 5.25
-		flowState = True
-		isTweakable = False
-		hideFlow = False
-		isVisible = True
-		flowMode = Both
-	}
-}
-PART
-{
 	part = MK1Fuselage_4289598672
 	partName = Part
-	persistentId = 11278959
-	pos = 1.1104852,3.6584301,-1.37318218
+	persistentId = 360625177
+	pos = 1.1104852,3.6584301,-1.37318265
 	attPos = 0,0,0
 	attPos0 = -0.00846068561,-0.937502027,-0.00111533352
 	rot = 0.707106829,0,0,0.707106829
@@ -24226,7 +23409,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 11278959
+		id = 360625177
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -24267,8 +23450,8 @@ PART
 {
 	part = avionicsNoseCone_4289586000
 	partName = Part
-	persistentId = 129214754
-	pos = 1.11199474,4.19492245,-1.55223286
+	persistentId = 4251207562
+	pos = 1.11199474,4.19492245,-1.55223429
 	attPos = -0.00270753982,0.00927233696,-0.199981451
 	attPos0 = -1.11957888E-07,-0.809273243,-1.19201637E-07
 	rot = -1.58191101E-29,0.707106829,-0.707106829,1.58191101E-29
@@ -24565,7 +23748,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 129214754
+		id = 4251207562
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -24584,8 +23767,8 @@ PART
 {
 	part = bdVTOLAI_4287794234
 	partName = Part
-	persistentId = 484798611
-	pos = 1.10204041,4.29099798,-3.66771507
+	persistentId = 509058857
+	pos = 1.10204041,4.29099798,-3.66771793
 	attPos = 0,0,0
 	attPos0 = 9.3137964E-10,-0.396461368,-0.631338239
 	rot = 4.5404974E-08,1.00000012,1.1920929E-07,3.46016549E-11
@@ -24851,7 +24034,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 484798611
+		id = 509058857
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -24889,8 +24072,8 @@ PART
 {
 	part = baha30mmAmmo_4286072180
 	partName = Part
-	persistentId = 3067512139
-	pos = 0.931869626,3.65965986,-2.50673056
+	persistentId = 1061989768
+	pos = 0.931869626,3.65965986,-2.50673294
 	attPos = 0,0,0
 	attPos0 = -0.170170829,-0.435481012,4.65576022E-10
 	rot = 0.707106829,0,0,-0.707106829
@@ -25132,7 +24315,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3067512139
+		id = 1061989768
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -25181,8 +24364,8 @@ PART
 {
 	part = baha30mmAmmo_4286071394
 	partName = Part
-	persistentId = 4265401157
-	pos = 1.27221119,3.65965986,-2.50673056
+	persistentId = 2063696757
+	pos = 1.27221119,3.65965986,-2.50673294
 	attPos = 0,0,0
 	attPos0 = 0.170170829,-0.435481131,-4.65746552E-10
 	rot = -0.707106888,-1.18735503E-14,1.18735503E-14,0.707106769
@@ -25424,7 +24607,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4265401157
+		id = 2063696757
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -25473,8 +24656,8 @@ PART
 {
 	part = bahaH70Launcher_4294299232
 	partName = Part
-	persistentId = 3086308710
-	pos = -0.0979595184,3.25965905,-0.235680461
+	persistentId = 4055987589
+	pos = -0.0979595184,3.25965881,-0.23568058
 	attPos = -0.170513511,-0.0291505605,-0.0504609346
 	attPos0 = 1.3649888,0.229149669,-0.365747452
 	rot = 0,0,0.382683426,-0.923879623
@@ -25768,7 +24951,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 3086308710
+		id = 4055987589
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -25817,8 +25000,8 @@ PART
 {
 	part = bahaH70Launcher_4284734386
 	partName = Part
-	persistentId = 2234800792
-	pos = 2.30204105,3.25965881,-0.23568058
+	persistentId = 2924885406
+	pos = 2.30204105,3.25965881,-0.235680819
 	attPos = 0.169085026,-0.0291507691,-0.0550587773
 	attPos0 = -1.37439001,0.229150325,-0.328660667
 	rot = -1.1920929E-07,0,0.382683456,0.923879683
@@ -26112,7 +25295,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2234800792
+		id = 2924885406
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -26161,8 +25344,8 @@ PART
 {
 	part = bahaAGM-65_4284685426
 	partName = Part
-	persistentId = 4152635802
-	pos = -0.560480237,3.27683449,-1.13568461
+	persistentId = 1672512039
+	pos = -0.560480714,3.27683425,-1.13568509
 	attPos = 0,0,0
 	attPos0 = -3.80154404E-07,-0.219874695,0.116799399
 	rot = -3.87430191E-07,7.56699592E-08,0.00676980801,0.999977231
@@ -26465,7 +25648,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 4152635802
+		id = 1672512039
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -26503,11 +25686,11 @@ PART
 {
 	part = bahaAGM-65_4284684128
 	partName = Part
-	persistentId = 2287886433
-	pos = 2.76456141,3.27683449,-1.13568509
+	persistentId = 667697865
+	pos = 2.76456165,3.27683425,-1.13568556
 	attPos = 0,0,0
 	attPos0 = 1.66606199E-07,-0.219874635,0.116799548
-	rot = -3.57627869E-07,-9.87201929E-08,-0.00676983455,0.999977171
+	rot = -3.27825546E-07,-1.30850822E-07,-0.00676980335,0.999977231
 	attRot = -0.707106769,0,0,0.707106769
 	attRot0 = -1.63912759E-07,7.74860268E-07,-6.25848713E-07,1
 	mir = 1,1,1
@@ -26807,7 +25990,7 @@ PART
 	{
 		name = ModuleSYPartTracker
 		isEnabled = True
-		id = 2287886433
+		id = 667697865
 		TimesRecovered = 0
 		Inventoried = False
 		stagingEnabled = True
@@ -26839,5 +26022,412 @@ PART
 		UPGRADESAPPLIED
 		{
 		}
+	}
+}
+PART
+{
+	part = GasTurbineGenerator2A_4290498966
+	partName = Part
+	persistentId = 2252888506
+	pos = 1.10204041,4.05965996,-0.871252656
+	attPos = -4.65661398E-10,1.08400428,0.215521932
+	attPos0 = 1.86264559E-09,0.115994453,-0.615522444
+	rot = -0.707106888,4.97201036E-08,4.97201249E-08,-0.707106769
+	attRot = 0,0,0,1
+	attRot0 = -8.94069672E-08,7.03148544E-08,1.42108547E-14,-1
+	mir = 1,1,1
+	symMethod = Mirror
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 3
+	sqor = 0
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,cargoContainer_4290633004,ReStock/Assets/Payload/restock-cargo-inventory-125-1(Clone),0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutOff
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutRoot
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutHeaviest
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		AutostrutGrandparent
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesEnableFlow
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		ResourcesDisableFlow
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = WBIGasTurbine
+		isEnabled = True
+		outputPercent = 19
+		powerLevel = 0
+		turbineStateID = 0
+		EfficiencyBonus = 1
+		IsActivated = False
+		stagingEnabled = True
+		lastUpdateTime = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleGeneratorAction
+			{
+				actionGroup = Custom02
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StopResourceConverterAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StartResourceConverterAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleResourceConverterAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = HitpointTracker
+		isEnabled = True
+		Hitpoints = 2525
+		Armor = 10
+		ArmorRemaining = 100
+		ArmorTypeNum = 1
+		HullTypeNum = 2
+		hullType = Aluminium
+		SelectedArmorType = None
+		maxHitPoints = -1
+		ArmorThickness = 10
+		ArmorSet = True
+		ExplodeMode = Never
+		FireFX = True
+		FireFXLifeTimeInSeconds = 5
+		Density = 2700
+		Diffusivity = 237
+		Ductility = 0.600000024
+		Hardness = 300
+		Strength = 200
+		SafeUseTemp = 993
+		radarReflectivity = 1
+		Cost = 0
+		vFactor = 1.82712211E-06
+		muParam1 = 1.37732458
+		muParam2 = 2.04939008
+		muParam3 = 4.5333333
+		muParam1S = 1.92650819
+		muParam2S = 2.65274119
+		muParam3S = 7.37037039
+		HEEquiv = 0.210114747
+		HEATEquiv = 0.55794096
+		maxForce = 22
+		maxTorque = 22
+		maxG = 50
+		maxSupportedArmor = 30
+		armorVolume = 2.51630545
+		ignitionTemp = -1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FMRS_PM
+		isEnabled = True
+		stagingEnabled = True
+		MM_DYNAMIC = true
+		parent_vessel = 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KRnDModule
+		isEnabled = True
+		upgradeToLatest = 0
+		ispVac_upgrades = 0
+		ispAtm_upgrades = 0
+		dryMass_upgrades = 0
+		fuelFlow_upgrades = 0
+		torque_upgrades = 0
+		harvester_upgrades = 0
+		radiatorEfficiency_upgrades = 0
+		chargeRate_upgrades = 0
+		crashTolerance_upgrades = 0
+		batteryCharge_upgrades = 0
+		generatorEfficiency_upgrades = 0
+		converterEfficiency_upgrades = 0
+		parachuteStrength_upgrades = 0
+		maxTemperature_upgrades = 0
+		fuelCapacity_upgrades = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleResourceIntake
+		isEnabled = True
+		intakeEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTweakableResourceIntake
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActivateAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = WBIPartScrapper
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ShipEffectsCollisions
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSYPartTracker
+		isEnabled = True
+		id = 2252888506
+		TimesRecovered = 0
+		Inventoried = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleCargoPart
+		isEnabled = True
+		packedVolume = 900
+		beingAttached = False
+		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	RESOURCE
+	{
+		name = ElectricCharge
+		amount = 250
+		maxAmount = 250
+		flowState = True
+		isTweakable = True
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = IntakeAir
+		amount = 5.25
+		maxAmount = 5.25
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = False
+		flowMode = Both
+	}
+	RESOURCE
+	{
+		name = IntakeAtm
+		amount = 5.25
+		maxAmount = 5.25
+		flowState = True
+		isTweakable = False
+		hideFlow = False
+		isVisible = True
+		flowMode = Both
 	}
 }

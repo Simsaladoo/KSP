@@ -1,14 +1,14 @@
 craftName = Salam AH3
 cachedCraftData
 {
-	origChecksum = e96d9d1c72f1e4bb5e720ce19e4da1cf
+	origChecksum = fb22c9b62d12a1d7dea8f666b2f37784
 	cacheVersion = 3
 	name = Salam AH3
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 193146.016
+	cost = 149346.016
 	partCount = 82
-	mass = 21.271101
+	mass = 21.8111019
 	description = 
 	crewCapacity = 9
 	partNames = cupola
@@ -38,7 +38,7 @@ cachedCraftData
 	partNames = GearSmall
 	partNames = strutConnector
 	partNames = SmallGearBay
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = R8winglet
 	partNames = airbrake1
 	partNames = bahaAdjustableRail

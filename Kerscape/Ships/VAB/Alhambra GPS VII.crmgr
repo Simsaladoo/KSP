@@ -1,22 +1,20 @@
 craftName = Alhambra GPS VII
 cachedCraftData
 {
-	origChecksum = 4e97dc484472e98f6aa275e635ef8237
+	origChecksum = ab8acba0363a14639b96d4188d462c7f
 	cacheVersion = 3
 	name = Alhambra GPS VII
 	kspVersion = 1.12.5
 	stagesCount = 4
-	cost = 271064.688
-	partCount = 88
-	mass = 1023.07373
+	cost = 275389.688
+	partCount = 91
+	mass = 1023.35376
 	description = 
 	crewCapacity = 0
 	partNames = probeStackLarge
 	partNames = rtg
 	partNames = largeAdapter
 	partNames = foldingRadSmall
-	partNames = sensorThermometer
-	partNames = sensorGravimeter
 	partNames = bluedog.Skylab.IRspec
 	partNames = sensorBarometer
 	partNames = bluedog.Pioneer.AMD
@@ -40,4 +38,9 @@ cachedCraftData
 	partNames = strutConnector
 	partNames = launchClamp1
 	partNames = liquidEngine3.v2
+	partNames = SurfaceScanner
+	partNames = trussPiece1x
+	partNames = bluedog.Keyhole.Camera.KH4
+	partNames = sensorGravimeter
+	partNames = sensorThermometer
 }

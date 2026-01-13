@@ -1,14 +1,14 @@
 craftName = AB-12 Bison
 cachedCraftData
 {
-	origChecksum = 43dc37c6114467c5fe2a61622b60f5ce
+	origChecksum = 084a29560327578a6689675cfc0f5a9b
 	cacheVersion = 3
 	name = AB-12 Bison
 	kspVersion = 1.12.5
 	stagesCount = 0
 	cost = 49152.3203
 	partCount = 87
-	mass = 23.6504974
+	mass = 20.9665012
 	description = 
 	crewCapacity = 9
 	partNames = cupola
@@ -36,7 +36,7 @@ cachedCraftData
 	partNames = strutCube
 	partNames = avionicsNoseCone
 	partNames = missileController
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = DC.aerocam2
 	partNames = DC.aerocam2.180
 	partNames = bahaAdjustableRail

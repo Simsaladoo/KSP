@@ -1,14 +1,14 @@
 craftName = AB-07 Blackbird
 cachedCraftData
 {
-	origChecksum = 6019304a3b868faa7423207caf19d502
+	origChecksum = 3d82384f45f909eb78fc77bfc182c8ec
 	cacheVersion = 3
 	name = AB-07 Blackbird
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 132200.219
-	partCount = 98
-	mass = 61.9090157
+	cost = 148047.016
+	partCount = 115
+	mass = 65.3303223
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard
@@ -21,6 +21,8 @@ cachedCraftData
 	partNames = GearSmall
 	partNames = airbrake1
 	partNames = AdvancedCanard
+	partNames = RCSblock.01.small
+	partNames = WBI.Mk1RadialDockingPort
 	partNames = M2X.UST
 	partNames = mk2CargoBayL
 	partNames = mk2DroneCore
@@ -28,19 +30,21 @@ cachedCraftData
 	partNames = radialEngineBody
 	partNames = MK1Fuselage
 	partNames = sweptWing2
+	partNames = bahaAdjustableRail
+	partNames = bahaDroptank
 	partNames = structuralWing2
+	partNames = wingShuttleElevon1
+	partNames = b2Elevon
 	partNames = stackBiCoupler.v2
 	partNames = RAPIER
 	partNames = fuelTank
 	partNames = bdRadome1snub
 	partNames = adapterSmallMiniShort
 	partNames = delta.small
-	partNames = wingShuttleElevon1
-	partNames = bahaAdjustableRail
-	partNames = structuralWing
-	partNames = RCSblock.01.small
+	partNames = shockConeIntake
+	partNames = navLight1
+	partNames = GearMedium
 	partNames = bahaFlirBall
-	partNames = b2Elevon
 	partNames = rtg
 	partNames = mk2FuselageShortLFO
 	partNames = mk2.1m.AdapterLong
@@ -48,13 +52,13 @@ cachedCraftData
 	partNames = smallCtrlSrf
 	partNames = missileController
 	partNames = bdPilotAI
-	partNames = DC.aerocam2.180
 	partNames = DC.aerocam2
-	partNames = shockConeIntake
-	partNames = WBI.Mk1RadialDockingPort
-	partNames = navLight1
+	partNames = bahaHEKV1
+	partNames = structuralWing
 	partNames = radialDecoupler
 	partNames = cone05ra
 	partNames = bluedog.CELV.Fin
-	partNames = GearMedium
+	partNames = baha50CalAmmo
+	partNames = bahaTurret
+	partNames = DC.aerocam2.180
 }

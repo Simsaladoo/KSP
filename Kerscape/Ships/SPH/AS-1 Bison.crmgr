@@ -1,33 +1,30 @@
 craftName = AS-1 Bison
 cachedCraftData
 {
-	origChecksum = bc968d99bfb9b74a57250039ebc21c47
+	origChecksum = d404bb593a3d85f73ec846f8b13383d2
 	cacheVersion = 3
 	name = AS-1 Bison
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 94215.4063
-	partCount = 35
-	mass = 5.54600048
+	cost = 89286.2031
+	partCount = 30
+	mass = 10.909997
 	description = 
-	crewCapacity = 24
+	crewCapacity = 23
 	partNames = WBI.BisonCab
 	partNames = WBI.PassengerGondola
 	partNames = WBI.BisonAirlock
 	partNames = wheelMed
-	partNames = bahaCamPod
-	partNames = DC.aerocam2
-	partNames = WBI.BigSolarPanel
 	partNames = rtg
 	partNames = MiniDrill
 	partNames = foldingRadSmall
-	partNames = stackPoint1
-	partNames = landerCabinSmall
-	partNames = GrapplingDevice
-	partNames = telescopicLadder
 	partNames = DC.aerocam2.180
-	partNames = ladder1
 	partNames = RadialOreTank
-	partNames = WBI.MicroISRU
 	partNames = missileController
+	partNames = DC.aerocam2
+	partNames = hinge.01
+	partNames = piston.01
+	partNames = dockingPort2
+	partNames = bluedog.LunarOrbiter.Dish
+	partNames = bluedog.mariner10.lowGainAntenna
 }

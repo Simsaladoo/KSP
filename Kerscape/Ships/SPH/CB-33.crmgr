@@ -1,14 +1,14 @@
 craftName = CB-33
 cachedCraftData
 {
-	origChecksum = d54c4a214ea89734fb350c0f72ca9123
+	origChecksum = 1a82a8af0d216e6cfb2b3563833cf599
 	cacheVersion = 3
 	name = CB-33
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 267804.906
-	partCount = 155
-	mass = 195.906677
+	cost = 372057.438
+	partCount = 156
+	mass = 201.565643
 	description = 
 	crewCapacity = 5
 	partNames = mk2Cockpit.Standard
@@ -48,7 +48,6 @@ cachedCraftData
 	partNames = EnginePlate3
 	partNames = RAPIER
 	partNames = LiquidEngineRE-J10
-	partNames = turboFanEngine
 	partNames = adapterLargeSmallTri
 	partNames = wingStrake
 	partNames = vernierEngine
@@ -76,4 +75,5 @@ cachedCraftData
 	partNames = avionicsNoseCone
 	partNames = bdPilotAI
 	partNames = dockingPort2
+	partNames = WBI.SAFER
 }

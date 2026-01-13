@@ -1,14 +1,14 @@
 craftName = CB-03 Seagull
 cachedCraftData
 {
-	origChecksum = b487bcaa356f496c3fa846cbf50fa715
+	origChecksum = 1a7864e7a4cf8e35c37b4e85b1f1a25c
 	cacheVersion = 3
 	name = CB-03 Seagull
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 84321.9922
+	cost = 86321.9922
 	partCount = 112
-	mass = 38.3576202
+	mass = 38.6576233
 	description = 
 	crewCapacity = 5
 	partNames = KAXmedCockpit
@@ -50,5 +50,5 @@ cachedCraftData
 	partNames = WBI.BuffaloWingType1
 	partNames = bahaTurret
 	partNames = bahaAIR-2
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 }

@@ -1,14 +1,14 @@
 craftName = Alhambra Mun Yurt
 cachedCraftData
 {
-	origChecksum = 7c663e047265284e64b6a97cfc5bf224
+	origChecksum = 2062f13968636f13e1c886b4230122b2
 	cacheVersion = 3
 	name = Alhambra Mun Yurt
-	kspVersion = 1.12.4
+	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 138912
-	partCount = 111
-	mass = 14.8650093
+	cost = 116952
+	partCount = 109
+	mass = 14.7650089
 	description = 
 	crewCapacity = 4
 	partNames = probeStackLarge
@@ -34,6 +34,5 @@ cachedCraftData
 	partNames = liquidEngine3.v2
 	partNames = ScienceBox
 	partNames = strutConnector
-	partNames = dockingPort2
 	partNames = dockingPort3
 }

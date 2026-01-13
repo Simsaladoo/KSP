@@ -1,14 +1,14 @@
 craftName = Alhambra Engineering Tug
 cachedCraftData
 {
-	origChecksum = 6368e6bfb5923fd52801dd52444d7a0d
+	origChecksum = 4d8883916878e05a7aa5e3b920c09049
 	cacheVersion = 3
 	name = Alhambra Engineering Tug
 	kspVersion = 1.12.5
 	stagesCount = 2
-	cost = 614451.875
+	cost = 622451.875
 	partCount = 185
-	mass = 1167.69189
+	mass = 1168.06689
 	description = 
 	crewCapacity = 2
 	partNames = probeStackSmall
@@ -29,7 +29,6 @@ cachedCraftData
 	partNames = advSasModule
 	partNames = batteryBank
 	partNames = dockingPort2
-	partNames = MiniDrill
 	partNames = foldingRadMed
 	partNames = Decoupler.1p5
 	partNames = Size1p5.Size2.Adapter.01
@@ -52,4 +51,5 @@ cachedCraftData
 	partNames = rocketNoseCone.v3
 	partNames = launchClamp1
 	partNames = mediumDishAntenna
+	partNames = BuffaloDrill
 }

@@ -1,14 +1,14 @@
 craftName = BSP-5
 cachedCraftData
 {
-	origChecksum = 73d08c1d16c667e9669fab49c00ad863
+	origChecksum = a8a50e14e34bd108197869cc6be4c0ab
 	cacheVersion = 3
 	name = BSP-5
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 29407.5996
+	cost = 32207.5996
 	partCount = 46
-	mass = 10.7101631
+	mass = 11.2101631
 	description = 
 	crewCapacity = 1
 	partNames = Mark2Cockpit
@@ -29,7 +29,7 @@ cachedCraftData
 	partNames = baha50CalAmmo
 	partNames = bahaYakB
 	partNames = bahaIRSTpod
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = sweptWing
 	partNames = elevon3
 	partNames = bahaAGM-114

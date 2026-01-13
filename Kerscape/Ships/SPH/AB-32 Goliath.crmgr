@@ -1,14 +1,14 @@
 craftName = AB-32 Goliath
 cachedCraftData
 {
-	origChecksum = d55ccaafb8137c3ef937d5e05496a4df
+	origChecksum = 1afe25c9d58ee0cc7d6021a7a68b62fb
 	cacheVersion = 3
 	name = AB-32 Goliath
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 533384.625
+	cost = 617084.625
 	partCount = 124
-	mass = 64.8769073
+	mass = 65.8658524
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard
@@ -63,5 +63,4 @@ cachedCraftData
 	partNames = bahaTurret
 	partNames = AdvancedCanard
 	partNames = WBI.SAFER
-	partNames = GasTurbineGenerator2A
 }

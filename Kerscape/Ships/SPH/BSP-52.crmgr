@@ -1,16 +1,16 @@
 craftName = BSP-52
 cachedCraftData
 {
-	origChecksum = ac62250904f0e492cabaf5d19657bcc7
+	origChecksum = d3f7d93894a8416bc94ada0a0302b408
 	cacheVersion = 3
 	name = BSP-52
 	kspVersion = 1.12.5
-	stagesCount = 2
-	cost = 193142.141
-	partCount = 161
-	mass = 95.8768082
+	stagesCount = 0
+	cost = 162970.016
+	partCount = 137
+	mass = 90.6588516
 	description = 
-	crewCapacity = 6
+	crewCapacity = 8
 	partNames = mk3Cockpit.Shuttle
 	partNames = noseCone
 	partNames = structuralIBeam2
@@ -27,7 +27,6 @@ cachedCraftData
 	partNames = delta.small
 	partNames = wingShuttleElevon1
 	partNames = wingShuttleElevon2
-	partNames = GearMedium
 	partNames = GearLarge
 	partNames = GearSmall
 	partNames = missileController
@@ -41,15 +40,10 @@ cachedCraftData
 	partNames = stackBiCoupler.v2
 	partNames = turboFanEngine
 	partNames = shockConeIntake
-	partNames = SmallTank
-	partNames = fuelTankSmall
-	partNames = parachuteLarge
 	partNames = bahaAIR-2
 	partNames = MEMLander
 	partNames = Panel1
 	partNames = science.module
 	partNames = bdRotBombBay
 	partNames = bahaMk82BombBrake
-	partNames = probeStackSmall
-	partNames = miniLandingLeg
 }

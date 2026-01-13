@@ -1,14 +1,14 @@
 craftName = Salam AH2
 cachedCraftData
 {
-	origChecksum = 3ec0022bcfaa32fa3c3c8c9680411626
+	origChecksum = 8e85f5de1de1983ba80eff465cb905f0
 	cacheVersion = 3
 	name = Salam AH2
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 54252.7148
+	cost = 59852.7148
 	partCount = 46
-	mass = 10.3425999
+	mass = 11.4475994
 	description = 
 	crewCapacity = 3
 	partNames = cupola
@@ -30,7 +30,7 @@ cachedCraftData
 	partNames = missileController
 	partNames = bdVTOLAI
 	partNames = bahaFlirBall
-	partNames = GasTurbineGenerator
+	partNames = GasTurbineGenerator2A
 	partNames = KAXkueyEngine
 	partNames = miniFuselage
 }

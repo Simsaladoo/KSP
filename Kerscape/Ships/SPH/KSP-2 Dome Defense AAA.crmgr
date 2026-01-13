@@ -1,14 +1,14 @@
 craftName = KSP-2 Dome Defense AAA
 cachedCraftData
 {
-	origChecksum = a6eeb7edff083470ff46d147e7e49bff
+	origChecksum = aef6cf6fb1fa94333c77b6c45321a4b7
 	cacheVersion = 3
 	name = KSP-2 Dome Defense AAA
 	kspVersion = 1.12.5
 	stagesCount = 0
-	cost = 132710.203
+	cost = 86110.2031
 	partCount = 72
-	mass = 10.425066
+	mass = 10.4750662
 	description = 
 	crewCapacity = 1
 	partNames = trussPiece3x
