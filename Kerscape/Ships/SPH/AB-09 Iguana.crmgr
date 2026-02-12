@@ -1,14 +1,14 @@
 craftName = AB-09 Iguana
 cachedCraftData
 {
-	origChecksum = 3ab2e73c181142a6126855578199aaea
+	origChecksum = 7aab044772c5d58981a0e8ce37ca4b00
 	cacheVersion = 3
 	name = AB-09 Iguana
 	kspVersion = 1.12.5
 	stagesCount = 1
-	cost = 175075.828
-	partCount = 125
-	mass = 58.190506
+	cost = 175675.828
+	partCount = 129
+	mass = 58.5105133
 	description = 
 	crewCapacity = 8
 	partNames = mk2Cockpit.Standard

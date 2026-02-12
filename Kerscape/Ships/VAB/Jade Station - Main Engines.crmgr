@@ -1,0 +1,22 @@
+craftName = Jade Station - Main Engines
+cachedCraftData
+{
+	origChecksum = c585fdc862bc69e6da80094e8008427a
+	cacheVersion = 3
+	name = Jade Station - Main Engines
+	kspVersion = 1.12.5
+	stagesCount = 2
+	cost = 201914.813
+	partCount = 64
+	mass = 85.0700073
+	description = 
+	crewCapacity = 0
+	partNames = dockingPort2
+	partNames = advSasModule
+	partNames = MK1Fuselage
+	partNames = stackPoint1
+	partNames = noseCone
+	partNames = foldingRadSmall
+	partNames = stackTriCoupler.v2
+	partNames = nuclearEngine
+}

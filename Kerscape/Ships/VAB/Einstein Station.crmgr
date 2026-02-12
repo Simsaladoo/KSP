@@ -2,14 +2,14 @@ tag = Type\Crewed
 craftName = Einstein Station
 cachedCraftData
 {
-	origChecksum = 2331b26d9c5489e9093ec760bea9760e
+	origChecksum = 3f5eb5a487b0fdcee814fba3709e67dd
 	cacheVersion = 3
 	name = Einstein Station
 	kspVersion = 1.12.5
 	stagesCount = 2
-	cost = 461616.031
-	partCount = 154
-	mass = 1048.63647
+	cost = 462630.063
+	partCount = 142
+	mass = 1069.66052
 	description = 
 	crewCapacity = 7
 	partNames = cupola
@@ -35,7 +35,6 @@ cachedCraftData
 	partNames = science.module
 	partNames = dockingPort2
 	partNames = LargeTank
-	partNames = radialRCSTank
 	partNames = foldingRadMed
 	partNames = RCSBlock.v2
 	partNames = adapterMk3-Size2
@@ -48,8 +47,6 @@ cachedCraftData
 	partNames = strutOcto
 	partNames = avionicsNoseCone
 	partNames = dockingPortLarge
-	partNames = parachuteRadial
-	partNames = airbrake1
 	partNames = mk3FuselageLFO.50
 	partNames = mk3FuselageLFO.25
 	partNames = EnginePlate3
@@ -58,4 +55,8 @@ cachedCraftData
 	partNames = Clydesdale
 	partNames = rocketNoseCone.v3
 	partNames = launchClamp1
+	partNames = bluedog.Pioneer.UltravioletPhotometer
+	partNames = bluedog.Pioneer.TRD
+	partNames = strutConnector
+	partNames = rcsTankRadialLong
 }
